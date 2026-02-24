@@ -1,0 +1,4178 @@
+[
+  {
+    "func_name": "ABS",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the absolute value of a number",
+    "func_uuid": "3420200f-5628-4e8c-99da-c99d7c87713c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ACCRINT",
+    "func_type": "Financial",
+    "func_desc": "Returns the accrued interest for a security that pays periodic interest",
+    "func_uuid": "fe45d089-6722-4fb3-9379-e1f911d8dc74",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ACCRINTM",
+    "func_type": "Financial",
+    "func_desc": "Returns the accrued interest for a security that pays interest at maturity",
+    "func_uuid": "f62f01f9-5754-4cc4-805b-0e70199328a7",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ACOS",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the arccosine of a number",
+    "func_uuid": "cb73173f-d089-4582-afa1-76e5524b5d5b",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ACOSH",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the inverse hyperbolic cosine of a number",
+    "func_uuid": "e3992cc1-103f-4e72-9f04-624b9ef5ebfe",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ACOT",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the arccotangent of a number",
+    "func_uuid": "dc7e5008-fe6b-402e-bdd6-2eea8383d905",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ACOTH",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the hyperbolic arccotangent of a number",
+    "func_uuid": "cc49480f-f684-4171-9fc5-73e4e852300f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "AGGREGATE",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns an aggregate in a list or database",
+    "func_uuid": "43b9278e-6aa7-4f17-92b6-e19993fa26df",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ADDRESS",
+    "func_type": "Lookup and reference",
+    "func_desc": "Returns a reference as text to a single cell in a worksheet",
+    "func_uuid": "d0c26c0d-3991-446b-8de4-ab46431d4f89",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "AMORDEGRC",
+    "func_type": "Financial",
+    "func_desc": "Returns the depreciation for each accounting period by using a depreciation coefficient",
+    "func_uuid": "a14d0ca1-64a4-42eb-9b3d-b0dededf9e51",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "AMORLINC",
+    "func_type": "Financial",
+    "func_desc": "Returns the depreciation for each accounting period",
+    "func_uuid": "7d417b45-f7f5-4dba-a0a5-3451a81079a8",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "AND",
+    "func_type": "Logical",
+    "func_desc": "Returns TRUE if all of its arguments are TRUE",
+    "func_uuid": "5f19b2e8-e1df-4408-897a-ce285a19e9d9",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ARABIC",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Converts a Roman number to Arabic, as a number",
+    "func_uuid": "9a8da418-c17b-4ef9-a657-9370a30a674f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "AREAS",
+    "func_type": "Lookup and reference",
+    "func_desc": "Returns the number of areas in a reference",
+    "func_uuid": "8392ba32-7a41-43b3-96b0-3695d2ec6152",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ARRAYTOTEXT",
+    "func_type": "Text",
+    "func_desc": "Returns an array of text values from any specified range",
+    "func_uuid": "9cdcad46-2fa5-4c6b-ac92-14e7bc862b8b",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ASC",
+    "func_type": "Text",
+    "func_desc": "Changes full-width (double-byte) English letters or katakana within a character string to half-width (single-byte) characters",
+    "func_uuid": "0b6abf1c-c663-4004-a964-ebc00b723266",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ASIN",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the arcsine of a number",
+    "func_uuid": "81fb95e5-6d6f-48c4-bc45-58f955c6d347",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ASINH",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the inverse hyperbolic sine of a number",
+    "func_uuid": "4e00475a-067a-43cf-926a-765b0249717c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ATAN",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the arctangent of a number",
+    "func_uuid": "50746fa8-630a-406b-81d0-4a2aed395543",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ATAN2",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the arctangent from x- and y-coordinates",
+    "func_uuid": "c04592ab-b9e3-4908-b428-c96b3a565033",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ATANH",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the inverse hyperbolic tangent of a number",
+    "func_uuid": "3cd65768-0de7-4f1d-b312-d01c8c930d90",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "AVEDEV",
+    "func_type": "Statistical",
+    "func_desc": "Returns the average of the absolute deviations of data points from their mean",
+    "func_uuid": "58fe8d65-2a84-4dc7-8052-f3f87b5c6639",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "AVERAGE",
+    "func_type": "Statistical",
+    "func_desc": "Returns the average of its arguments",
+    "func_uuid": "047bac88-d466-426c-a32b-8f33eb960cf6",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "AVERAGEA",
+    "func_type": "Statistical",
+    "func_desc": "Returns the average of its arguments, including numbers, text, and logical values",
+    "func_uuid": "f5f84098-d453-4f4c-bbba-3d2c66356091",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "AVERAGEIF",
+    "func_type": "Statistical",
+    "func_desc": "Returns the average (arithmetic mean) of all the cells in a range that meet a given criteria",
+    "func_uuid": "faec8e2e-0dec-4308-af69-f5576d8ac642",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "AVERAGEIFS",
+    "func_type": "Statistical",
+    "func_desc": "Returns the average (arithmetic mean) of all cells that meet multiple criteria.",
+    "func_uuid": "48910c45-1fc0-4389-a028-f7c5c3001690",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "BAHTTEXT",
+    "func_type": "Text",
+    "func_desc": "Converts a number to text, using the ß (baht) currency format",
+    "func_uuid": "5ba4d0b4-abd3-4325-8d22-7a92d59aab9c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "BASE",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Converts a number into a text representation with the given radix (base)",
+    "func_uuid": "2ef61411-aee9-4f29-a811-1c42456c6342",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "BESSELI",
+    "func_type": "Engineering",
+    "func_desc": "Returns the modified Bessel function In(x)",
+    "func_uuid": "8d33855c-9a8d-444b-98e0-852267b1c0df",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "BESSELJ",
+    "func_type": "Engineering",
+    "func_desc": "Returns the Bessel function Jn(x)",
+    "func_uuid": "839cb181-48de-408b-9d80-bd02982d94f7",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "BESSELK",
+    "func_type": "Engineering",
+    "func_desc": "Returns the modified Bessel function Kn(x)",
+    "func_uuid": "606d11bc-06d3-4d53-9ecb-2803e2b90b70",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "BESSELY",
+    "func_type": "Engineering",
+    "func_desc": "Returns the Bessel function Yn(x)",
+    "func_uuid": "f3a356b3-da89-42c3-8974-2da54d6353a2",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "BETADIST",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the beta cumulative distribution function",
+    "func_uuid": "49f1b9a9-a5da-470f-8077-5f1730b5fd47",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "BETA.DIST",
+    "func_type": "Statistical",
+    "func_desc": "Returns the beta cumulative distribution function",
+    "func_uuid": "11188c9c-780a-42c7-ba43-9ecb5a878d31",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "BETAINV",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the inverse of the cumulative distribution function for a specified beta distribution",
+    "func_uuid": "8b914ade-b902-43c1-ac9c-c05c54f10d6c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "BETA.INVn",
+    "func_type": "Statistical",
+    "func_desc": "Returns the inverse of the cumulative distribution function for a specified beta distribution",
+    "func_uuid": "e84cb8aa-8df0-4cf6-9892-83a341d252eb",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "BIN2DEC",
+    "func_type": "Engineering",
+    "func_desc": "Converts a binary number to decimal",
+    "func_uuid": "63905b57-b3a0-453d-99f4-647bb519cd6c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "BIN2HEX",
+    "func_type": "Engineering",
+    "func_desc": "Converts a binary number to hexadecimal",
+    "func_uuid": "0375e507-f5e5-4077-9af8-28d84f9f41cc",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "BIN2OCT",
+    "func_type": "Engineering",
+    "func_desc": "Converts a binary number to octal",
+    "func_uuid": "0a4e01ba-ac8d-4158-9b29-16c25c4c23fd",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "BINOMDIST",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the individual term binomial distribution probability",
+    "func_uuid": "506a663e-c4ca-428d-b9a8-05583d68789c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "BINOM.DIST",
+    "func_type": "Statistical",
+    "func_desc": "Returns the individual term binomial distribution probability",
+    "func_uuid": "c5ae37b6-f39c-4be2-94c2-509a1480770c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "BINOM.DIST.RANGE",
+    "func_type": "Statistical",
+    "func_desc": "Returns the probability of a trial result using a binomial distribution",
+    "func_uuid": "17331329-74c7-4053-bb4c-6653a7421595",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "BINOM.INV",
+    "func_type": "Statistical",
+    "func_desc": "Returns the smallest value for which the cumulative binomial distribution is less than or equal to a criterion value",
+    "func_uuid": "80a0370c-ada6-49b4-83e7-05a91ba77ac9",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "BITAND",
+    "func_type": "Engineering",
+    "func_desc": "Returns a 'Bitwise And' of two numbers",
+    "func_uuid": "8a2be3d7-91c3-4b48-9517-64548008563a",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "BITLSHIFT",
+    "func_type": "Engineering",
+    "func_desc": "Returns a value number shifted left by shift_amount bits",
+    "func_uuid": "c55bb27e-cacd-4c7c-b258-d80861a03c9c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "BITOR",
+    "func_type": "Engineering",
+    "func_desc": "Returns a bitwise OR of 2 numbers",
+    "func_uuid": "f6ead5c8-5b98-4c9e-9053-8ad5234919b2",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "BITRSHIFT",
+    "func_type": "Engineering",
+    "func_desc": "Returns a value number shifted right by shift_amount bits",
+    "func_uuid": "274d6996-f42c-4743-abdb-4ff95351222c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "BITXOR",
+    "func_type": "Engineering",
+    "func_desc": "Returns a bitwise 'Exclusive Or' of two numbers",
+    "func_uuid": "c81306a1-03f9-4e89-85ac-b86c3cba10e4",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "BYCOL",
+    "func_type": "Logical",
+    "func_desc": "Applies a LAMBDA to each column and returns an array of the results",
+    "func_uuid": "58463999-7de5-49ce-8f38-b7f7a2192bfb",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "BYROW",
+    "func_type": "Logical",
+    "func_desc": "Applies a LAMBDA to each row and returns an array of the results",
+    "func_uuid": "2e04c677-78c8-4e6b-8c10-a4602f2602bb",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CALL",
+    "func_type": "Add-in and Automation",
+    "func_desc": "Calls a procedure in a dynamic link library or code resource",
+    "func_uuid": "32d58445-e646-4ffd-8d5e-b45077a5e995",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CEILING",
+    "func_type": "Compatibility",
+    "func_desc": "Rounds a number to the nearest integer or to the nearest multiple of significance",
+    "func_uuid": "0a5cd7c8-0720-4f0a-bd2c-c943e510899f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CEILING.MATH",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Rounds a number up, to the nearest integer or to the nearest multiple of significance",
+    "func_uuid": "80f95d2f-b499-4eee-9f16-f795a8e306c8",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CEILING.PRECISE",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Rounds a number the nearest integer or to the nearest multiple of significance. Regardless of the sign of the number, the number is rounded up.",
+    "func_uuid": "f366a774-527a-4c92-ba49-af0a196e66cb",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CELL",
+    "func_type": "Information",
+    "func_desc": "Returns information about the formatting, location, or contents of a cellThis function is not available in Excel for the web.",
+    "func_uuid": "51bd39a5-f338-4dbe-a33f-955d67c2b2cf",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CHAR",
+    "func_type": "Text",
+    "func_desc": "Returns the character specified by the code number",
+    "func_uuid": "bbd249c8-b36e-4a91-8017-1c133f9b837a",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CHIDIST",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the one-tailed probability of the chi-squared distribution",
+    "func_uuid": "c90d0fbc-5b56-4f5f-ab57-34af1bf6897e",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CHIINV",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the inverse of the one-tailed probability of the chi-squared distribution",
+    "func_uuid": "cfbea3f6-6e4f-40c9-a87f-20472e0512af",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CHITEST",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the test for independence",
+    "func_uuid": "981ff871-b694-4134-848e-38ec704577ac",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CHISQ.DIST",
+    "func_type": "Statistical",
+    "func_desc": "Returns the cumulative beta probability density function",
+    "func_uuid": "8486b05e-5c05-4942-a9ea-f6b341518732",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CHISQ.DIST.RT",
+    "func_type": "Statistical",
+    "func_desc": "Returns the one-tailed probability of the chi-squared distribution",
+    "func_uuid": "dc4832e8-ed2b-49ae-8d7c-b28d5804c0f2",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CHISQ.INV",
+    "func_type": "Statistical",
+    "func_desc": "Returns the cumulative beta probability density function",
+    "func_uuid": "400db556-62b3-472d-80b3-254723e7092f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CHISQ.INV.RT",
+    "func_type": "Statistical",
+    "func_desc": "Returns the inverse of the one-tailed probability of the chi-squared distribution",
+    "func_uuid": "435b5ed8-98d5-4da6-823f-293e2cbc94fe",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CHISQ.TEST",
+    "func_type": "Statistical",
+    "func_desc": "Returns the test for independence",
+    "func_uuid": "2e8a7861-b14a-4985-aa93-fb88de3f260f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CHOOSE",
+    "func_type": "Lookup and reference",
+    "func_desc": "Chooses a value from a list of values",
+    "func_uuid": "fc5c184f-cb62-4ec7-a46e-38653b98f5bc",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CHOOSECOLS",
+    "func_type": "Lookup and reference",
+    "func_desc": "Returns the specified columns from an array",
+    "func_uuid": "bf117976-2722-4466-9b9a-1c01ed9aebff",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CHOOSEROWS",
+    "func_type": "Lookup and reference",
+    "func_desc": "Returns the specified rows from an array",
+    "func_uuid": "51ace882-9bab-4a44-9625-7274ef7507a3",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CLEAN",
+    "func_type": "Text",
+    "func_desc": "Removes all nonprintable characters from text",
+    "func_uuid": "26f3d7c5-475f-4a9c-90e5-4b8ba987ba41",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CODE",
+    "func_type": "Text",
+    "func_desc": "Returns a numeric code for the first character in a text string",
+    "func_uuid": "c32b692b-2ed0-4a04-bdd9-75640144b928",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "COLUMN",
+    "func_type": "Lookup and reference",
+    "func_desc": "Returns the column number of a reference",
+    "func_uuid": "44e8c754-711c-4df3-9da4-47a55042554b",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "COLUMNS",
+    "func_type": "Lookup and reference",
+    "func_desc": "Returns the number of columns in a reference",
+    "func_uuid": "4e8e7b4e-e603-43e8-b177-956088fa48ca",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "COMBIN",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the number of combinations for a given number of objects",
+    "func_uuid": "12a3f276-0a21-423a-8de6-06990aaf638a",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "COMBINA",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the number of combinations with repetitions for a given number of items",
+    "func_uuid": "efb49eaa-4f4c-4cd2-8179-0ddfcf9d035d",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "COMPLEX",
+    "func_type": "Engineering",
+    "func_desc": "Converts real and imaginary coefficients into a complex number",
+    "func_uuid": "f0b8f3a9-51cc-4d6d-86fb-3a9362fa4128",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CONCAT",
+    "func_type": "Text",
+    "func_desc": "Combines the text from multiple ranges and/or strings, but it doesn't provide the delimiter or IgnoreEmpty arguments.",
+    "func_uuid": "9b1a9a3f-94ff-41af-9736-694cbd6b4ca2",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CONCATENATE",
+    "func_type": "Text",
+    "func_desc": "Joins several text items into one text item",
+    "func_uuid": "8f8ae884-2ca8-4f7a-b093-75d702bea31d",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CONFIDENCE",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the confidence interval for a population mean",
+    "func_uuid": "75ccc007-f77c-4343-bc14-673642091ad6",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CONFIDENCE.NORM",
+    "func_type": "Statistical",
+    "func_desc": "Returns the confidence interval for a population mean",
+    "func_uuid": "7cec58a6-85bb-488d-91c3-63828d4fbfd4",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CONFIDENCE.T",
+    "func_type": "Statistical",
+    "func_desc": "Returns the confidence interval for a population mean, using a Student's t distribution",
+    "func_uuid": "e8eca395-6c3a-4ba9-9003-79ccc61d3c53",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CONVERT",
+    "func_type": "Engineering",
+    "func_desc": "Converts a number from one measurement system to another",
+    "func_uuid": "d785bef1-808e-4aac-bdcd-666c810f9af2",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "COPILOT",
+    "func_type": "Text",
+    "func_desc": "Categorize, summarize, and generate text using Copilot",
+    "func_uuid": "5849821b-755d-4030-a38b-9e20be0cbf62",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CORREL",
+    "func_type": "Statistical",
+    "func_desc": "Returns the correlation coefficient between two data sets",
+    "func_uuid": "995dcef7-0c0a-4bed-a3fb-239d7b68ca92",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "COS",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the cosine of a number",
+    "func_uuid": "0fb808a5-95d6-4553-8148-22aebdce5f05",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "COSH",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the hyperbolic cosine of a number",
+    "func_uuid": "e460d426-c471-43e8-9540-a57ff3b70555",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "COT",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the hyperbolic cosine of a number",
+    "func_uuid": "c446f34d-6fe4-40dc-84f8-cf59e5f5e31a",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "COTH",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the cotangent of an angle",
+    "func_uuid": "2e0b4cb6-0ba0-403e-aed4-deaa71b49df5",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "COUNT",
+    "func_type": "Statistical",
+    "func_desc": "Counts how many numbers are in the list of arguments",
+    "func_uuid": "a59cd7fc-b623-4d93-87a4-d23bf411294c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "COUNTA",
+    "func_type": "Statistical",
+    "func_desc": "Counts how many values are in the list of arguments",
+    "func_uuid": "7dc98875-d5c1-46f1-9a82-53f3219e2509",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "COUNTBLANK",
+    "func_type": "Statistical",
+    "func_desc": "Counts the number of blank cells within a range",
+    "func_uuid": "6a92d772-675c-4bee-b346-24af6bd3ac22",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "COUNTIF",
+    "func_type": "Statistical",
+    "func_desc": "Counts the number of cells within a range that meet the given criteria",
+    "func_uuid": "e0de10c6-f885-4e71-abb4-1f464816df34",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "COUNTIFS",
+    "func_type": "Statistical",
+    "func_desc": "Counts the number of cells within a range that meet multiple criteria",
+    "func_uuid": "dda3dc6e-f74e-4aee-88bc-aa8c2a866842",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "COUPDAYBS",
+    "func_type": "Financial",
+    "func_desc": "Returns the number of days from the beginning of the coupon period to the settlement date",
+    "func_uuid": "eb9a8dfb-2fb2-4c61-8e5d-690b320cf872",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "COUPDAYS",
+    "func_type": "Financial",
+    "func_desc": "Returns the number of days in the coupon period that contains the settlement date",
+    "func_uuid": "cc64380b-315b-4e7b-950c-b30b0a76f671",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "COUPDAYSNC",
+    "func_type": "Financial",
+    "func_desc": "Returns the number of days from the settlement date to the next coupon date",
+    "func_uuid": "5ab3f0b2-029f-4a8b-bb65-47d525eea547",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "COUPNCD",
+    "func_type": "Financial",
+    "func_desc": "Returns the next coupon date after the settlement date",
+    "func_uuid": "fd962fef-506b-4d9d-8590-16df5393691f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "COUPNUM",
+    "func_type": "Financial",
+    "func_desc": "Returns the number of coupons payable between the settlement date and maturity date",
+    "func_uuid": "a90af57b-de53-4969-9c99-dd6139db2522",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "COUPPCD",
+    "func_type": "Financial",
+    "func_desc": "Returns the previous coupon date before the settlement date",
+    "func_uuid": "2eb50473-6ee9-4052-a206-77a9a385d5b3",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "COVAR",
+    "func_type": "Compatibility",
+    "func_desc": "Returns covariance, the average of the products of paired deviations",
+    "func_uuid": "50479552-2c03-4daf-bd71-a5ab88b2db03",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "COVARIANCE.P",
+    "func_type": "Statistical",
+    "func_desc": "Returns covariance, the average of the products of paired deviations",
+    "func_uuid": "6f0e1e6d-956d-4e4b-9943-cfef0bf9edfc",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "COVARIANCE.S",
+    "func_type": "Statistical",
+    "func_desc": "Returns the sample covariance, the average of the products deviations for each data point pair in two data sets",
+    "func_uuid": "0a539b74-7371-42aa-a18f-1f5320314977",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CRITBINOM",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the smallest value for which the cumulative binomial distribution is less than or equal to a criterion value",
+    "func_uuid": "eb6b871d-796b-4d21-b69b-e4350d5f407b",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CSC",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the cosecant of an angle",
+    "func_uuid": "07379361-219a-4398-8675-07ddc4f135c1",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CSCH",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the hyperbolic cosecant of an angle",
+    "func_uuid": "f58f2c22-eb75-4dd6-84f4-a503527f8eeb",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CUBEKPIMEMBER",
+    "func_type": "Cube",
+    "func_desc": "Returns a key performance indicator (KPI) name, property, and measure, and displays the name and property in the cell. A KPI is a quantifiable measurement, such as monthly gross profit or quarterly employee turnover, used to monitor an organization's performance.",
+    "func_uuid": "744608bf-2c62-42cd-b67a-a56109f4b03b",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CUBEMEMBER",
+    "func_type": "Cube",
+    "func_desc": "Returns a member or tuple in a cube hierarchy. Use to validate that the member or tuple exists in the cube.",
+    "func_uuid": "0f6a15b9-2c18-4819-ae89-e1b5c8b398ad",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CUBEMEMBERPROPERTY",
+    "func_type": "Cube",
+    "func_desc": "Returns the value of a member property in the cube. Use to validate that a member name exists within the cube and to return the specified property for this member.",
+    "func_uuid": "001e57d6-b35a-49e5-abcd-05ff599e8951",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CUBERANKEDMEMBER",
+    "func_type": "Cube",
+    "func_desc": "Returns the nth, or ranked, member in a set. Use to return one or more elements in a set, such as the top sales performer or top 10 students.",
+    "func_uuid": "07efecde-e669-4075-b4bf-6b40df2dc4b3",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CUBESET",
+    "func_type": "Cube",
+    "func_desc": "Defines a calculated set of members or tuples by sending a set expression to the cube on the server, which creates the set, and then returns that set to Microsoft Office Excel.",
+    "func_uuid": "5b2146bd-62d6-4d04-9d8f-670e993ee1d9",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CUBESETCOUNT",
+    "func_type": "Cube",
+    "func_desc": "Returns the number of items in a set.",
+    "func_uuid": "c4c2a438-c1ff-4061-80fe-982f2d705286",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CUBEVALUE",
+    "func_type": "Cube",
+    "func_desc": "Returns an aggregated value from a cube.",
+    "func_uuid": "8733da24-26d1-4e34-9b3a-84a8f00dcbe0",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CUMIPMT",
+    "func_type": "Financial",
+    "func_desc": "Returns the cumulative interest paid between two periods",
+    "func_uuid": "61067bb0-9016-427d-b95b-1a752af0e606",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "CUMPRINC",
+    "func_type": "Financial",
+    "func_desc": "Returns the cumulative principal paid on a loan between two periods",
+    "func_uuid": "94a4516d-bd65-41a1-bc16-053a6af4c04d",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DATE",
+    "func_type": "Date and time",
+    "func_desc": "Returns the serial number of a particular date",
+    "func_uuid": "e36c0c8c-4104-49da-ab83-82328b832349",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DATEDIF",
+    "func_type": "Date and time",
+    "func_desc": "Calculates the number of days, months, or years between two dates. This function is useful in formulas where you need to calculate an age.",
+    "func_uuid": "25dba1a4-2812-480b-84dd-8b32a451b35c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DATEVALUE",
+    "func_type": "Date and time",
+    "func_desc": "Converts a date in the form of text to a serial number",
+    "func_uuid": "df8b07d4-7761-4a93-bc33-b7471bbff252",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DAVERAGE",
+    "func_type": "Database",
+    "func_desc": "Returns the average of selected database entries",
+    "func_uuid": "a6a2d5ac-4b4b-48cd-a1d8-7b37834e5aee",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DAY",
+    "func_type": "Date and time",
+    "func_desc": "Converts a serial number to a day of the month",
+    "func_uuid": "8a7d1cbb-6c7d-4ba1-8aea-25c134d03101",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DAYS",
+    "func_type": "Date and time",
+    "func_desc": "Returns the number of days between two dates",
+    "func_uuid": "57740535-d549-4395-8728-0f07bff0b9df",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DAYS360",
+    "func_type": "Date and time",
+    "func_desc": "Calculates the number of days between two dates based on a 360-day year",
+    "func_uuid": "b9a509fd-49ef-407e-94df-0cbda5718c2a",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DB",
+    "func_type": "Financial",
+    "func_desc": "Returns the depreciation of an asset for a specified period by using the fixed-declining balance method",
+    "func_uuid": "354e7d28-5f93-4ff1-8a52-eb4ee549d9d7",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DBCS",
+    "func_type": "Text",
+    "func_desc": "Changes half-width (single-byte) English letters or katakana within a character string to full-width (double-byte) characters",
+    "func_uuid": "a4025e73-63d2-4958-9423-21a24794c9e5",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DCOUNT",
+    "func_type": "Database",
+    "func_desc": "Counts the cells that contain numbers in a database",
+    "func_uuid": "c1fc7b93-fb0d-4d8d-97db-8d5f076eaeb1",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DCOUNTA",
+    "func_type": "Database",
+    "func_desc": "Counts nonblank cells in a database",
+    "func_uuid": "00232a6d-5a66-4a01-a25b-c1653fda1244",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DDB",
+    "func_type": "Financial",
+    "func_desc": "Returns the depreciation of an asset for a specified period by using the double-declining balance method or some other method that you specify",
+    "func_uuid": "519a7a37-8772-4c96-85c0-ed2c209717a5",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DEC2BIN",
+    "func_type": "Engineering",
+    "func_desc": "Converts a decimal number to binary",
+    "func_uuid": "0f63dd0e-5d1a-42d8-b511-5bf5c6d43838",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DEC2HEX",
+    "func_type": "Engineering",
+    "func_desc": "Converts a decimal number to hexadecimal",
+    "func_uuid": "6344ee8b-b6b5-4c6a-a672-f64666704619",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DEC2OCT",
+    "func_type": "Engineering",
+    "func_desc": "Converts a decimal number to octal",
+    "func_uuid": "c9d835ca-20b7-40c4-8a9e-d3be351ce00f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DECIMAL",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Converts a text representation of a number in a given base into a decimal number",
+    "func_uuid": "ee554665-6176-46ef-82de-0a283658da2e",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DEGREES",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Converts radians to degrees",
+    "func_uuid": "4d6ec4db-e694-4b94-ace0-1cc3f61f9ba1",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DELTA",
+    "func_type": "Engineering",
+    "func_desc": "Tests whether two values are equal",
+    "func_uuid": "2f763672-c959-4e07-ac33-fe03220ba432",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DETECTLANGUAGE",
+    "func_type": "Text",
+    "func_desc": "Identifies the language of a specified text",
+    "func_uuid": "0748e285-1912-4d24-b735-57d18142fa3b",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DEVSQ",
+    "func_type": "Statistical",
+    "func_desc": "Returns the sum of squares of deviations",
+    "func_uuid": "8b739616-8376-4df5-8bd0-cfe0a6caf444",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DGET",
+    "func_type": "Database",
+    "func_desc": "Extracts from a database a single record that matches the specified criteria",
+    "func_uuid": "455568bf-4eef-45f7-90f0-ec250d00892e",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DISC",
+    "func_type": "Financial",
+    "func_desc": "Returns the discount rate for a security",
+    "func_uuid": "71fce9f3-3f05-4acf-a5a3-eac6ef4daa53",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DMAX",
+    "func_type": "Database",
+    "func_desc": "Returns the maximum value from selected database entries",
+    "func_uuid": "f4e8209d-8958-4c3d-a1ee-6351665d41c2",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DMIN",
+    "func_type": "Database",
+    "func_desc": "Returns the minimum value from selected database entries",
+    "func_uuid": "4ae6f1d9-1f26-40f1-a783-6dc3680192a3",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DOLLAR",
+    "func_type": "Text",
+    "func_desc": "Converts a number to text, using the $ (dollar) currency format",
+    "func_uuid": "a6cd05d9-9740-4ad3-a469-8109d18ff611",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DOLLARDE",
+    "func_type": "Financial",
+    "func_desc": "Converts a dollar price, expressed as a fraction, into a dollar price, expressed as a decimal number",
+    "func_uuid": "db85aab0-1677-428a-9dfd-a38476693427",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DOLLARFR",
+    "func_type": "Financial",
+    "func_desc": "Converts a dollar price, expressed as a decimal number, into a dollar price, expressed as a fraction",
+    "func_uuid": "0835d163-3023-4a33-9824-3042c5d4f495",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DPRODUCT",
+    "func_type": "Database",
+    "func_desc": "Multiplies the values in a particular field of records that match the criteria in a database",
+    "func_uuid": "4f96b13e-d49c-47a7-b769-22f6d017cb31",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DROP",
+    "func_type": "Lookup and reference",
+    "func_desc": "Excludes a specified number of rows or columns from the start or end of an array",
+    "func_uuid": "1cb4e151-9e17-4838-abe5-9ba48d8c6a34",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DSTDEV",
+    "func_type": "Database",
+    "func_desc": "Estimates the standard deviation based on a sample of selected database entries",
+    "func_uuid": "026b8c73-616d-4b5e-b072-241871c4ab96",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DSTDEVP",
+    "func_type": "Database",
+    "func_desc": "Calculates the standard deviation based on the entire population of selected database entries",
+    "func_uuid": "04b78995-da03-4813-bbd9-d74fd0f5d94b",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DSUM",
+    "func_type": "Database",
+    "func_desc": "Adds the numbers in the field column of records in the database that match the criteria",
+    "func_uuid": "53181285-0c4b-4f5a-aaa3-529a322be41b",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DURATION",
+    "func_type": "Financial",
+    "func_desc": "Returns the annual duration of a security with periodic interest payments",
+    "func_uuid": "b254ea57-eadc-4602-a86a-c8e369334038",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DVAR",
+    "func_type": "Database",
+    "func_desc": "Estimates variance based on a sample from selected database entries",
+    "func_uuid": "d6747ca9-99c7-48bb-996e-9d7af00f3ed1",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "DVARP",
+    "func_type": "Database",
+    "func_desc": "Calculates variance based on the entire population of selected database entries",
+    "func_uuid": "eb0ba387-9cb7-45c8-81e9-0394912502fc",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "EDATE",
+    "func_type": "Date and time",
+    "func_desc": "Returns the serial number of the date that is the indicated number of months before or after the start date",
+    "func_uuid": "3c920eb2-6e66-44e7-a1f5-753ae47ee4f5",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "EFFECT",
+    "func_type": "Financial",
+    "func_desc": "Returns the effective annual interest rate",
+    "func_uuid": "910d4e4c-79e2-4009-95e6-507e04f11bc4",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ENCODEURL",
+    "func_type": "Web",
+    "func_desc": "Returns a URL-encoded stringThis function is not available in Excel for the web.",
+    "func_uuid": "07c7fb90-7c60-4bff-8687-fac50fe33d0e",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "EOMONTH",
+    "func_type": "Date and time",
+    "func_desc": "Returns the serial number of the last day of the month before or after a specified number of months",
+    "func_uuid": "7314ffa1-2bc9-4005-9d66-f49db127d628",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ERF",
+    "func_type": "Engineering",
+    "func_desc": "Returns the error function",
+    "func_uuid": "c53c7e7b-5482-4b6c-883e-56df3c9af349",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ERF.PRECISE",
+    "func_type": "Engineering",
+    "func_desc": "Returns the error function",
+    "func_uuid": "9a349593-705c-4278-9a98-e4122831a8e0",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ERFC",
+    "func_type": "Engineering",
+    "func_desc": "Returns the complementary error function",
+    "func_uuid": "736e0318-70ba-4e8b-8d08-461fe68b71b3",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ERFC.PRECISE",
+    "func_type": "Engineering",
+    "func_desc": "Returns the complementary ERF function integrated between x and infinity",
+    "func_uuid": "e90e6bab-f45e-45df-b2ac-cd2eb4d4a273",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ERROR.TYPE",
+    "func_type": "Information",
+    "func_desc": "Returns a number corresponding to an error type",
+    "func_uuid": "10958677-7c8d-44f7-ae77-b9a9ee6eefaa",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "EUROCONVERT",
+    "func_type": "Add-in and Automation",
+    "func_desc": "Converts a number to euros, converts a number from euros to a euro member currency, or converts a number from one euro member currency to another by using the euro as an intermediary (triangulation).",
+    "func_uuid": "79c8fd67-c665-450c-bb6c-15fc92f8345c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "EVEN",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Rounds a number up to the nearest even integer",
+    "func_uuid": "197b5f06-c795-4c1e-8696-3c3b8a646cf9",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "EXACT",
+    "func_type": "Text",
+    "func_desc": "Checks to see if two text values are identical",
+    "func_uuid": "d3087698-fc15-4a15-9631-12575cf29926",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "EXP",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returnseraised to the power of a given number",
+    "func_uuid": "c578f034-2c45-4c37-bc8c-329660a63abe",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "EXPAND",
+    "func_type": "Lookup and reference",
+    "func_desc": "Expands or pads an array to specified row and column dimensions",
+    "func_uuid": "7433fba5-4ad1-41da-a904-d5d95808bc38",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "EXPON.DIST",
+    "func_type": "Statistical",
+    "func_desc": "Returns the exponential distribution",
+    "func_uuid": "4c12ae24-e563-4155-bf3e-8b78b6ae140e",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "EXPONDIST",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the exponential distribution",
+    "func_uuid": "68ab45fd-cd6d-4887-9770-9357eb8ee06a",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FACT",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the factorial of a number",
+    "func_uuid": "ca8588c2-15f2-41c0-8e8c-c11bd471a4f3",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FACTDOUBLE",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the double factorial of a number",
+    "func_uuid": "e67697ac-d214-48eb-b7b7-cce2589ecac8",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FALSE",
+    "func_type": "Logical",
+    "func_desc": "Returns the logical value FALSE",
+    "func_uuid": "2d58dfa5-9c03-4259-bf8f-f0ae14346904",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "F.DIST",
+    "func_type": "Statistical",
+    "func_desc": "Returns the F probability distribution",
+    "func_uuid": "a887efdc-7c8e-46cb-a74a-f884cd29b25d",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FDIST",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the F probability distribution",
+    "func_uuid": "ecf76fba-b3f1-4e7d-a57e-6a5b7460b786",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "F.DIST.RT",
+    "func_type": "Statistical",
+    "func_desc": "Returns the F probability distribution",
+    "func_uuid": "d74cbb00-6017-4ac9-b7d7-6049badc0520",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FILTER",
+    "func_type": "Lookup and reference",
+    "func_desc": "Filters a range of data based on criteria you define",
+    "func_uuid": "f4f7cb66-82eb-4767-8f7c-4877ad80c759",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FILTERXML",
+    "func_type": "Web",
+    "func_desc": "Returns specific data from the XML content by using the specified XPathThis function is not available in Excel for the web.",
+    "func_uuid": "4df72efc-11ec-4951-86f5-c1374812f5b7",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FIND",
+    "func_type": "Text",
+    "func_desc": "Finds one text value within another (case-sensitive)",
+    "func_uuid": "c7912941-af2a-4bdf-a553-d0d89b0a0628",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FINDB",
+    "func_type": "Text",
+    "func_desc": "Finds one text value within another (case-sensitive)",
+    "func_uuid": "c7912941-af2a-4bdf-a553-d0d89b0a0628",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "F.INV",
+    "func_type": "Statistical",
+    "func_desc": "Returns the inverse of the F probability distribution",
+    "func_uuid": "0dda0cf9-4ea0-42fd-8c3c-417a1ff30dbe",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "F.INV.RT",
+    "func_type": "Statistical",
+    "func_desc": "Returns the inverse of the F probability distribution",
+    "func_uuid": "d371aa8f-b0b1-40ef-9cc2-496f0693ac00",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FINV",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the inverse of the F probability distribution",
+    "func_uuid": "4d46c97c-c368-4852-bc15-41e8e31140b1",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FISHER",
+    "func_type": "Statistical",
+    "func_desc": "Returns the Fisher transformation",
+    "func_uuid": "d656523c-5076-4f95-b87b-7741bf236c69",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FISHERINV",
+    "func_type": "Statistical",
+    "func_desc": "Returns the inverse of the Fisher transformation",
+    "func_uuid": "62504b39-415a-4284-a285-19c8e82f86bb",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FIXED",
+    "func_type": "Text",
+    "func_desc": "Formats a number as text with a fixed number of decimals",
+    "func_uuid": "ffd5723c-324c-45e9-8b96-e41be2a8274a",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FLOOR",
+    "func_type": "Compatibility",
+    "func_desc": "Rounds a number down, toward zero",
+    "func_uuid": "14bb497c-24f2-4e04-b327-b0b4de5a8886",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FLOOR.MATH",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Rounds a number down, to the nearest integer or to the nearest multiple of significance",
+    "func_uuid": "c302b599-fbdb-4177-ba19-2c2b1249a2f5",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FLOOR.PRECISE",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Rounds a number the nearest integer or to the nearest multiple of significance. Regardless of the sign of the number, the number is rounded up.",
+    "func_uuid": "f769b468-1452-4617-8dc3-02f842a0702e",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FORECAST",
+    "func_type": "Statistical",
+    "func_desc": "Returns a value along a linear trendThis function has been replaced withFORECAST.LINEARas part of the newForecasting, but it's still available for compatibility with earlier versions.",
+    "func_uuid": "50ca49c9-7b40-4892-94e4-7ad38bbeda99",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FORECAST.ETS",
+    "func_type": "Statistical",
+    "func_desc": "Returns a future value based on existing (historical) values by using the AAA version of the Exponential Smoothing (ETS) algorithm",
+    "func_uuid": "897a2fe9-6595-4680-a0b0-93e0308d5f6e",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FORECAST.ETS.CONFINT",
+    "func_type": "Statistical",
+    "func_desc": "Returns a confidence interval for the forecast value at the specified target date",
+    "func_uuid": "897a2fe9-6595-4680-a0b0-93e0308d5f6e",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FORECAST.ETS.SEASONALITY",
+    "func_type": "Statistical",
+    "func_desc": "Returns the length of the repetitive pattern Excel detects for the specified time series",
+    "func_uuid": "897a2fe9-6595-4680-a0b0-93e0308d5f6e",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FORECAST.ETS.STAT",
+    "func_type": "Statistical",
+    "func_desc": "Returns a statistical value as a result of time series forecasting",
+    "func_uuid": "897a2fe9-6595-4680-a0b0-93e0308d5f6e",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FORECAST.LINEAR",
+    "func_type": "Statistical",
+    "func_desc": "Returns a future value based on existing values",
+    "func_uuid": "897a2fe9-6595-4680-a0b0-93e0308d5f6e",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FORMULATEXT",
+    "func_type": "Lookup and reference",
+    "func_desc": "Returns the formula at the given reference as text",
+    "func_uuid": "0a786771-54fd-4ae2-96ee-09cda35439c8",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FREQUENCY",
+    "func_type": "Statistical",
+    "func_desc": "Returns a frequency distribution as a vertical array",
+    "func_uuid": "44e3be2b-eca0-42cd-a3f7-fd9ea898fdb9",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "F.TEST",
+    "func_type": "Statistical",
+    "func_desc": "Returns the result of an F-test",
+    "func_uuid": "100a59e7-4108-46f8-8443-78ffacb6c0a7",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FTEST",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the result of an F-test",
+    "func_uuid": "4c9e1202-53fe-428c-a737-976f6fc3f9fd",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FV",
+    "func_type": "Financial",
+    "func_desc": "Returns the future value of an investment",
+    "func_uuid": "2eef9f44-a084-4c61-bdd8-4fe4bb1b71b3",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "FVSCHEDULE",
+    "func_type": "Financial",
+    "func_desc": "Returns the future value of an initial principal after applying a series of compound interest rates",
+    "func_uuid": "bec29522-bd87-4082-bab9-a241f3fb251d",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "GAMMA",
+    "func_type": "Statistical",
+    "func_desc": "Returns the Gamma function value",
+    "func_uuid": "ce1702b1-cf55-471d-8307-f83be0fc5297",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "GAMMA.DIST",
+    "func_type": "Statistical",
+    "func_desc": "Returns the gamma distribution",
+    "func_uuid": "9b6f1538-d11c-4d5f-8966-21f6a2201def",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "GAMMADIST",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the gamma distribution",
+    "func_uuid": "7327c94d-0f05-4511-83df-1dd7ed23e19e",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "GAMMA.INV",
+    "func_type": "Statistical",
+    "func_desc": "Returns the inverse of the gamma cumulative distribution",
+    "func_uuid": "74991443-c2b0-4be5-aaab-1aa4d71fbb18",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "GAMMAINV",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the inverse of the gamma cumulative distribution",
+    "func_uuid": "06393558-37ab-47d0-aa63-432f99e7916d",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "GAMMALN",
+    "func_type": "Statistical",
+    "func_desc": "Returns the natural logarithm of the gamma function, Γ(x)",
+    "func_uuid": "b838c48b-c65f-484f-9e1d-141c55470eb9",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "GAMMALN.PRECISE",
+    "func_type": "Statistical",
+    "func_desc": "Returns the natural logarithm of the gamma function, Γ(x)",
+    "func_uuid": "5cdfe601-4e1e-4189-9d74-241ef1caa599",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "GAUSS",
+    "func_type": "Statistical",
+    "func_desc": "Returns 0.5 less than the standard normal cumulative distribution",
+    "func_uuid": "069f1b4e-7dee-4d6a-a71f-4b69044a6b33",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "GCD",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the greatest common divisor",
+    "func_uuid": "d5107a51-69e3-461f-8e4c-ddfc21b5073a",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "GEOMEAN",
+    "func_type": "Statistical",
+    "func_desc": "Returns the geometric mean",
+    "func_uuid": "db1ac48d-25a5-40a0-ab83-0b38980e40d5",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "GESTEP",
+    "func_type": "Engineering",
+    "func_desc": "Tests whether a number is greater than a threshold value",
+    "func_uuid": "f37e7d2a-41da-4129-be95-640883fca9df",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "GETPIVOTDATA",
+    "func_type": "Lookup and reference",
+    "func_desc": "Returns data stored in a PivotTable report",
+    "func_uuid": "8c083b99-a922-4ca0-af5e-3af55960761f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "GROUPBY",
+    "func_type": "Lookup and reference",
+    "func_desc": "Helps a user group, aggregate, sort, and filter data based on the fields you specify",
+    "func_uuid": "5e08ae8c-6800-4b72-b623-c41773611505",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "GROWTH",
+    "func_type": "Statistical",
+    "func_desc": "Returns values along an exponential trend",
+    "func_uuid": "541a91dc-3d5e-437d-b156-21324e68b80d",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "HARMEAN",
+    "func_type": "Statistical",
+    "func_desc": "Returns the harmonic mean",
+    "func_uuid": "5efd9184-fab5-42f9-b1d3-57883a1d3bc6",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "HEX2BIN",
+    "func_type": "Engineering",
+    "func_desc": "Converts a hexadecimal number to binary",
+    "func_uuid": "a13aafaa-5737-4920-8424-643e581828c1",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "HEX2DEC",
+    "func_type": "Engineering",
+    "func_desc": "Converts a hexadecimal number to decimal",
+    "func_uuid": "8c8c3155-9f37-45a5-a3ee-ee5379ef106e",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "HEX2OCT",
+    "func_type": "Engineering",
+    "func_desc": "Converts a hexadecimal number to octal",
+    "func_uuid": "54d52808-5d19-4bd0-8a63-1096a5d11912",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "HLOOKUP",
+    "func_type": "Lookup and reference",
+    "func_desc": "Looks in the top row of an array and returns the value of the indicated cell",
+    "func_uuid": "a3034eec-b719-4ba3-bb65-e1ad662ed95f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "HOUR",
+    "func_type": "Date and time",
+    "func_desc": "Converts a serial number to an hour",
+    "func_uuid": "a3afa879-86cb-4339-b1b5-2dd2d7310ac7",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "HSTACK",
+    "func_type": "Lookup and reference",
+    "func_desc": "Appends arrays horizontally and in sequence to return a larger array",
+    "func_uuid": "98c4ab76-10fe-4b4f-8d5f-af1c125fe8c2",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "HYPERLINK",
+    "func_type": "Lookup and reference",
+    "func_desc": "Creates a shortcut or jump that opens a document stored on a network server, an intranet, or the Internet",
+    "func_uuid": "333c7ce6-c5ae-4164-9c47-7de9b76f577f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "HYPGEOM.DIST",
+    "func_type": "Statistical",
+    "func_desc": "Returns the hypergeometric distribution",
+    "func_uuid": "6dbd547f-1d12-4b1f-8ae5-b0d9e3d22fbf",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "HYPGEOMDIST",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the hypergeometric distribution",
+    "func_uuid": "23e37961-2871-4195-9629-d0b2c108a12e",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IF",
+    "func_type": "Logical",
+    "func_desc": "Specifies a logical test to perform",
+    "func_uuid": "69aed7c9-4e8a-4755-a9bc-aa8bbff73be2",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IFERROR",
+    "func_type": "Logical",
+    "func_desc": "Returns a value you specify if a formula evaluates to an error; otherwise, returns the result of the formula",
+    "func_uuid": "c526fd07-caeb-47b8-8bb6-63f3e417f611",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IFNA",
+    "func_type": "Logical",
+    "func_desc": "Returns the value you specify if the expression resolves to #N/A, otherwise returns the result of the expression",
+    "func_uuid": "6626c961-a569-42fc-a49d-79b4951fd461",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IFS",
+    "func_type": "Logical",
+    "func_desc": "Checks whether one or more conditions are met and returns a value that corresponds to the first TRUE condition.",
+    "func_uuid": "36329a26-37b2-467c-972b-4a39bd951d45",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMABS",
+    "func_type": "Engineering",
+    "func_desc": "Returns the absolute value (modulus) of a complex number",
+    "func_uuid": "b31e73c6-d90c-4062-90bc-8eb351d765a1",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMAGE",
+    "func_type": "Lookup and reference",
+    "func_desc": "Returns an image from a given source",
+    "func_uuid": "7e112975-5e52-4f2a-b9da-1d913d51f5d5",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMAGINARY",
+    "func_type": "Engineering",
+    "func_desc": "Returns the imaginary coefficient of a complex number",
+    "func_uuid": "dd5952fd-473d-44d9-95a1-9a17b23e428a",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMARGUMENT",
+    "func_type": "Engineering",
+    "func_desc": "Returns the argument theta, an angle expressed in radians",
+    "func_uuid": "eed37ec1-23b3-4f59-b9f3-d340358a034a",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMCONJUGATE",
+    "func_type": "Engineering",
+    "func_desc": "Returns the complex conjugate of a complex number",
+    "func_uuid": "2e2fc1ea-f32b-4f9b-9de6-233853bafd42",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMCOS",
+    "func_type": "Engineering",
+    "func_desc": "Returns the cosine of a complex number",
+    "func_uuid": "dad75277-f592-4a6b-ad6c-be93a808a53c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMCOSH",
+    "func_type": "Engineering",
+    "func_desc": "Returns the hyperbolic cosine of a complex number",
+    "func_uuid": "053e4ddb-4122-458b-be9a-457c405e90ff",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMCOT",
+    "func_type": "Engineering",
+    "func_desc": "Returns the cotangent of a complex number",
+    "func_uuid": "dc6a3607-d26a-4d06-8b41-8931da36442c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMCSC",
+    "func_type": "Engineering",
+    "func_desc": "Returns the cosecant of a complex number",
+    "func_uuid": "9e158d8f-2ddf-46cd-9b1d-98e29904a323",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMCSCH",
+    "func_type": "Engineering",
+    "func_desc": "Returns the hyperbolic cosecant of a complex number",
+    "func_uuid": "c0ae4f54-5f09-4fef-8da0-dc33ea2c5ca9",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMDIV",
+    "func_type": "Engineering",
+    "func_desc": "Returns the quotient of two complex numbers",
+    "func_uuid": "a505aff7-af8a-4451-8142-77ec3d74d83f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMEXP",
+    "func_type": "Engineering",
+    "func_desc": "Returns the exponential of a complex number",
+    "func_uuid": "c6f8da1f-e024-4c0c-b802-a60e7147a95f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMLN",
+    "func_type": "Engineering",
+    "func_desc": "Returns the natural logarithm of a complex number",
+    "func_uuid": "32b98bcf-8b81-437c-a636-6fb3aad509d8",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMLOG10",
+    "func_type": "Engineering",
+    "func_desc": "Returns the base-10 logarithm of a complex number",
+    "func_uuid": "58200fca-e2a2-4271-8a98-ccd4360213a5",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMLOG2",
+    "func_type": "Engineering",
+    "func_desc": "Returns the base-2 logarithm of a complex number",
+    "func_uuid": "152e13b4-bc79-486c-a243-e6a676878c51",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMPOWER",
+    "func_type": "Engineering",
+    "func_desc": "Returns a complex number raised to an integer power",
+    "func_uuid": "210fd2f5-f8ff-4c6a-9d60-30e34fbdef39",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMPRODUCT",
+    "func_type": "Engineering",
+    "func_desc": "Returns the product of complex numbers",
+    "func_uuid": "2fb8651a-a4f2-444f-975e-8ba7aab3a5ba",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMREAL",
+    "func_type": "Engineering",
+    "func_desc": "Returns the real coefficient of a complex number",
+    "func_uuid": "d12bc4c0-25d0-4bb3-a25f-ece1938bf366",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMSEC",
+    "func_type": "Engineering",
+    "func_desc": "Returns the secant of a complex number",
+    "func_uuid": "6df11132-4411-4df4-a3dc-1f17372459e0",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMSECH",
+    "func_type": "Engineering",
+    "func_desc": "Returns the hyperbolic secant of a complex number",
+    "func_uuid": "f250304f-788b-4505-954e-eb01fa50903b",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMSIN",
+    "func_type": "Engineering",
+    "func_desc": "Returns the sine of a complex number",
+    "func_uuid": "1ab02a39-a721-48de-82ef-f52bf37859f6",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMSINH",
+    "func_type": "Engineering",
+    "func_desc": "Returns the hyperbolic sine of a complex number",
+    "func_uuid": "dfb9ec9e-8783-4985-8c42-b028e9e8da3d",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMSQRT",
+    "func_type": "Engineering",
+    "func_desc": "Returns the square root of a complex number",
+    "func_uuid": "e1753f80-ba11-4664-a10e-e17368396b70",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMSUB",
+    "func_type": "Engineering",
+    "func_desc": "Returns the difference between two complex numbers",
+    "func_uuid": "2e404b4d-4935-4e85-9f52-cb08b9a45054",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMSUM",
+    "func_type": "Engineering",
+    "func_desc": "Returns the sum of complex numbers",
+    "func_uuid": "81542999-5f1c-4da6-9ffe-f1d7aaa9457f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IMTAN",
+    "func_type": "Engineering",
+    "func_desc": "Returns the tangent of a complex number",
+    "func_uuid": "8478f45d-610a-43cf-8544-9fc0b553a132",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "INDEX",
+    "func_type": "Lookup and reference",
+    "func_desc": "Uses an index to choose a value from a reference or array",
+    "func_uuid": "a5dcf0dd-996d-40a4-a822-b56b061328bd",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "INDIRECT",
+    "func_type": "Lookup and reference",
+    "func_desc": "Returns a reference indicated by a text value",
+    "func_uuid": "474b3a3a-8a26-4f44-b491-92b6306fa261",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "INFO",
+    "func_type": "Information",
+    "func_desc": "Returns information about the current operating environmentThis function is not available in Excel for the web.",
+    "func_uuid": "725f259a-0e4b-49b3-8b52-58815c69acae",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "INT",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Rounds a number down to the nearest integer",
+    "func_uuid": "a6c4af9e-356d-4369-ab6a-cb1fd9d343ef",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "INTERCEPT",
+    "func_type": "Statistical",
+    "func_desc": "Returns the intercept of the linear regression line",
+    "func_uuid": "2a9b74e2-9d47-4772-b663-3bca70bf63ef",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "INTRATE",
+    "func_type": "Financial",
+    "func_desc": "Returns the interest rate for a fully invested security",
+    "func_uuid": "5cb34dde-a221-4cb6-b3eb-0b9e55e1316f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IPMT",
+    "func_type": "Financial",
+    "func_desc": "Returns the interest payment for an investment for a given period",
+    "func_uuid": "5cce0ad6-8402-4a41-8d29-61a0b054cb6f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "IRR",
+    "func_type": "Financial",
+    "func_desc": "Returns the internal rate of return for a series of cash flows",
+    "func_uuid": "64925eaa-9988-495b-b290-3ad0c163c1bc",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ISBLANK",
+    "func_type": "Information",
+    "func_desc": "Returns TRUE if the value is blank",
+    "func_uuid": "0f2d7971-6019-40a0-a171-f2d869135665",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ISERR",
+    "func_type": "Information",
+    "func_desc": "Returns TRUE if the value is any error value except #N/A",
+    "func_uuid": "0f2d7971-6019-40a0-a171-f2d869135665",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ISERROR",
+    "func_type": "Information",
+    "func_desc": "Returns TRUE if the value is any error value",
+    "func_uuid": "0f2d7971-6019-40a0-a171-f2d869135665",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ISEVEN",
+    "func_type": "Information",
+    "func_desc": "Returns TRUE if the number is even",
+    "func_uuid": "aa15929a-d77b-4fbb-92f4-2f479af55356",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ISFORMULA",
+    "func_type": "Information",
+    "func_desc": "Returns TRUE if there is a reference to a cell that contains a formula",
+    "func_uuid": "e4d1355f-7121-4ef2-801e-3839bfd6b1e5",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ISLOGICAL",
+    "func_type": "Information",
+    "func_desc": "Returns TRUE if the value is a logical value",
+    "func_uuid": "0f2d7971-6019-40a0-a171-f2d869135665",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ISNA",
+    "func_type": "Information",
+    "func_desc": "Returns TRUE if the value is the #N/A error value",
+    "func_uuid": "0f2d7971-6019-40a0-a171-f2d869135665",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ISNONTEXT",
+    "func_type": "Information",
+    "func_desc": "Returns TRUE if the value is not text",
+    "func_uuid": "0f2d7971-6019-40a0-a171-f2d869135665",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ISNUMBER",
+    "func_type": "Information",
+    "func_desc": "Returns TRUE if the value is a number",
+    "func_uuid": "0f2d7971-6019-40a0-a171-f2d869135665",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ISODD",
+    "func_type": "Information",
+    "func_desc": "Returns TRUE if the number is odd",
+    "func_uuid": "0f2d7971-6019-40a0-a171-f2d869135665",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ISOMITTED",
+    "func_type": "Information",
+    "func_desc": "Checks whether the value in a LAMBDA is missing and returns TRUE or FALSE",
+    "func_uuid": "831d6fbc-0f07-40c4-9c5b-9c73fd1d60c1",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ISREF",
+    "func_type": "Information",
+    "func_desc": "Returns TRUE if the value is a reference",
+    "func_uuid": "0f2d7971-6019-40a0-a171-f2d869135665",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ISTEXT",
+    "func_type": "Information",
+    "func_desc": "Returns TRUE if the value is text",
+    "func_uuid": "0f2d7971-6019-40a0-a171-f2d869135665",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ISO.CEILING",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns a number that is rounded up to the nearest integer or to the nearest multiple of significance",
+    "func_uuid": "e587bb73-6cc2-4113-b664-ff5b09859a83",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ISOWEEKNUM",
+    "func_type": "Date and time",
+    "func_desc": "Returns the number of the ISO week number of the year for a given date",
+    "func_uuid": "1c2d0afe-d25b-4ab1-8894-8d0520e90e0e",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ISPMT",
+    "func_type": "Financial",
+    "func_desc": "Calculates the interest paid during a specific period of an investment",
+    "func_uuid": "fa58adb6-9d39-4ce0-8f43-75399cea56cc",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "JIS",
+    "func_type": "Text",
+    "func_desc": "Changes half-width (single-byte) characters within a string to full-width (double-byte) characters",
+    "func_uuid": "b72fb1a7-ba52-448a-b7d3-d2610868b7e2",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "KURT",
+    "func_type": "Statistical",
+    "func_desc": "Returns the kurtosis of a data set",
+    "func_uuid": "bc3a265c-5da4-4dcb-b7fd-c237789095ab",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "LAMBDA",
+    "func_type": "Logical",
+    "func_desc": "Create custom, reusable and call them by a friendly name",
+    "func_uuid": "bd212d27-1cd1-4321-a34a-ccbf254b8b67",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "LARGE",
+    "func_type": "Statistical",
+    "func_desc": "Returns the k-th largest value in a data set",
+    "func_uuid": "3af0af19-1190-42bb-bb8b-01672ec00a64",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "LCM",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the least common multiple",
+    "func_uuid": "7152b67a-8bb5-4075-ae5c-06ede5563c94",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "LEFT",
+    "func_type": "Text",
+    "func_desc": "Returns the leftmost characters from a text value",
+    "func_uuid": "9203d2d2-7960-479b-84c6-1ea52b99640c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "LEFTB",
+    "func_type": "Text",
+    "func_desc": "Returns the leftmost characters from a text value",
+    "func_uuid": "9203d2d2-7960-479b-84c6-1ea52b99640c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "LEN",
+    "func_type": "Text",
+    "func_desc": "Returns the number of characters in a text string",
+    "func_uuid": "29236f94-cedc-429d-affd-b5e33d2c67cb",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "LENB",
+    "func_type": "Text",
+    "func_desc": "Returns the number of characters in a text string",
+    "func_uuid": "29236f94-cedc-429d-affd-b5e33d2c67cb",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "LET",
+    "func_type": "Logical",
+    "func_desc": "Assigns names to calculation results",
+    "func_uuid": "34842dd8-b92b-4d3f-b325-b8b8f9908999",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "LINEST",
+    "func_type": "Statistical",
+    "func_desc": "Returns the parameters of a linear trend",
+    "func_uuid": "84d7d0d9-6e50-4101-977a-fa7abf772b6d",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "LN",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the natural logarithm of a number",
+    "func_uuid": "81fe1ed7-dac9-4acd-ba1d-07a142c6118f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "LOG",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the logarithm of a number to a specified base",
+    "func_uuid": "4e82f196-1ca9-4747-8fb0-6c4a3abb3280",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "LOG10",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the base-10 logarithm of a number",
+    "func_uuid": "c75b881b-49dd-44fb-b6f4-37e3486a0211",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "LOGEST",
+    "func_type": "Statistical",
+    "func_desc": "Returns the parameters of an exponential trend",
+    "func_uuid": "f27462d8-3657-4030-866b-a272c1d18b4b",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "LOGINV",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the inverse of the lognormal cumulative distribution",
+    "func_uuid": "0bd7631a-2725-482b-afb4-de23df77acfe",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "LOGNORM.DIST",
+    "func_type": "Statistical",
+    "func_desc": "Returns the cumulative lognormal distribution",
+    "func_uuid": "eb60d00b-48a9-4217-be2b-6074aee6b070",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "LOGNORMDIST",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the cumulative lognormal distribution",
+    "func_uuid": "f8d194cb-9ee3-4034-8c75-1bdb3884100b",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "LOGNORM.INV",
+    "func_type": "Statistical",
+    "func_desc": "Returns the inverse of the lognormal cumulative distribution",
+    "func_uuid": "fe79751a-f1f2-4af8-a0a1-e151b2d4f600",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "LOOKUP",
+    "func_type": "Lookup and reference",
+    "func_desc": "Looks up values in a vector or array",
+    "func_uuid": "446d94af-663b-451d-8251-369d5e3864cb",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "LOWER",
+    "func_type": "Text",
+    "func_desc": "Converts text to lowercase",
+    "func_uuid": "3f21df02-a80c-44b2-afaf-81358f9fdeb4",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MAKEARRAY",
+    "func_type": "Logical",
+    "func_desc": "Returns a calculated array of a specified row and column size, by applying a LAMBDA",
+    "func_uuid": "b80da5ad-b338-4149-a523-5b221da09097",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MAP",
+    "func_type": "Logical",
+    "func_desc": "Returns an array formed by mapping each value in the array(s) to a new value by applying a LAMBDA to create a new value",
+    "func_uuid": "48006093-f97c-47c1-bfcc-749263bb1f01",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MATCH",
+    "func_type": "Lookup and reference",
+    "func_desc": "Looks up values in a reference or array",
+    "func_uuid": "e8dffd45-c762-47d6-bf89-533f4a37673a",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MAX",
+    "func_type": "Statistical",
+    "func_desc": "Returns the maximum value in a list of arguments",
+    "func_uuid": "e0012414-9ac8-4b34-9a47-73e662c08098",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MAXA",
+    "func_type": "Statistical",
+    "func_desc": "Returns the maximum value in a list of arguments, including numbers, text, and logical values",
+    "func_uuid": "814bda1e-3840-4bff-9365-2f59ac2ee62d",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MAXIFS",
+    "func_type": "Statistical",
+    "func_desc": "Returns the maximum value among cells specified by a given set of conditions or criteria",
+    "func_uuid": "dfd611e6-da2c-488a-919b-9b6376b28883",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MDETERM",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the matrix determinant of an array",
+    "func_uuid": "e7bfa857-3834-422b-b871-0ffd03717020",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MDURATION",
+    "func_type": "Financial",
+    "func_desc": "Returns the Macauley modified duration for a security with an assumed par value of $100",
+    "func_uuid": "b3786a69-4f20-469a-94ad-33e5b90a763c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MEDIAN",
+    "func_type": "Statistical",
+    "func_desc": "Returns the median of the given numbers",
+    "func_uuid": "d0916313-4753-414c-8537-ce85bdd967d2",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MID",
+    "func_type": "Text",
+    "func_desc": "Returns a specific number of characters from a text string starting at the position you specify",
+    "func_uuid": "d5f9e25c-d7d6-472e-b568-4ecb12433028",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MIDB",
+    "func_type": "Text",
+    "func_desc": "Returns a specific number of characters from a text string starting at the position you specify",
+    "func_uuid": "d5f9e25c-d7d6-472e-b568-4ecb12433028",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MIN",
+    "func_type": "Statistical",
+    "func_desc": "Returns the minimum value in a list of arguments",
+    "func_uuid": "61635d12-920f-4ce2-a70f-96f202dcc152",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MINIFS",
+    "func_type": "Statistical",
+    "func_desc": "Returns the minimum value among cells specified by a given set of conditions or criteria.",
+    "func_uuid": "6ca1ddaa-079b-4e74-80cc-72eef32e6599",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MINA",
+    "func_type": "Statistical",
+    "func_desc": "Returns the smallest value in a list of arguments, including numbers, text, and logical values",
+    "func_uuid": "245a6f46-7ca5-4dc7-ab49-805341bc31d3",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MINUTE",
+    "func_type": "Date and time",
+    "func_desc": "Converts a serial number to a minute",
+    "func_uuid": "af728df0-05c4-4b07-9eed-a84801a60589",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MINVERSE",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the matrix inverse of an array",
+    "func_uuid": "11f55086-adde-4c9f-8eb9-59da2d72efc6",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MIRR",
+    "func_type": "Financial",
+    "func_desc": "Returns the internal rate of return where positive and negative cash flows are financed at different rates",
+    "func_uuid": "b020f038-7492-4fb4-93c1-35c345b53524",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MMULT",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the matrix product of two arrays",
+    "func_uuid": "40593ed7-a3cd-4b6b-b9a3-e4ad3c7245eb",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MOD",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the remainder from division",
+    "func_uuid": "9b6cd169-b6ee-406a-a97b-edf2a9dc24f3",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MODE",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the most common value in a data set",
+    "func_uuid": "e45192ce-9122-4980-82ed-4bdc34973120",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MODE.MULT",
+    "func_type": "Statistical",
+    "func_desc": "Returns a vertical array of the most frequently occurring, or repetitive values in an array or range of data",
+    "func_uuid": "50fd9464-b2ba-4191-b57a-39446689ae8c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MODE.SNGL",
+    "func_type": "Statistical",
+    "func_desc": "Returns the most common value in a data set",
+    "func_uuid": "f1267c16-66c6-4386-959f-8fba5f8bb7f8",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MONTH",
+    "func_type": "Date and time",
+    "func_desc": "Converts a serial number to a month",
+    "func_uuid": "579a2881-199b-48b2-ab90-ddba0eba86e8",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MROUND",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns a number rounded to the desired multiple",
+    "func_uuid": "c299c3b0-15a5-426d-aa4b-d2d5b3baf427",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MULTINOMIAL",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the multinomial of a set of numbers",
+    "func_uuid": "6fa6373c-6533-41a2-a45e-a56db1db1bf6",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "MUNIT",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the unit matrix or the specified dimension",
+    "func_uuid": "c9fe916a-dc26-4105-997d-ba22799853a3",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "N",
+    "func_type": "Information",
+    "func_desc": "Returns a value converted to a number",
+    "func_uuid": "a624cad1-3635-4208-b54a-29733d1278c9",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "NA",
+    "func_type": "Information",
+    "func_desc": "Returns the error value #N/A",
+    "func_uuid": "5469c2d1-a90c-4fb5-9bbc-64bd9bb6b47c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "NEGBINOM.DIST",
+    "func_type": "Statistical",
+    "func_desc": "Returns the negative binomial distribution",
+    "func_uuid": "c8239f89-c2d0-45bd-b6af-172e570f8599",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "NEGBINOMDIST",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the negative binomial distribution",
+    "func_uuid": "f59b0a37-bae2-408d-b115-a315609ba714",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "NETWORKDAYS",
+    "func_type": "Date and time",
+    "func_desc": "Returns the number of whole workdays between two dates",
+    "func_uuid": "48e717bf-a7a3-495f-969e-5005e3eb18e7",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "NETWORKDAYS.INTL",
+    "func_type": "Date and time",
+    "func_desc": "Returns the number of whole workdays between two dates using parameters to indicate which and how many days are weekend days",
+    "func_uuid": "a9b26239-4f20-46a1-9ab8-4e925bfd5e28",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "NOMINAL",
+    "func_type": "Financial",
+    "func_desc": "Returns the annual nominal interest rate",
+    "func_uuid": "7f1ae29b-6b92-435e-b950-ad8b190ddd2b",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "NORM.DIST",
+    "func_type": "Statistical",
+    "func_desc": "Returns the normal cumulative distribution",
+    "func_uuid": "edb1cc14-a21c-4e53-839d-8082074c9f8d",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "NORMDIST",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the normal cumulative distribution",
+    "func_uuid": "126db625-c53e-4591-9a22-c9ff422d6d58",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "NORMINV",
+    "func_type": "Statistical",
+    "func_desc": "Returns the inverse of the normal cumulative distribution",
+    "func_uuid": "87981ab8-2de0-4cb0-b1aa-e21d4cb879b8",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "NORM.INV",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the inverse of the normal cumulative distribution",
+    "func_uuid": "54b30935-fee7-493c-bedb-2278a9db7e13",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "NORM.S.DIST",
+    "func_type": "Statistical",
+    "func_desc": "Returns the standard normal cumulative distribution",
+    "func_uuid": "1e787282-3832-4520-a9ae-bd2a8d99ba88",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "NORMSDIST",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the standard normal cumulative distribution",
+    "func_uuid": "463369ea-0345-445d-802a-4ff0d6ce7cac",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "NORM.S.INV",
+    "func_type": "Statistical",
+    "func_desc": "Returns the inverse of the standard normal cumulative distribution",
+    "func_uuid": "d6d556b4-ab7f-49cd-b526-5a20918452b1",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "NORMSINV",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the inverse of the standard normal cumulative distribution",
+    "func_uuid": "8d1bce66-8e4d-4f3b-967c-30eed61f019d",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "NOT",
+    "func_type": "Logical",
+    "func_desc": "Reverses the logic of its argument",
+    "func_uuid": "9cfc6011-a054-40c7-a140-cd4ba2d87d77",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "NOW",
+    "func_type": "Date and time",
+    "func_desc": "Returns the serial number of the current date and time",
+    "func_uuid": "3337fd29-145a-4347-b2e6-20c904739c46",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "NPER",
+    "func_type": "Financial",
+    "func_desc": "Returns the number of periods for an investment",
+    "func_uuid": "240535b5-6653-4d2d-bfcf-b6a38151d815",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "NPV",
+    "func_type": "Financial",
+    "func_desc": "Returns the net present value of an investment based on a series of periodic cash flows and a discount rate",
+    "func_uuid": "8672cb67-2576-4d07-b67b-ac28acf2a568",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "NUMBERVALUE",
+    "func_type": "Text",
+    "func_desc": "Converts text to number in a locale-independent manner",
+    "func_uuid": "1b05c8cf-2bfa-4437-af70-596c7ea7d879",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "OCT2BIN",
+    "func_type": "Engineering",
+    "func_desc": "Converts an octal number to binary",
+    "func_uuid": "55383471-3c56-4d27-9522-1a8ec646c589",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "OCT2DEC",
+    "func_type": "Engineering",
+    "func_desc": "Converts an octal number to decimal",
+    "func_uuid": "87606014-cb98-44b2-8dbb-e48f8ced1554",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "OCT2HEX",
+    "func_type": "Engineering",
+    "func_desc": "Converts an octal number to hexadecimal",
+    "func_uuid": "912175b4-d497-41b4-a029-221f051b858f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ODD",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Rounds a number up to the nearest odd integer",
+    "func_uuid": "deae64eb-e08a-4c88-8b40-6d0b42575c98",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ODDFPRICE",
+    "func_type": "Financial",
+    "func_desc": "Returns the price per $100 face value of a security with an odd first period",
+    "func_uuid": "d7d664a8-34df-4233-8d2b-922bcf6a69e1",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ODDFYIELD",
+    "func_type": "Financial",
+    "func_desc": "Returns the yield of a security with an odd first period",
+    "func_uuid": "66bc8b7b-6501-4c93-9ce3-2fd16220fe37",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ODDLPRICE",
+    "func_type": "Financial",
+    "func_desc": "Returns the price per $100 face value of a security with an odd last period",
+    "func_uuid": "fb657749-d200-4902-afaf-ed5445027fc4",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ODDLYIELD",
+    "func_type": "Financial",
+    "func_desc": "Returns the yield of a security with an odd last period",
+    "func_uuid": "c873d088-cf40-435f-8d41-c8232fee9238",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "OFFSET",
+    "func_type": "Lookup and reference",
+    "func_desc": "Returns a reference offset from a given reference",
+    "func_uuid": "c8de19ae-dd79-4b9b-a14e-b4d906d11b66",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "OR",
+    "func_type": "Logical",
+    "func_desc": "Returns TRUE if any argument is TRUE",
+    "func_uuid": "7d17ad14-8700-4281-b308-00b131e22af0",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "PDURATION",
+    "func_type": "Financial",
+    "func_desc": "Returns the number of periods required by an investment to reach a specified value",
+    "func_uuid": "44f33460-5be5-4c90-b857-22308892adaf",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "PEARSON",
+    "func_type": "Statistical",
+    "func_desc": "Returns the Pearson product moment correlation coefficient",
+    "func_uuid": "0c3e30fc-e5af-49c4-808a-3ef66e034c18",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "PERCENTILE.EXC",
+    "func_type": "Statistical",
+    "func_desc": "Returns the k-th percentile of values in a range, where k is in the range 0..1, exclusive",
+    "func_uuid": "bbaa7204-e9e1-4010-85bf-c31dc5dce4ba",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "PERCENTILE.INC",
+    "func_type": "Statistical",
+    "func_desc": "Returns the k-th percentile of values in a range",
+    "func_uuid": "680f9539-45eb-410b-9a5e-c1355e5fe2ed",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "PERCENTILE",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the k-th percentile of values in a range",
+    "func_uuid": "91b43a53-543c-4708-93de-d626debdddca",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "PERCENTOF",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Sums the values in the subset and divides it by all the values",
+    "func_uuid": "7c66da0a-ac30-45d0-bfc7-834a8bd7c962",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "PERCENTRANK.EXC",
+    "func_type": "Statistical",
+    "func_desc": "Returns the rank of a value in a data set as a percentage (0..1, exclusive) of the data set",
+    "func_uuid": "d8afee96-b7e2-4a2f-8c01-8fcdedaa6314",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "PERCENTRANK.INC",
+    "func_type": "Statistical",
+    "func_desc": "Returns the percentage rank of a value in a data set",
+    "func_uuid": "149592c9-00c0-49ba-86c1-c1f45b80463a",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "PERCENTRANK",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the percentage rank of a value in a data set",
+    "func_uuid": "f1b5836c-9619-4847-9fc9-080ec9024442",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "PERMUT",
+    "func_type": "Statistical",
+    "func_desc": "Returns the number of permutations for a given number of objects",
+    "func_uuid": "3bd1cb9a-2880-41ab-a197-f246a7a602d3",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "PERMUTATIONA",
+    "func_type": "Statistical",
+    "func_desc": "Returns the number of permutations for a given number of objects (with repetitions) that can be selected from the total objects",
+    "func_uuid": "6c7d7fdc-d657-44e6-aa19-2857b25cae4e",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "PHI",
+    "func_type": "Statistical",
+    "func_desc": "Returns the value of the density function for a standard normal distribution",
+    "func_uuid": "23e49bc6-a8e8-402d-98d3-9ded87f6295c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "PHONETIC",
+    "func_type": "Text",
+    "func_desc": "Extracts the phonetic (furigana) characters from a text string",
+    "func_uuid": "9a329dac-0c0f-42f8-9a55-639086988554",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "PI",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the value of pi",
+    "func_uuid": "264199d0-a3ba-46b8-975a-c4a04608989b",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "PIVOTBY",
+    "func_type": "Lookup and reference",
+    "func_desc": "Helps a user group, aggregate, sort, and filter data based on the row and column fields that you specify",
+    "func_uuid": "de86516a-90ad-4ced-8522-3a25fac389cf",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "PMT",
+    "func_type": "Financial",
+    "func_desc": "Returns the periodic payment for an annuity",
+    "func_uuid": "0214da64-9a63-4996-bc20-214433fa6441",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "POISSON.DIST",
+    "func_type": "Statistical",
+    "func_desc": "Returns the Poisson distribution",
+    "func_uuid": "8fe148ff-39a2-46cb-abf3-7772695d9636",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "POISSON",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the Poisson distribution",
+    "func_uuid": "d81f7294-9d7c-4f75-bc23-80aa8624173a",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "POWER",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the result of a number raised to a power",
+    "func_uuid": "d3f2908b-56f4-4c3f-895a-07fb519c362a",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "PPMT",
+    "func_type": "Financial",
+    "func_desc": "Returns the payment on the principal for an investment for a given period",
+    "func_uuid": "c370d9e3-7749-4ca4-beea-b06c6ac95e1b",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "PRICE",
+    "func_type": "Financial",
+    "func_desc": "Returns the price per $100 face value of a security that pays periodic interest",
+    "func_uuid": "3ea9deac-8dfa-436f-a7c8-17ea02c21b0a",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "PRICEDISC",
+    "func_type": "Financial",
+    "func_desc": "Returns the price per $100 face value of a discounted security",
+    "func_uuid": "d06ad7c1-380e-4be7-9fd9-75e3079acfd3",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "PRICEMAT",
+    "func_type": "Financial",
+    "func_desc": "Returns the price per $100 face value of a security that pays interest at maturity",
+    "func_uuid": "52c3b4da-bc7e-476a-989f-a95f675cae77",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "PROB",
+    "func_type": "Statistical",
+    "func_desc": "Returns the probability that values in a range are between two limits",
+    "func_uuid": "9ac30561-c81c-4259-8253-34f0a238fc49",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "PRODUCT",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Multiplies its arguments",
+    "func_uuid": "8e6b5b24-90ee-4650-aeec-80982a0512ce",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "PROPER",
+    "func_type": "Text",
+    "func_desc": "Capitalizes the first letter in each word of a text value",
+    "func_uuid": "52a5a283-e8b2-49be-8506-b2887b889f94",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "PV",
+    "func_type": "Financial",
+    "func_desc": "Returns the present value of an investment",
+    "func_uuid": "23879d31-0e02-4321-be01-da16e8168cbd",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "QUARTILE",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the quartile of a data set",
+    "func_uuid": "93cf8f62-60cd-4fdb-8a92-8451041e1a2a",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "QUARTILE.EXC",
+    "func_type": "Statistical",
+    "func_desc": "Returns the quartile of the data set, based on percentile values from 0..1, exclusive",
+    "func_uuid": "5a355b7a-840b-4a01-b0f1-f538c2864cad",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "QUARTILE.INC",
+    "func_type": "Statistical",
+    "func_desc": "Returns the quartile of a data set",
+    "func_uuid": "1bbacc80-5075-42f1-aed6-47d735c4819d",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "QUOTIENT",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the integer portion of a division",
+    "func_uuid": "9f7bf099-2a18-4282-8fa4-65290cc99dee",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "RADIANS",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Converts degrees to radians",
+    "func_uuid": "ac409508-3d48-45f5-ac02-1497c92de5bf",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "RAND",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns a random number between 0 and 1",
+    "func_uuid": "4cbfa695-8869-4788-8d90-021ea9f5be73",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "RANDARRAY",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns an array of random numbers between 0 and 1. However, you can specify the number of rows and columns to fill, minimum and maximum values, and whether to return whole numbers or decimal values.",
+    "func_uuid": "21261e55-3bec-4885-86a6-8b0a47fd4d33",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "RANDBETWEEN",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns a random number between the numbers you specify",
+    "func_uuid": "4cc7f0d1-87dc-4eb7-987f-a469ab381685",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "RANK.AVG",
+    "func_type": "Statistical",
+    "func_desc": "Returns the rank of a number in a list of numbers",
+    "func_uuid": "bd406a6f-eb38-4d73-aa8e-6d1c3c72e83a",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "RANK.EQ",
+    "func_type": "Statistical",
+    "func_desc": "Returns the rank of a number in a list of numbers",
+    "func_uuid": "284858ce-8ef6-450e-b662-26245be04a40",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "RANK",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the rank of a number in a list of numbers",
+    "func_uuid": "6a2fc49d-1831-4a03-9d8c-c279cf99f723",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "RATE",
+    "func_type": "Financial",
+    "func_desc": "Returns the interest rate per period of an annuity",
+    "func_uuid": "9f665657-4a7e-4bb7-a030-83fc59e748ce",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "RECEIVED",
+    "func_type": "Financial",
+    "func_desc": "Returns the amount received at maturity for a fully invested security",
+    "func_uuid": "7a3f8b93-6611-4f81-8576-828312c9b5e5",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "REDUCE",
+    "func_type": "Logical",
+    "func_desc": "Reduces an array to an accumulated value by applying a LAMBDA to each value and returning the total value in the accumulator",
+    "func_uuid": "42e39910-b345-45f3-84b8-0642b568b7cb",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "REGEXEXTRACT",
+    "func_type": "Text",
+    "func_desc": "Extracts strings within the provided text that matches the pattern",
+    "func_uuid": "4b96c140-9205-4b6e-9fbe-6aa9e783ff57",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "REGEXREPLACE",
+    "func_type": "Text",
+    "func_desc": "Replaces strings within the provided text that matches the pattern with replacement",
+    "func_uuid": "9c030bb2-5e47-4efc-bad5-4582d7100897",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "REGEXTEST",
+    "func_type": "Text",
+    "func_desc": "Determines whether any part of text matches the pattern",
+    "func_uuid": "7d38200b-5e5c-4196-b4e6-9bff73afbd31",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "REGISTER.ID",
+    "func_type": "Add-in and Automation",
+    "func_desc": "Returns the register ID of the specified dynamic link library (DLL) or code resource that has been previously registered",
+    "func_uuid": "f8f0af0f-fd66-4704-a0f2-87b27b175b50",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "REPLACE",
+    "func_type": "Text",
+    "func_desc": "Replaces characters within text",
+    "func_uuid": "8d799074-2425-4a8a-84bc-82472868878a",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "REPLACEB",
+    "func_type": "Text",
+    "func_desc": "Replaces characters within text",
+    "func_uuid": "8d799074-2425-4a8a-84bc-82472868878a",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "REPT",
+    "func_type": "Text",
+    "func_desc": "Repeats text a given number of times",
+    "func_uuid": "04c4d778-e712-43b4-9c15-d656582bb061",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "RIGHT",
+    "func_type": "Text",
+    "func_desc": "Returns the rightmost characters from a text value",
+    "func_uuid": "240267ee-9afa-4639-a02b-f19e1786cf2f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "RIGHTB",
+    "func_type": "Text",
+    "func_desc": "Returns the rightmost characters from a text value",
+    "func_uuid": "240267ee-9afa-4639-a02b-f19e1786cf2f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ROMAN",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Converts an arabic numeral to roman, as text",
+    "func_uuid": "d6b0b99e-de46-4704-a518-b45a0f8b56f5",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ROUND",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Rounds a number to a specified number of digits",
+    "func_uuid": "c018c5d8-40fb-4053-90b1-b3e7f61a213c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ROUNDDOWN",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Rounds a number down, toward zero",
+    "func_uuid": "2ec94c73-241f-4b01-8c6f-17e6d7968f53",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ROUNDUP",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Rounds a number up, away from zero",
+    "func_uuid": "f8bc9b23-e795-47db-8703-db171d0c42a7",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ROW",
+    "func_type": "Lookup and reference",
+    "func_desc": "Returns the row number of a reference",
+    "func_uuid": "3a63b74a-c4d0-4093-b49a-e76eb49a6d8d",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ROWS",
+    "func_type": "Lookup and reference",
+    "func_desc": "Returns the number of rows in a reference",
+    "func_uuid": "b592593e-3fc2-47f2-bec1-bda493811597",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "RRI",
+    "func_type": "Financial",
+    "func_desc": "Returns an equivalent interest rate for the growth of an investment",
+    "func_uuid": "6f5822d8-7ef1-4233-944c-79e8172930f4",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "RSQ",
+    "func_type": "Statistical",
+    "func_desc": "Returns the square of the Pearson product moment correlation coefficient",
+    "func_uuid": "d7161715-250d-4a01-b80d-a8364f2be08f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "RTD",
+    "func_type": "Lookup and reference",
+    "func_desc": "Retrieves real-time data from a program that supports COM automation",
+    "func_uuid": "e0cc001a-56f0-470a-9b19-9455dc0eb593",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SCAN",
+    "func_type": "Logical",
+    "func_desc": "Scans an array by applying a LAMBDA to each value and returns an array that has each intermediate value",
+    "func_uuid": "d58dfd11-9969-4439-b2dc-e7062724de29",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SEARCH",
+    "func_type": "Text",
+    "func_desc": "Finds one text value within another (not case-sensitive)",
+    "func_uuid": "9ab04538-0e55-4719-a72e-b6f54513b495",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SEARCHB",
+    "func_type": "Text",
+    "func_desc": "Finds one text value within another (not case-sensitive)",
+    "func_uuid": "9ab04538-0e55-4719-a72e-b6f54513b495",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SEC",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the secant of an angle",
+    "func_uuid": "ff224717-9c87-4170-9b58-d069ced6d5f7",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SECH",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the hyperbolic secant of an angle",
+    "func_uuid": "e05a789f-5ff7-4d7f-984a-5edb9b09556f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SECOND",
+    "func_type": "Date and time",
+    "func_desc": "Converts a serial number to a second",
+    "func_uuid": "740d1cfc-553c-4099-b668-80eaa24e8af1",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SEQUENCE",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Generates a list of sequential numbers in an array, such as 1, 2, 3, 4",
+    "func_uuid": "57467a98-57e0-4817-9f14-2eb78519ca90",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SERIESSUM",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the sum of a power series based on the formula",
+    "func_uuid": "a3ab25b5-1093-4f5b-b084-96c49087f637",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SHEET",
+    "func_type": "Information",
+    "func_desc": "Returns the sheet number of the referenced sheet",
+    "func_uuid": "44718b6f-8b87-47a1-a9d6-b701c06cff24",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SHEETS",
+    "func_type": "Information",
+    "func_desc": "Returns the number of sheets in a reference",
+    "func_uuid": "770515eb-e1e8-45ce-8066-b557e5e4b80b",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SIGN",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the sign of a number",
+    "func_uuid": "109c932d-fcdc-4023-91f1-2dd0e916a1d8",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SIN",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the sine of the given angle",
+    "func_uuid": "cf0e3432-8b9e-483c-bc55-a76651c95602",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SINH",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the hyperbolic sine of a number",
+    "func_uuid": "1e4e8b9f-2b65-43fc-ab8a-0a37f4081fa7",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SKEW",
+    "func_type": "Statistical",
+    "func_desc": "Returns the skewness of a distribution",
+    "func_uuid": "bdf49d86-b1ef-4804-a046-28eaea69c9fa",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SKEW.P",
+    "func_type": "Statistical",
+    "func_desc": "Returns the skewness of a distribution based on a population: a characterization of the degree of asymmetry of a distribution around its mean",
+    "func_uuid": "76530a5c-99b9-48a1-8392-26632d542fcb",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SLN",
+    "func_type": "Financial",
+    "func_desc": "Returns the straight-line depreciation of an asset for one period",
+    "func_uuid": "cdb666e5-c1c6-40a7-806a-e695edc2f1c8",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SLOPE",
+    "func_type": "Statistical",
+    "func_desc": "Returns the slope of the linear regression line",
+    "func_uuid": "11fb8f97-3117-4813-98aa-61d7e01276b9",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SMALL",
+    "func_type": "Statistical",
+    "func_desc": "Returns the k-th smallest value in a data set",
+    "func_uuid": "17da8222-7c82-42b2-961b-14c45384df07",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SORT",
+    "func_type": "Lookup and reference",
+    "func_desc": "Sorts the contents of a range or array",
+    "func_uuid": "22f63bd0-ccc8-492f-953d-c20e8e44b86c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SORTBY",
+    "func_type": "Lookup and reference",
+    "func_desc": "Sorts the contents of a range or array based on the values in a corresponding range or array",
+    "func_uuid": "cd2d7a62-1b93-435c-b561-d6a35134f28f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SQRT",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns a positive square root",
+    "func_uuid": "654975c2-05c4-4831-9a24-2c65e4040fdf",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SQRTPI",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the square root of (number * pi)",
+    "func_uuid": "1fb4e63f-9b51-46d6-ad68-b3e7a8b519b4",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "STANDARDIZE",
+    "func_type": "Statistical",
+    "func_desc": "Returns a normalized value",
+    "func_uuid": "81d66554-2d54-40ec-ba83-6437108ee775",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "STDEV",
+    "func_type": "Compatibility",
+    "func_desc": "Estimates standard deviation based on a sample",
+    "func_uuid": "51fecaaa-231e-4bbb-9230-33650a72c9b0",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "STDEV.P",
+    "func_type": "Statistical",
+    "func_desc": "Calculates standard deviation based on the entire population",
+    "func_uuid": "6e917c05-31a0-496f-ade7-4f4e7462f285",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "STDEV.S",
+    "func_type": "Statistical",
+    "func_desc": "Estimates standard deviation based on a sample",
+    "func_uuid": "7d69cf97-0c1f-4acf-be27-f3e83904cc23",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "STDEVA",
+    "func_type": "Statistical",
+    "func_desc": "Estimates standard deviation based on a sample, including numbers, text, and logical values",
+    "func_uuid": "5ff38888-7ea5-48de-9a6d-11ed73b29e9d",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "STDEVP",
+    "func_type": "Compatibility",
+    "func_desc": "Calculates standard deviation based on the entire population",
+    "func_uuid": "1f7c1c88-1bec-4422-8242-e9f7dc8bb195",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "STDEVPA",
+    "func_type": "Statistical",
+    "func_desc": "Calculates standard deviation based on the entire population, including numbers, text, and logical values",
+    "func_uuid": "5578d4d6-455a-4308-9991-d405afe2c28c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "STEYX",
+    "func_type": "Statistical",
+    "func_desc": "Returns the standard error of the predicted y-value for each x in the regression",
+    "func_uuid": "6ce74b2c-449d-4a6e-b9ac-f9cef5ba48ab",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "STOCKHISTORY",
+    "func_type": "Information",
+    "func_desc": "Retrieves historical data about a financial instrument and loads it as an array",
+    "func_uuid": "1ac8b5b3-5f62-4d94-8ab8-7504ec7239a8",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SUBSTITUTE",
+    "func_type": "Text",
+    "func_desc": "Substitutes new text for old text in a text string",
+    "func_uuid": "6434944e-a904-4336-a9b0-1e58df3bc332",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SUBTOTAL",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns a subtotal in a list or database",
+    "func_uuid": "7b027003-f060-4ade-9040-e478765b9939",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SUM",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Adds its arguments",
+    "func_uuid": "043e1c7d-7726-4e80-8f32-07b23e057f89",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SUMIF",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Adds the cells specified by a given criteria",
+    "func_uuid": "169b8c99-c05c-4483-a712-1697a653039b",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SUMIFS",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Adds the cells in a range that meet multiple criteria",
+    "func_uuid": "c9e748f5-7ea7-455d-9406-611cebce642b",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SUMPRODUCT",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the sum of the products of corresponding array components",
+    "func_uuid": "16753e75-9f68-4874-94ac-4d2145a2fd2e",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SUMSQ",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the sum of the squares of the arguments",
+    "func_uuid": "e3313c02-51cc-4963-aae6-31442d9ec307",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SUMX2MY2",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the sum of the difference of squares of corresponding values in two arrays",
+    "func_uuid": "9e599cc5-5399-48e9-a5e0-e37812dfa3e9",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SUMX2PY2",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the sum of the sum of squares of corresponding values in two arrays",
+    "func_uuid": "826b60b4-0aa2-4e5e-81d2-be704d3d786f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SUMXMY2",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the sum of squares of differences of corresponding values in two arrays",
+    "func_uuid": "9d144ac1-4d79-43de-b524-e2ecee23b299",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SWITCH",
+    "func_type": "Logical",
+    "func_desc": "Evaluates an expression against a list of values and returns the result corresponding to the first matching value. If there is no match, an optional default value may be returned.",
+    "func_uuid": "47ab33c0-28ce-4530-8a45-d532ec4aa25e",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "SYD",
+    "func_type": "Financial",
+    "func_desc": "Returns the sum-of-years' digits depreciation of an asset for a specified period",
+    "func_uuid": "069f8106-b60b-4ca2-98e0-2a0f206bdb27",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "T",
+    "func_type": "Text",
+    "func_desc": "Converts its arguments to text",
+    "func_uuid": "fb83aeec-45e7-4924-af95-53e073541228",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TAN",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the tangent of a number",
+    "func_uuid": "08851a40-179f-4052-b789-d7f699447401",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TANH",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Returns the hyperbolic tangent of a number",
+    "func_uuid": "017222f0-a0c3-4f69-9787-b3202295dc6c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TAKE",
+    "func_type": "Lookup and reference",
+    "func_desc": "Returns a specified number of contiguous rows or columns from the start or end of an array",
+    "func_uuid": "25382ff1-5da1-4f78-ab43-f33bd2e4e003",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TBILLEQ",
+    "func_type": "Financial",
+    "func_desc": "Returns the bond-equivalent yield for a Treasury bill",
+    "func_uuid": "2ab72d90-9b4d-4efe-9fc2-0f81f2c19c8c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TBILLPRICE",
+    "func_type": "Financial",
+    "func_desc": "Returns the price per $100 face value for a Treasury bill",
+    "func_uuid": "eacca992-c29d-425a-9eb8-0513fe6035a2",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TBILLYIELD",
+    "func_type": "Financial",
+    "func_desc": "Returns the yield for a Treasury bill",
+    "func_uuid": "6d381232-f4b0-4cd5-8e97-45b9c03468ba",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "T.DIST",
+    "func_type": "Statistical",
+    "func_desc": "Returns the Percentage Points (probability) for the Student t-distribution",
+    "func_uuid": "4329459f-ae91-48c2-bba8-1ead1c6c21b2",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "T.DIST.2T",
+    "func_type": "Statistical",
+    "func_desc": "Returns the Percentage Points (probability) for the Student t-distribution",
+    "func_uuid": "198e9340-e360-4230-bd21-f52f22ff5c28",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "T.DIST.RT",
+    "func_type": "Statistical",
+    "func_desc": "Returns the Student's t-distribution",
+    "func_uuid": "20a30020-86f9-4b35-af1f-7ef6ae683eda",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TDIST",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the Student's t-distribution",
+    "func_uuid": "630a7695-4021-4853-9468-4a1f9dcdd192",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TEXT",
+    "func_type": "Text",
+    "func_desc": "Formats a number and converts it to text",
+    "func_uuid": "20d5ac4d-7b94-49fd-bb38-93d29371225c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TEXTAFTER",
+    "func_type": "Text",
+    "func_desc": "Returns text that occurs after given character or string",
+    "func_uuid": "c8db2546-5b51-416a-9690-c7e6722e90b4",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TEXTBEFORE",
+    "func_type": "Text",
+    "func_desc": "Returns text that occurs before a given character or string",
+    "func_uuid": "d099c28a-dba8-448e-ac6c-f086d0fa1b29",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TEXTJOIN",
+    "func_type": "Text",
+    "func_desc": "Combines the text from multiple ranges and/or strings",
+    "func_uuid": "357b449a-ec91-49d0-80c3-0e8fc845691c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TEXTSPLIT",
+    "func_type": "Text",
+    "func_desc": "Splits text strings by using column and row delimiters",
+    "func_uuid": "b1ca414e-4c21-4ca0-b1b7-bdecace8a6e7",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TIME",
+    "func_type": "Date and time",
+    "func_desc": "Returns the serial number of a particular time",
+    "func_uuid": "9a5aff99-8f7d-4611-845e-747d0b8d5457",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TIMEVALUE",
+    "func_type": "Date and time",
+    "func_desc": "Converts a time in the form of text to a serial number",
+    "func_uuid": "0b615c12-33d8-4431-bf3d-f3eb6d186645",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "T.INV",
+    "func_type": "Statistical",
+    "func_desc": "Returns the t-value of the Student's t-distribution as a function of the probability and the degrees of freedom",
+    "func_uuid": "2908272b-4e61-4942-9df9-a25fec9b0e2e",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "T.INV.2T",
+    "func_type": "Statistical",
+    "func_desc": "Returns the inverse of the Student's t-distribution",
+    "func_uuid": "ce72ea19-ec6c-4be7-bed2-b9baf2264f17",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TINV",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the inverse of the Student's t-distribution",
+    "func_uuid": "a7c85b9d-90f5-41fe-9ca5-1cd2f3e1ed7c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TOCOL",
+    "func_type": "Lookup and reference",
+    "func_desc": "Returns the array in a single column",
+    "func_uuid": "22839d9b-0b55-4fc1-b4e6-2761f8f122ed",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TOROW",
+    "func_type": "Lookup and reference",
+    "func_desc": "Returns the array in a single row",
+    "func_uuid": "b90d0964-a7d9-44b7-816b-ffa5c2fe2289",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TODAY",
+    "func_type": "Date and time",
+    "func_desc": "Returns the serial number of today's date",
+    "func_uuid": "5eb3078d-a82c-4736-8930-2f51a028fdd9",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TRANSLATE",
+    "func_type": "Text",
+    "func_desc": "Translates a text from one language to another",
+    "func_uuid": "d34f71c7-2ffe-409a-9a63-5eb5e91aa3dd",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TRANSPOSE",
+    "func_type": "Lookup and reference",
+    "func_desc": "Returns the transpose of an array",
+    "func_uuid": "ed039415-ed8a-4a81-93e9-4b6dfac76027",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TREND",
+    "func_type": "Statistical",
+    "func_desc": "Returns values along a linear trend",
+    "func_uuid": "e2f135f0-8827-4096-9873-9a7cf7b51ef1",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TRIM",
+    "func_type": "Text",
+    "func_desc": "Removes spaces from text",
+    "func_uuid": "410388fa-c5df-49c6-b16c-9e5630b479f9",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TRIMMEAN",
+    "func_type": "Statistical",
+    "func_desc": "Returns the mean of the interior of a data set",
+    "func_uuid": "d90c9878-a119-4746-88fa-63d988f511d3",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TRIMRANGE",
+    "func_type": "Lookup and reference",
+    "func_desc": "Scans in from the edges of a range or array until it finds a non-blank cell (or value), it then excludes those blank rows or columns",
+    "func_uuid": "d7812248-3bc5-4c6b-901c-1afa9564f999",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TRUE",
+    "func_type": "Logical",
+    "func_desc": "Returns the logical value TRUE",
+    "func_uuid": "7652c6e3-8987-48d0-97cd-ef223246b3fb",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TRUNC",
+    "func_type": "Math and trigonometry",
+    "func_desc": "Truncates a number to an integer",
+    "func_uuid": "8b86a64c-3127-43db-ba14-aa5ceb292721",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "T.TEST",
+    "func_type": "Statistical",
+    "func_desc": "Returns the probability associated with a Student's t-test",
+    "func_uuid": "d4e08ec3-c545-485f-962e-276f7cbed055",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TTEST",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the probability associated with a Student's t-test",
+    "func_uuid": "1696ffc1-4811-40fd-9d13-a0eaad83c7ae",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "TYPE",
+    "func_type": "Information",
+    "func_desc": "Returns a number indicating the data type of a value",
+    "func_uuid": "45b4e688-4bc3-48b3-a105-ffa892995899",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "UNICHAR",
+    "func_type": "Text",
+    "func_desc": "Returns the Unicode character that is references by the given numeric value",
+    "func_uuid": "ffeb64f5-f131-44c6-b332-5cd72f0659b8",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "UNICODE",
+    "func_type": "Text",
+    "func_desc": "Returns the number (code point) that corresponds to the first character of the text",
+    "func_uuid": "adb74aaa-a2a5-4dde-aff6-966e4e81f16f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "UNIQUE",
+    "func_type": "Lookup and reference",
+    "func_desc": "Returns a list of unique values in a list or range",
+    "func_uuid": "c5ab87fd-30a3-4ce9-9d1a-40204fb85e1e",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "UPPER",
+    "func_type": "Text",
+    "func_desc": "Converts text to uppercase",
+    "func_uuid": "c11f29b3-d1a3-4537-8df6-04d0049963d6",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "VALUE",
+    "func_type": "Text",
+    "func_desc": "Converts a text argument to a number",
+    "func_uuid": "257d0108-07dc-437d-ae1c-bc2d3953d8c2",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "VALUETOTEXT",
+    "func_type": "Text",
+    "func_desc": "Returns text from any specified value",
+    "func_uuid": "5fff61a2-301a-4ab2-9ffa-0a5242a08fea",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "VAR",
+    "func_type": "Compatibility",
+    "func_desc": "Estimates variance based on a sample",
+    "func_uuid": "1f2b7ab2-954d-4e17-ba2c-9e58b15a7da2",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "VAR.P",
+    "func_type": "Statistical",
+    "func_desc": "Calculates variance based on the entire population",
+    "func_uuid": "73d1285c-108c-4843-ba5d-a51f90656f3a",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "VAR.S",
+    "func_type": "Statistical",
+    "func_desc": "Estimates variance based on a sample",
+    "func_uuid": "913633de-136b-449d-813e-65a00b2b990b",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "VARA",
+    "func_type": "Statistical",
+    "func_desc": "Estimates variance based on a sample, including numbers, text, and logical values",
+    "func_uuid": "3de77469-fa3a-47b4-85fd-81758a1e1d07",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "VARP",
+    "func_type": "Compatibility",
+    "func_desc": "Calculates variance based on the entire population",
+    "func_uuid": "26a541c4-ecee-464d-a731-bd4c575b1a6b",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "VARPA",
+    "func_type": "Statistical",
+    "func_desc": "Calculates variance based on the entire population, including numbers, text, and logical values",
+    "func_uuid": "59a62635-4e89-4fad-88ac-ce4dc0513b96",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "VDB",
+    "func_type": "Financial",
+    "func_desc": "Returns the depreciation of an asset for a specified or partial period by using a declining balance method",
+    "func_uuid": "dde4e207-f3fa-488d-91d2-66d55e861d73",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "VLOOKUP",
+    "func_type": "Lookup and reference",
+    "func_desc": "Looks in the first column of an array and moves across the row to return the value of a cell",
+    "func_uuid": "0bbc8083-26fe-4963-8ab8-93a18ad188a1",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "VSTACK",
+    "func_type": "Look and reference",
+    "func_desc": "Appends arrays vertically and in sequence to return a larger array",
+    "func_uuid": "a4b86897-be0f-48fc-adca-fcc10d795a9c",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "WEBSERVICE",
+    "func_type": "Web",
+    "func_desc": "Returns data from a web service.This function is not available in Excel for the web.",
+    "func_uuid": "0546a35a-ecc6-4739-aed7-c0b7ce1562c4",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "WEEKDAY",
+    "func_type": "Date and time",
+    "func_desc": "Converts a serial number to a day of the week",
+    "func_uuid": "60e44483-2ed1-439f-8bd0-e404c190949a",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "WEEKNUM",
+    "func_type": "Date and time",
+    "func_desc": "Converts a serial number to a number representing where the week falls numerically with a year",
+    "func_uuid": "e5c43a03-b4ab-426c-b411-b18c13c75340",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "WEIBULL",
+    "func_type": "Compatibility",
+    "func_desc": "Calculates variance based on the entire population, including numbers, text, and logical values",
+    "func_uuid": "b83dc2c6-260b-4754-bef2-633196f6fdcc",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "WEIBULL.DIST",
+    "func_type": "Statistical",
+    "func_desc": "Returns the Weibull distribution",
+    "func_uuid": "4e783c39-9325-49be-bbc9-a83ef82b45db",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "WORKDAY",
+    "func_type": "Date and time",
+    "func_desc": "Returns the serial number of the date before or after a specified number of workdays",
+    "func_uuid": "f764a5b7-05fc-4494-9486-60d494efbf33",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "WORKDAY.INTL",
+    "func_type": "Date and time",
+    "func_desc": "Returns the serial number of the date before or after a specified number of workdays using parameters to indicate which and how many days are weekend days",
+    "func_uuid": "a378391c-9ba7-4678-8a39-39611a9bf81d",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "WRAPCOLS",
+    "func_type": "Look and reference",
+    "func_desc": "Wraps the provided row or column of values by columns after a specified number of elements",
+    "func_uuid": "d038b05a-57b7-4ee0-be94-ded0792511e2",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "WRAPROWS",
+    "func_type": "Look and reference",
+    "func_desc": "Wraps the provided row or column of values by rows after a specified number of elements",
+    "func_uuid": "796825f3-975a-4cee-9c84-1bbddf60ade0",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "XIRR",
+    "func_type": "Financial",
+    "func_desc": "Returns the internal rate of return for a schedule of cash flows that is not necessarily periodic",
+    "func_uuid": "de1242ec-6477-445b-b11b-a303ad9adc9d",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "XLOOKUP",
+    "func_type": "Lookup and reference",
+    "func_desc": "Searches a range or an array, and returns an item corresponding to the first match it finds. If a match doesn't exist, then XLOOKUP can return the closest (approximate) match.",
+    "func_uuid": "b7fd680e-6d10-43e6-84f9-88eae8bf5929",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "XMATCH",
+    "func_type": "Lookup and reference",
+    "func_desc": "Returns the relative position of an item in an array or range of cells.",
+    "func_uuid": "d966da31-7a6b-4a13-a1c6-5a33ed6a0312",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "XNPV",
+    "func_type": "Financial",
+    "func_desc": "Returns the net present value for a schedule of cash flows that is not necessarily periodic",
+    "func_uuid": "1b42bbf6-370f-4532-a0eb-d67c16b664b7",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "XOR",
+    "func_type": "Logical",
+    "func_desc": "Returns a logical exclusive OR of all arguments",
+    "func_uuid": "1548d4c2-5e47-4f77-9a92-0533bba14f37",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "YEAR",
+    "func_type": "Date and time",
+    "func_desc": "Converts a serial number to a year",
+    "func_uuid": "c64f017a-1354-490d-981f-578e8ec8d3b9",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "YEARFRAC",
+    "func_type": "Date and time",
+    "func_desc": "Returns the year fraction representing the number of whole days between start_date and end_date",
+    "func_uuid": "3844141e-c76d-4143-82b6-208454ddc6a8",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "YIELD",
+    "func_type": "Financial",
+    "func_desc": "Returns the yield on a security that pays periodic interest",
+    "func_uuid": "f5f5ca43-c4bd-434f-8bd2-ed3c9727a4fe",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "YIELDDISC",
+    "func_type": "Financial",
+    "func_desc": "Returns the annual yield for a discounted security; for example, a Treasury bill",
+    "func_uuid": "a9dbdbae-7dae-46de-b995-615faffaaed7",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "YIELDMAT",
+    "func_type": "Financial",
+    "func_desc": "Returns the annual yield of a security that pays interest at maturity",
+    "func_uuid": "ba7d1809-0d33-4bcb-96c7-6c56ec62ef6f",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "Z.TEST",
+    "func_type": "Statistical",
+    "func_desc": "Returns the one-tailed probability-value of a z-test",
+    "func_uuid": "d633d5a3-2031-4614-a016-92180ad82bee",
+    "func_applies": "",
+    "func_syntax": ""
+  },
+  {
+    "func_name": "ZTEST",
+    "func_type": "Compatibility",
+    "func_desc": "Returns the one-tailed probability-value of a z-test",
+    "func_uuid": "8f33be8a-6bd6-4ecc-8e3a-d9a4420c4a6a",
+    "func_applies": "",
+    "func_syntax": ""
+  }
+]
