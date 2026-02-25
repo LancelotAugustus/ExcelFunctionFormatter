@@ -92,3 +92,4 @@ Closes #45
     - `cache`: 缓存
     - `data`: 数据
     - `excode`: 探索性代码
+    - `note`: 手册
