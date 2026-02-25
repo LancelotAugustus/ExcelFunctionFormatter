@@ -1467,7 +1467,7 @@
     "func_name": "FORECAST.ETS",
     "func_type": "Statistical",
     "func_desc": "Returns a future value based on existing (historical) values by using the AAA version of the Exponential Smoothing (ETS) algorithm",
-    "func_uuid": "897a2fe9-6595-4680-a0b0-93e0308d5f6e",
+    "func_uuid": "15389b8b-677e-4fbd-bd95-21d464333f41",
     "func_applies": "",
     "func_syntax": ""
   },
@@ -1475,7 +1475,7 @@
     "func_name": "FORECAST.ETS.CONFINT",
     "func_type": "Statistical",
     "func_desc": "Returns a confidence interval for the forecast value at the specified target date",
-    "func_uuid": "897a2fe9-6595-4680-a0b0-93e0308d5f6e",
+    "func_uuid": "6d4a7557-11fa-4678-9e6a-dbcc31a7c7df",
     "func_applies": "",
     "func_syntax": ""
   },
@@ -1483,7 +1483,7 @@
     "func_name": "FORECAST.ETS.SEASONALITY",
     "func_type": "Statistical",
     "func_desc": "Returns the length of the repetitive pattern Excel detects for the specified time series",
-    "func_uuid": "897a2fe9-6595-4680-a0b0-93e0308d5f6e",
+    "func_uuid": "32a27a3b-d22f-42ce-8c5d-ef3649269f3c",
     "func_applies": "",
     "func_syntax": ""
   },
@@ -1491,7 +1491,7 @@
     "func_name": "FORECAST.ETS.STAT",
     "func_type": "Statistical",
     "func_desc": "Returns a statistical value as a result of time series forecasting",
-    "func_uuid": "897a2fe9-6595-4680-a0b0-93e0308d5f6e",
+    "func_uuid": "60f2ae14-d0cf-465e-9736-625ccaaa60b4",
     "func_applies": "",
     "func_syntax": ""
   },
@@ -1499,7 +1499,7 @@
     "func_name": "FORECAST.LINEAR",
     "func_type": "Statistical",
     "func_desc": "Returns a future value based on existing values",
-    "func_uuid": "897a2fe9-6595-4680-a0b0-93e0308d5f6e",
+    "func_uuid": "50ca49c9-7b40-4892-94e4-7ad38bbeda99",
     "func_applies": "",
     "func_syntax": ""
   },
