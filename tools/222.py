@@ -13,45 +13,23 @@ def make_url(uuid):
 def test():
     data = load_json("excel_functions.json")
     times = 1
-    aaaa = 0
     for item in data:
         name = item.get("func_name")
         uuid = item.get("func_uuid")
         soup = build_soup(uuid, make_url)
 
         text_node = soup.find(string=re.compile("Syntax"))
-        if text_node:
-            syntax_div = text_node.parent
-            # print(syntax_div)
-        else:
-            print("=" * 60)
-            print(f"{times}. {name}: ")
-            aaaa += 1
-            pass
-
+        syntax_div = text_node.parent.parent
+        current = syntax_div
+        while current.parent and current.parent.name != '[document]':
+            for sibling in current.find_previous_siblings():
+                sibling.decompose()
+            current.parent.unwrap()
+        print(f"{times}. {name}:")
+        print(f"{current}")
+        print("="*60)
 
         times += 1
-    print(f"一共{aaaa}个未处理")
-
-
-
-def local_test():
-    uuid = "8f8ae884-2ca8-4f7a-b093-75d702bea31d"
-    soup = build_soup(uuid, make_url)
-
-    syntax_div = soup.find(['div', 'h2', 'b', 'p'], string=re.compile("Syntax"))
-    print(syntax_div)
-
-    if syntax_div:
-        # current = syntax_div
-        # while current.parent and current.parent.name != '[document]':
-        #     for sibling in current.find_previous_siblings():
-        #         sibling.decompose()
-        #     current.parent.unwrap()
-        # print(f"{times}. {name}: Processed")
-        pass
-    else:
-        pass
 
 
 
