@@ -24,22 +24,13 @@ def _extract_excel_function_info(soup):
         func_type = cols[1].find('b').get_text(strip=True)[: -1]
         func_desc = cols[1].get_text(strip=True)[len(func_type) + 1:]
         func_href = cols[0].find('a').get('href')
-        func_uuid = UUID_PATTERN.search(func_href).group()
+
+        if func_names[0] in SPECIAL_UUID_MAP:
+            func_uuid = SPECIAL_UUID_MAP.get(func_names[0])
+        else:
+            func_uuid = UUID_PATTERN.search(func_href).group()
 
         for func_name in func_names:
-            # if func_name in SPECIAL_UUID_MAP:
-            #     func_uuid = SPECIAL_UUID_MAP.get(func_name)
-            if func_name == 'FORECAST.ETS':
-                func_uuid = '15389b8b-677e-4fbd-bd95-21d464333f41'
-            if func_name == 'FORECAST.ETS.CONFINT':
-                func_uuid = '6d4a7557-11fa-4678-9e6a-dbcc31a7c7df'
-            if func_name == 'FORECAST.ETS.SEASONALITY':
-                func_uuid = '32a27a3b-d22f-42ce-8c5d-ef3649269f3c'
-            if func_name == 'FORECAST.ETS.STAT':
-                func_uuid = '60f2ae14-d0cf-465e-9736-625ccaaa60b4'
-            if func_name == 'FORECAST.LINEAR':
-                func_uuid = '50ca49c9-7b40-4892-94e4-7ad38bbeda99'
-
             yield func_name, func_type, func_desc, func_uuid
 
 
