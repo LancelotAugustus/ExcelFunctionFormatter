@@ -280,7 +280,7 @@
     "func_syntax": ""
   },
   {
-    "func_name": "BETA.INVn",
+    "func_name": "BETA.INV",
     "func_type": "Statistical",
     "func_desc": "Returns the inverse of the cumulative distribution function for a specified beta distribution",
     "func_uuid": "e84cb8aa-8df0-4cf6-9892-83a341d252eb",
