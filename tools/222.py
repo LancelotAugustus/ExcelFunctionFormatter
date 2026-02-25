@@ -13,6 +13,7 @@ def make_url(uuid):
 def test():
     data = load_json("excel_functions.json")
     times = 1
+    a = 0
     for item in data:
         name = item.get("func_name")
         uuid = item.get("func_uuid")
@@ -25,12 +26,24 @@ def test():
             for sibling in current.find_previous_siblings():
                 sibling.decompose()
             current.parent.unwrap()
-        print(f"{times}. {name}:")
-        print(f"{current}")
-        print("="*60)
+
+        result = current.find(string=re.compile(name))
+
+        if result:
+            # print(f"{times}. {name}:")
+            # print(f"{result}")
+            # print("="*60)
+            pass
+        else:
+            a += 1
+            print(f"{times}. {name}:")
+            print(f"{current}")
+            print("="*60)
+            pass
+
 
         times += 1
-
+    print(a)
 
 
 
