@@ -2,7 +2,8 @@ import json
 from dataclasses import asdict
 
 from excel_function import ExcelFunction
-from config import BASE_DOMAIN, LANGUAGE_CODE, PRODUCT_SEGMENT, EXCEL_FUNCTIONS_UUID, UUID_PATTERN, SPECIAL_UUID_MAP
+from config import SPECIAL_NAME_MAP, SPECIAL_UUID_MAP
+from config import BASE_DOMAIN, LANGUAGE_CODE, PRODUCT_SEGMENT, EXCEL_FUNCTIONS_UUID, UUID_PATTERN
 from utils.crawler import load_json, build_url, save_json
 from utils.scraper import build_soup
 
@@ -24,13 +25,15 @@ def _extract_excel_function_info(soup):
         func_type = cols[1].find('b').get_text(strip=True)[: -1]
         func_desc = cols[1].get_text(strip=True)[len(func_type) + 1:]
         func_href = cols[0].find('a').get('href')
+        func_uuid = UUID_PATTERN.search(func_href).group()
 
         for func_name in func_names:
+            # Special name
+            if func_name in SPECIAL_NAME_MAP:
+                func_name = SPECIAL_NAME_MAP.get(func_name)
             # Special uuid
             if func_name in SPECIAL_UUID_MAP:
                 func_uuid = SPECIAL_UUID_MAP.get(func_name)
-            else:
-                func_uuid = UUID_PATTERN.search(func_href).group()
 
             yield func_name, func_type, func_desc, func_uuid
 
