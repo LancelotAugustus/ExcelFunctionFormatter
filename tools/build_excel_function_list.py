@@ -25,12 +25,13 @@ def _extract_excel_function_info(soup):
         func_desc = cols[1].get_text(strip=True)[len(func_type) + 1:]
         func_href = cols[0].find('a').get('href')
 
-        if func_names[0] in SPECIAL_UUID_MAP:
-            func_uuid = SPECIAL_UUID_MAP.get(func_names[0])
-        else:
-            func_uuid = UUID_PATTERN.search(func_href).group()
-
         for func_name in func_names:
+            # Special uuid
+            if func_name in SPECIAL_UUID_MAP:
+                func_uuid = SPECIAL_UUID_MAP.get(func_name)
+            else:
+                func_uuid = UUID_PATTERN.search(func_href).group()
+
             yield func_name, func_type, func_desc, func_uuid
 
 
