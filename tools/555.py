@@ -3,6 +3,7 @@ import re
 from utils.crawler import build_url, load_json, load_html, fetch_soup, save_html
 from utils.scraper import build_soup
 from config import BASE_DOMAIN, LANGUAGE_CODE, PRODUCT_SEGMENT, EXCEL_FUNCTIONS_UUID
+from config import SPECIAL_SYNTAX_MAP
 
 
 def make_url(uuid):
@@ -30,40 +31,53 @@ def test():
         if combined_text[0] == ":":
             combined_text = combined_text[1:].strip()
 
-        # 在这里应该检查一次是否存在双语法情况
-        if combined_text.startswith(name[: -1]):
-            pass
-        elif combined_text.startswith("="):
-            pass
-        else:
-            print(f"{times}. {name}")
-            print(combined_text[: 500])
-            print("=" * 60)
+        # 将所有name文本转为大写
+        pattern = re.compile(re.escape(name), re.IGNORECASE)
+        combined_text = pattern.sub(lambda m: m.group(0).upper(), combined_text)
+
+        # 找到所有name文本，移除两端空格
+        pattern = re.compile(r'\s*' + re.escape(name) + r'\s*', re.IGNORECASE)
+        combined_text = pattern.sub(name, combined_text)
+
+        # 找到所有name+左括号文本，移除所有在此之前的内容，注意保留if，这是为了'XXXB'服务的
+        pattern = re.compile(re.escape(name) + r'\(', re.IGNORECASE)
+        match = pattern.search(combined_text)
+        if match:
+            combined_text = combined_text[match.start():]
+
+        # 移除所有右括号之后的文本
+        right_paren_index = combined_text.find(')')
+        combined_text = combined_text[:right_paren_index + 1]
+
+        # 如果有两个连续的左括号，替换为一个左括号
+        combined_text = re.sub(r'\(\(', '(', combined_text)
+
+        # 移除所有空格
+        combined_text = combined_text.replace(' ', '')
+        combined_text = combined_text.replace('\xa0', '')
+
+        # 如果包含子串'lambda('，则在结尾补充一个右括号
+        if 'lambda(' in combined_text:
+            combined_text += ')'
+
+        # 如果'['前面不为英文逗号和(，则在'['前面增加一个英文逗号
+        combined_text = re.sub(r'(?<!\[),(?=\[)', '', combined_text)
+        combined_text = re.sub(r'(?<![(,])\[', ',[', combined_text)
+
+        # 将所有括号内的英文变为小写
+        combined_text = re.sub(r'\(([^()]*)\)', lambda m: '(' + m.group(1).lower() + ')', combined_text)
+
+        # 将所有的-替换为_
+        combined_text = combined_text.replace('-', '_')
+
+        # 将所有的defaultorvalue替换为default_or_value
+        combined_text = combined_text.replace('defaultorvalue', 'default_or_value')
 
 
 
-        # # 将所有name文本转为大写
-        # pattern = re.compile(re.escape(name), re.IGNORECASE)
-        # combined_text = pattern.sub(lambda m: m.group(0).upper(), combined_text)
-        #
-        # # 找到所有name文本，移除两端空格
-        # pattern = re.compile(r'\s*' + re.escape(name) + r'\s*', re.IGNORECASE)
-        # combined_text = pattern.sub(name, combined_text)
-        #
-        # # 找到所有name+左括号文本，移除所有在此之前的内容，注意保留if，这是为了'XXXB'服务的
-        # pattern = re.compile(re.escape(name) + r'\(', re.IGNORECASE)
-        # match = pattern.search(combined_text)
-        # if match:
-        #     combined_text = combined_text[match.start():]
-        #
-        # # 移除所有右括号之后的文本
-        # right_paren_index = combined_text.find(')')
-        # combined_text = combined_text[:right_paren_index + 1]
-        
-
-        # print(f"{times}. {name}")
-        # print(combined_text)
-        # print("=" * 60)
+        print(f"{times}. {name}")
+        print(combined_text)
+        print("-" * 60)
 
 
 
