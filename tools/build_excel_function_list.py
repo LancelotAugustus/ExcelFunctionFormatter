@@ -45,7 +45,8 @@ def _extract_excel_function_detail(soup):
         func_apply = span.get_text(strip=True)
         func_applies.append(func_apply)
 
-    return func_applies
+    func_syntax = ['']
+    return func_applies, func_syntax
 
 
 def _build_excel_function_list():
@@ -53,11 +54,14 @@ def _build_excel_function_list():
 
     functions = []
     for func_name, func_type, func_desc, func_uuid in _extract_excel_function_info(soup):
+        func_applies, func_syntax = _extract_excel_function_detail(soup)
         excel_function = ExcelFunction(
             func_name=func_name,
             func_type=func_type,
             func_desc=func_desc,
-            func_uuid=func_uuid
+            func_uuid=func_uuid,
+            func_applies=func_applies,
+            func_syntax=func_syntax
         )
         functions.append(excel_function)
 
