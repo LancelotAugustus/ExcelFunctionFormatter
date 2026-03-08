@@ -35,5 +35,13 @@ SPECIAL_SYNTAX_MAP = \
             [
                 'INDEX(array, row_num, [column_num])',
                 'INDEX(reference, row_num, [column_num], [area_num])'
+            ],
+        'FLOOR.MATH':
+            [
+                'FLOOR.MATH(number,[significance],[mode])'
+            ],
+        'SWITCH':
+            [
+                'SWITCH(expression,value1,result1,[value2,result2],...,[default])'
             ]
     }
