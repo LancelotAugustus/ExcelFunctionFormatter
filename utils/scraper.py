@@ -1,3 +1,4 @@
+import re
 from bs4 import BeautifulSoup
 from pathlib import Path
 
@@ -21,3 +22,9 @@ def build_soup(identifier, url_maker):
         soup = fetch_soup(url)
         save_html(soup, file_path)
     return soup
+
+
+def get_text(soup):
+    text = soup.get_text(separator=' ', strip=True)
+    text = re.sub(r'\s+', ' ', text)
+    return text
