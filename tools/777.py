@@ -75,8 +75,11 @@ def test():
         func_name = item.get("func_name")
         func_uuid = item.get("func_uuid")
 
-        syntax_string = _get_syntax_string(func_name, func_uuid)
-        syntax_string = _clean_syntax_string(syntax_string)
+        if func_name in SPECIAL_SYNTAX_MAP:
+            syntax_string = SPECIAL_SYNTAX_MAP[func_name]
+        else:
+            syntax_string = _get_syntax_string(func_name, func_uuid)
+            syntax_string = _clean_syntax_string(syntax_string)
 
         print(f"{times}. {func_name}")
         print(syntax_string)
