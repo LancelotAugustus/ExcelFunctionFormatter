@@ -44,42 +44,33 @@ def test():
         match = pattern.search(combined_text)
         if match:
             combined_text = combined_text[match.start():]
+        else:
+            paren_index = combined_text.find('(')
+            combined_text = name + combined_text[paren_index:]
 
         # 移除所有右括号之后的文本
         right_paren_index = combined_text.find(')')
         combined_text = combined_text[:right_paren_index + 1]
 
-        # 替换相关
-        combined_text = combined_text.replace('((', '(')  # 将所有的双左括号替换为左括号
-        combined_text = combined_text.replace('-', '_') # 将所有的-替换为_
-        combined_text = combined_text.replace('default or value', 'default_or_value') # 将所有的default or value替换为default_or_value
-        combined_text = combined_text.replace(' ', '') # 移除所有空格
-        combined_text = combined_text.replace('\xa0', '') # 移除所有空格
-        combined_text = combined_text.replace('…', '...') # 替换所有错误的省略号
-        combined_text = combined_text.replace(',...', '...') # 省略号前面加逗号
-        combined_text = combined_text.replace('...', ',...') # 省略号前面加逗号
-        combined_text = combined_text.replace('...,', '...') # 省略号后面去掉逗号
-
         # 如果包含子串'lambda('，则在结尾补充一个右括号
         if 'lambda(' in combined_text:
             combined_text += ')'
 
-        # 如果'['前面不为英文逗号和(，则在'['前面增加一个英文逗号
+        # 替换相关
+        combined_text = combined_text.replace('((', '(')
+        combined_text = combined_text.replace('-', '_')
+        combined_text = combined_text.replace(' ', '')
+        combined_text = combined_text.replace('\xa0', '')
+        combined_text = combined_text.replace('…', '...')
+        combined_text = combined_text.replace(',...', '...')
+        combined_text = combined_text.replace('...', ',...')
+        combined_text = combined_text.replace('...,', '...')
+
+        # re.sub
         combined_text = re.sub(r'(?<!\[),(?=\[)', '', combined_text)
         combined_text = re.sub(r'(?<![(,])\[', ',[', combined_text)
-
-        # 如果一个]后面不为)且不为,    则补充,
         combined_text = re.sub(r'](?![),])', '],', combined_text)
-
-        # 将所有括号内的英文变为小写
-        combined_text = re.sub(r'\(([^()]*)\)', lambda m: '(' + m.group(1).lower() + ')', combined_text)
-
-        # 如果前len(name)个字符和name不完全相同，则将第一个'('前的所有字符替换为name
-        if combined_text[:len(name)].lower() != name.lower():
-            paren_index = combined_text.find('(')
-            if paren_index != -1:
-                combined_text = name + combined_text[paren_index:]
-
+        combined_text = re.sub(r'\(([^()]*)\)', lambda m: m.group().lower(), combined_text)
 
         print(f"{times}. {name}")
         print(combined_text)

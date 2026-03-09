@@ -14,72 +14,41 @@ def make_url(uuid):
 def test():
     data = load_json("excel_functions.json")
     for times, item in enumerate(data, 1):
-        name = item.get("func_name")
-        uuid = item.get("func_uuid")
+        name = item["func_name"]
+        uuid = item["func_uuid"]
         soup = build_soup(uuid, make_url)
 
-        # 合并为空格分割的长字符串
         all_text = soup.get_text(separator=' ', strip=True)
-        text_lines = all_text.split('\n')
-        combined_text = ''.join(text_lines)
+        combined_text = ''.join(all_text.split('\n'))
 
-        # 找到第一个‘ Syntax ’移除掉所有在此之前的内容，并移除两端空格
         syntax_index = combined_text.find('Syntax')
-        combined_text = combined_text[syntax_index + 6:].strip()
+        combined_text = combined_text[syntax_index + 6:].lstrip()
+        combined_text = combined_text[1:].lstrip() if combined_text[0] == ":" else combined_text
 
-        # 如果首个字符为‘:'，则移除它
-        if combined_text[0] == ":":
-            combined_text = combined_text[1:].strip()
+        combined_text = re.sub(re.escape(name), lambda m: m.group().upper(), combined_text, flags=re.IGNORECASE)
+        combined_text = re.sub(r'\s*' + re.escape(name) + r'\s*', name, combined_text, flags=re.IGNORECASE)
 
-        # 将所有name文本转为大写
-        pattern = re.compile(re.escape(name), re.IGNORECASE)
-        combined_text = pattern.sub(lambda m: m.group(0).upper(), combined_text)
-
-        # 找到所有name文本，移除两端空格
-        pattern = re.compile(r'\s*' + re.escape(name) + r'\s*', re.IGNORECASE)
-        combined_text = pattern.sub(name, combined_text)
-
-        # 找到第一个前面不为the的{name}(，移除所有在此之前的内容
         pattern = re.compile(r'(?<!the)' + re.escape(name) + r'\(', re.IGNORECASE)
         match = pattern.search(combined_text)
         if match:
             combined_text = combined_text[match.start():]
+        else:
+            combined_text = name + combined_text[combined_text.find('('):]
 
-        # 移除所有右括号之后的文本
-        right_paren_index = combined_text.find(')')
-        combined_text = combined_text[:right_paren_index + 1]
+        combined_text = combined_text[:combined_text.find(')') + 1]
+        combined_text += ')' if 'lambda(' in combined_text else ''
 
-        # 替换相关
-        combined_text = combined_text.replace('((', '(')  # 将所有的双左括号替换为左括号
-        combined_text = combined_text.replace('-', '_') # 将所有的-替换为_
-        combined_text = combined_text.replace('default or value', 'default_or_value') # 将所有的default or value替换为default_or_value
-        combined_text = combined_text.replace(' ', '') # 移除所有空格
-        combined_text = combined_text.replace('\xa0', '') # 移除所有空格
-        combined_text = combined_text.replace('…', '...') # 替换所有错误的省略号
-        combined_text = combined_text.replace(',...', '...') # 省略号前面加逗号
-        combined_text = combined_text.replace('...', ',...') # 省略号前面加逗号
-        combined_text = combined_text.replace('...,', '...') # 省略号后面去掉逗号
+        replacements = {
+            '((': '(', '-': '_', ' ': '', '\xa0': '', '…': '...',
+            ',...': '...', '...': ',...', '...,': '...'
+        }
+        for old, new in replacements.items():
+            combined_text = combined_text.replace(old, new)
 
-        # 如果包含子串'lambda('，则在结尾补充一个右括号
-        if 'lambda(' in combined_text:
-            combined_text += ')'
-
-        # 如果'['前面不为英文逗号和(，则在'['前面增加一个英文逗号
         combined_text = re.sub(r'(?<!\[),(?=\[)', '', combined_text)
         combined_text = re.sub(r'(?<![(,])\[', ',[', combined_text)
-
-        # 如果一个]后面不为)且不为,    则补充,
         combined_text = re.sub(r'](?![),])', '],', combined_text)
-
-        # 将所有括号内的英文变为小写
-        combined_text = re.sub(r'\(([^()]*)\)', lambda m: '(' + m.group(1).lower() + ')', combined_text)
-
-        # 如果前len(name)个字符和name不完全相同，则将第一个'('前的所有字符替换为name
-        if combined_text[:len(name)].lower() != name.lower():
-            paren_index = combined_text.find('(')
-            if paren_index != -1:
-                combined_text = name + combined_text[paren_index:]
-
+        combined_text = re.sub(r'\(([^()]*)\)', lambda m: m.group().lower(), combined_text)
 
         print(f"{times}. {name}")
         print(combined_text)
