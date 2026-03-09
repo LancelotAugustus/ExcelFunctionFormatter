@@ -8,7 +8,7 @@ from utils.crawler import load_json, build_url, save_json
 from utils.scraper import build_soup
 
 
-def make_url(uuid):
+def _make_url(uuid):
     url = build_url(BASE_DOMAIN, LANGUAGE_CODE, PRODUCT_SEGMENT, uuid)
     return url
 
@@ -50,7 +50,7 @@ def _extract_excel_function_detail(soup):
 
 
 def _build_excel_function_list():
-    soup = build_soup(EXCEL_FUNCTIONS_UUID, make_url)
+    soup = build_soup(EXCEL_FUNCTIONS_UUID, _make_url)
 
     functions = []
     for func_name, func_type, func_desc, func_uuid in _extract_excel_function_info(soup):
