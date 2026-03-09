@@ -17,15 +17,7 @@ def _get_syntax_string(func_name, func_uuid):
 
         # 找到第一个‘ Syntax ’移除掉所有在此之前的内容，并移除两端空格
         syntax_index = text.find('Syntax')
-        text = text[syntax_index + 6:].strip()
-
-        # 如果首个字符为‘:'，则移除它
-        if text[0] == ":":
-            text = text[1:].strip()
-
-        # 将所有name文本转为大写
-        pattern = re.compile(re.escape(func_name), re.IGNORECASE)
-        text = pattern.sub(lambda m: m.group(0).upper(), text)
+        text = text[syntax_index:]
 
         # 找到所有name文本，移除两端空格
         pattern = re.compile(r'\s*' + re.escape(func_name) + r'\s*', re.IGNORECASE)
