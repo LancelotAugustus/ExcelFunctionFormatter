@@ -13,32 +13,19 @@ def make_url(uuid):
 
 def _get_syntax_string(func_name, func_uuid):
         soup = build_soup(func_uuid, make_url)
+
         text = get_text(soup)
+        text = text[text.find('Syntax'):]
+        text = re.compile(r'\s*' + re.escape(func_name) + r'\s*', re.IGNORECASE).sub(func_name, text)
 
-        # 找到第一个‘ Syntax ’移除掉所有在此之前的内容，并移除两端空格
-        syntax_index = text.find('Syntax')
-        text = text[syntax_index:]
-
-        # 找到所有name文本，移除两端空格
-        pattern = re.compile(r'\s*' + re.escape(func_name) + r'\s*', re.IGNORECASE)
-        text = pattern.sub(func_name, text)
-
-        # 找到第一个前面不为the的{name}(，移除所有在此之前的内容
-        pattern = re.compile(r'(?<!the)' + re.escape(func_name) + r'\(', re.IGNORECASE)
-        match = pattern.search(text)
+        match = re.compile(r'(?<!the)' + re.escape(func_name) + r'\(', re.IGNORECASE).search(text)
         if match:
             text = text[match.start():]
         else:
-            paren_index = text.find('(')
-            text = func_name + text[paren_index:]
-
-        # 移除所有右括号之后的文本
-        right_paren_index = text.find(')')
-        text = text[:right_paren_index + 1]
-
-        # 如果包含子串'lambda('，则在结尾补充一个右括号
-        if 'lambda(' in text:
-            text += ')'
+            text = func_name + text[text.find('('):]
+        
+        text = text[:text.find(')') + 1]
+        text = f'{text})' if 'lambda(' in text else text
 
         return text
 
