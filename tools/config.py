@@ -23,8 +23,8 @@ SPECIAL_SYNTAX_MAP = \
     {
         'AGGREGATE':
             [
-                'AGGREGATE(function_num, options, ref1, [ref2], …)',
-                'AGGREGATE(function_num, options, array, [k])'
+                'AGGREGATE(function_num,options,ref1,[ref2],...)',
+                'AGGREGATE(function_num,options,array,[k])'
             ],
         'CALL':
             [
@@ -33,8 +33,8 @@ SPECIAL_SYNTAX_MAP = \
             ],
         'INDEX':
             [
-                'INDEX(array, row_num, [column_num])',
-                'INDEX(reference, row_num, [column_num], [area_num])'
+                'INDEX(array,row_num,[column_num])',
+                'INDEX(reference,row_num,[column_num],[area_num])'
             ],
         'FLOOR.MATH':
             [
@@ -42,6 +42,6 @@ SPECIAL_SYNTAX_MAP = \
             ],
         'SWITCH':
             [
-                'SWITCH(expression,value1,result1,[value2,result2],...,[default])'
+                'SWITCH(expression,value1,result1,[default_or_value2,result2],...)'
             ]
     }
