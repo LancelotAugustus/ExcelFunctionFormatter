@@ -13,7 +13,8 @@ def _make_url(uuid):
     return url
 
 
-def _extract_excel_function_info(soup):
+def _extract_excel_function_info():
+    soup = build_soup(EXCEL_FUNCTIONS_UUID, _make_url)
     table = soup.find('table')
     rows = table.find_all('tr')
 
@@ -38,7 +39,8 @@ def _extract_excel_function_info(soup):
             yield func_name, func_type, func_desc, func_uuid
 
 
-def _extract_excel_function_detail(soup):
+def _extract_excel_function_detail(func_name, func_uuid):
+    soup = build_soup(func_uuid, _make_url)
     spans = soup.find('section', attrs={"ms.cmpgrp": "applies_to"}).find_all('span')
     func_applies = []
     for span in spans:
@@ -50,11 +52,9 @@ def _extract_excel_function_detail(soup):
 
 
 def _build_excel_function_list():
-    soup = build_soup(EXCEL_FUNCTIONS_UUID, _make_url)
-
     functions = []
-    for func_name, func_type, func_desc, func_uuid in _extract_excel_function_info(soup):
-        func_applies, func_syntax = _extract_excel_function_detail(soup)
+    for func_name, func_type, func_desc, func_uuid in _extract_excel_function_info():
+        func_applies, func_syntax = _extract_excel_function_detail(func_name, func_uuid)
         excel_function = ExcelFunction(
             func_name=func_name,
             func_type=func_type,
