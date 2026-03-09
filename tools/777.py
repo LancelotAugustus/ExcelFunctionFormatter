@@ -12,22 +12,15 @@ def make_url(uuid):
 
 
 def _get_syntax_string(func_name, func_uuid):
-        soup = build_soup(func_uuid, make_url)
-
-        text = get_text(soup)
-        text = text[text.find('Syntax'):]
-        text = re.compile(rf'\s*{func_name}\s*', re.IGNORECASE).sub(func_name, text)
-
-        match = re.compile(rf'(?<!the){func_name[:-1]}.\(').search(text)
-        if match:
-            text = text[match.start():]
-        else:
-            text = func_name + text[text.find('('):]
-
-        text = text[: text.find(')') + 1]
-        text = f'{text})' if 'lambda(' in text else text
-
-        return text
+    soup = build_soup(func_uuid, make_url)
+    text = get_text(soup)
+    text = text[text.find('Syntax'):]
+    text = re.compile(rf'\s*{func_name}\s*', re.IGNORECASE).sub(func_name, text)
+    text = text[re.compile(rf'(?<!the){func_name[:-1]}.?\(').search(text).start():]
+    text = f'{func_name}{text[text.find('('):]}'
+    text = text[: text.find(')') + 1]
+    text = f'{text})' if 'lambda(' in text else text
+    return text
 
 
 def _clean_syntax_string(syntax_string):
