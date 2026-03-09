@@ -16,15 +16,15 @@ def _get_syntax_string(func_name, func_uuid):
 
         text = get_text(soup)
         text = text[text.find('Syntax'):]
-        text = re.compile(r'\s*' + func_name + r'\s*', re.IGNORECASE).sub(func_name, text)
+        text = re.compile(rf'\s*{func_name}\s*', re.IGNORECASE).sub(func_name, text)
 
-        match = re.compile(r'(?<!the)' + func_name + r'\(', re.IGNORECASE).search(text)
+        match = re.compile(rf'(?<!the){func_name[:-1]}.\(').search(text)
         if match:
             text = text[match.start():]
         else:
             text = func_name + text[text.find('('):]
-        
-        text = text[:text.find(')') + 1]
+
+        text = text[: text.find(')') + 1]
         text = f'{text})' if 'lambda(' in text else text
 
         return text
@@ -63,10 +63,6 @@ def test():
         print(f"{times}. {func_name}")
         print(syntax_string)
         print("-" * 60)
-
-
-
-
 
 
 if __name__ == '__main__':
