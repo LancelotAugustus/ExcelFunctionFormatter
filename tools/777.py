@@ -16,9 +16,9 @@ def _get_syntax_string(func_name, func_uuid):
 
         text = get_text(soup)
         text = text[text.find('Syntax'):]
-        text = re.compile(r'\s*' + re.escape(func_name) + r'\s*', re.IGNORECASE).sub(func_name, text)
+        text = re.compile(r'\s*' + func_name + r'\s*', re.IGNORECASE).sub(func_name, text)
 
-        match = re.compile(r'(?<!the)' + re.escape(func_name) + r'\(', re.IGNORECASE).search(text)
+        match = re.compile(r'(?<!the)' + func_name + r'\(', re.IGNORECASE).search(text)
         if match:
             text = text[match.start():]
         else:
@@ -45,7 +45,7 @@ def _clean_syntax_string(syntax_string):
     syntax_string = re.sub(r'(?<![(,])\[', ',[', syntax_string)
     syntax_string = re.sub(r'](?![),])', '],', syntax_string)
     syntax_string = re.sub(r'\(([^()]*)\)', lambda m: m.group().lower(), syntax_string)
-    return syntax_string
+    return [syntax_string]
 
 
 def test():

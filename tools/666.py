@@ -66,7 +66,7 @@ def _clean_syntax_string(syntax_string):
     syntax_string = re.sub(r'(?<![(,])\[', ',[', syntax_string)
     syntax_string = re.sub(r'](?![),])', '],', syntax_string)
     syntax_string = re.sub(r'\(([^()]*)\)', lambda m: m.group().lower(), syntax_string)
-    return syntax_string
+    return [syntax_string]
 
 
 def test():
