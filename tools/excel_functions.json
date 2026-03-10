@@ -16,7 +16,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ABS(number)"
     ]
   },
   {
@@ -38,7 +38,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "ACCRINT(issue,first_interest,settlement,rate,par,frequency,[basis],[calc_method])"
     ]
   },
   {
@@ -60,7 +60,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "ACCRINTM(issue,settlement,rate,par,[basis])"
     ]
   },
   {
@@ -80,7 +80,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ACOS(number)"
     ]
   },
   {
@@ -100,7 +100,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ACOSH(number)"
     ]
   },
   {
@@ -120,7 +120,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ACOT(number)"
     ]
   },
   {
@@ -140,7 +140,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ACOTH(number)"
     ]
   },
   {
@@ -161,7 +161,8 @@
       "Excel Web App"
     ],
     "func_syntax": [
-      ""
+      "AGGREGATE(function_num,options,ref1,[ref2],...)",
+      "AGGREGATE(function_num,options,array,[k])"
     ]
   },
   {
@@ -183,7 +184,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "ADDRESS(row_num,column_num,[abs_num],[a1],[sheet_text])"
     ]
   },
   {
@@ -203,7 +204,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "AMORDEGRC(cost,date_purchased,first_period,salvage,period,rate,[basis])"
     ]
   },
   {
@@ -223,7 +224,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "AMORLINC(cost,date_purchased,first_period,salvage,period,rate,[basis])"
     ]
   },
   {
@@ -245,7 +246,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "AND(logical1,[logical2],...)"
     ]
   },
   {
@@ -265,7 +266,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ARABIC(text)"
     ]
   },
   {
@@ -287,7 +288,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "AREAS(reference)"
     ]
   },
   {
@@ -307,7 +308,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "ARRAYTOTEXT(array,[format])"
     ]
   },
   {
@@ -327,7 +328,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ASC(text)"
     ]
   },
   {
@@ -347,7 +348,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ASIN(number)"
     ]
   },
   {
@@ -367,7 +368,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ASINH(number)"
     ]
   },
   {
@@ -387,7 +388,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ATAN(number)"
     ]
   },
   {
@@ -407,7 +408,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ATAN2(x_num,y_num)"
     ]
   },
   {
@@ -427,7 +428,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ATANH(number)"
     ]
   },
   {
@@ -447,7 +448,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "AVEDEV(number1,[number2],...)"
     ]
   },
   {
@@ -467,7 +468,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "AVERAGE(number1,[number2],...)"
     ]
   },
   {
@@ -487,7 +488,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "AVERAGEA(value1,[value2],...)"
     ]
   },
   {
@@ -510,7 +511,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "AVERAGEIF(range,criteria,[average_range])"
     ]
   },
   {
@@ -533,7 +534,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "AVERAGEIFS(average_range,criteria_range1,criteria1,[criteria_range2,criteria2],...)"
     ]
   },
   {
@@ -555,7 +556,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "BAHTTEXT(number)"
     ]
   },
   {
@@ -575,7 +576,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "BASE(number,radix,[min_length])"
     ]
   },
   {
@@ -595,7 +596,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "BESSELI(x,n)"
     ]
   },
   {
@@ -615,7 +616,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "BESSELJ(x,n)"
     ]
   },
   {
@@ -635,7 +636,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "BESSELK(x,n)"
     ]
   },
   {
@@ -655,7 +656,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "BESSELY(x,n)"
     ]
   },
   {
@@ -675,7 +676,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "BETADIST(x,alpha,beta,[a],[b])"
     ]
   },
   {
@@ -695,7 +696,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "BETA.DIST(x,alpha,beta,cumulative,[a],[b])"
     ]
   },
   {
@@ -715,7 +716,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "BETAINV(probability,alpha,beta,[a],[b])"
     ]
   },
   {
@@ -735,7 +736,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "BETA.INV(probability,alpha,beta,[a],[b])"
     ]
   },
   {
@@ -755,7 +756,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "BIN2DEC(number)"
     ]
   },
   {
@@ -775,7 +776,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "BIN2HEX(number,[places])"
     ]
   },
   {
@@ -795,7 +796,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "BIN2OCT(number,[places])"
     ]
   },
   {
@@ -815,7 +816,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "BINOMDIST(number_s,trials,probability_s,cumulative)"
     ]
   },
   {
@@ -835,7 +836,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "BINOM.DIST(number_s,trials,probability_s,cumulative)"
     ]
   },
   {
@@ -855,7 +856,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "BINOM.DIST.RANGE(trials,probability_s,number_s,[number_s2])"
     ]
   },
   {
@@ -875,7 +876,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "BINOM.INV(trials,probability_s,alpha)"
     ]
   },
   {
@@ -895,7 +896,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "BITAND(number1,number2)"
     ]
   },
   {
@@ -915,7 +916,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "BITLSHIFT(number,shift_amount)"
     ]
   },
   {
@@ -935,7 +936,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "BITOR(number1,number2)"
     ]
   },
   {
@@ -955,7 +956,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "BITRSHIFT(number,shift_amount)"
     ]
   },
   {
@@ -975,7 +976,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "BITXOR(number1,number2)"
     ]
   },
   {
@@ -989,7 +990,7 @@
       "Excel for the web"
     ],
     "func_syntax": [
-      ""
+      "BYCOL(array,lambda(column))"
     ]
   },
   {
@@ -1003,7 +1004,7 @@
       "Excel for the web"
     ],
     "func_syntax": [
-      ""
+      "BYROW(array,lambda(row))"
     ]
   },
   {
@@ -1027,7 +1028,8 @@
       "Excel for Android phones"
     ],
     "func_syntax": [
-      ""
+      "CALL(register_id,[argument1],...)",
+      "CALL(module_text,procedure,type_text,[argument1],...)"
     ]
   },
   {
@@ -1047,7 +1049,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "CEILING(number,significance)"
     ]
   },
   {
@@ -1067,7 +1069,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "CEILING.MATH(number,[significance],[mode])"
     ]
   },
   {
@@ -1088,7 +1090,7 @@
       "Excel Web App"
     ],
     "func_syntax": [
-      ""
+      "CEILING.PRECISE(number,[significance])"
     ]
   },
   {
@@ -1114,7 +1116,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "CELL(info_type,[reference])"
     ]
   },
   {
@@ -1134,7 +1136,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "CHAR(number)"
     ]
   },
   {
@@ -1154,7 +1156,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "CHIDIST(x,deg_freedom)"
     ]
   },
   {
@@ -1174,7 +1176,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "CHIINV(probability,deg_freedom)"
     ]
   },
   {
@@ -1194,7 +1196,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "CHITEST(actual_range,expected_range)"
     ]
   },
   {
@@ -1215,7 +1217,7 @@
       "Excel Web App"
     ],
     "func_syntax": [
-      ""
+      "CHISQ.DIST(x,deg_freedom,cumulative)"
     ]
   },
   {
@@ -1235,7 +1237,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "CHISQ.DIST.RT(x,deg_freedom)"
     ]
   },
   {
@@ -1256,7 +1258,7 @@
       "Excel Web App"
     ],
     "func_syntax": [
-      ""
+      "CHISQ.INV(probability,deg_freedom)"
     ]
   },
   {
@@ -1276,7 +1278,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "CHISQ.INV.RT(probability,deg_freedom)"
     ]
   },
   {
@@ -1296,7 +1298,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "CHISQ.TEST(actual_range,expected_range)"
     ]
   },
   {
@@ -1318,7 +1320,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "CHOOSE(index_num,value1,[value2],...)"
     ]
   },
   {
@@ -1332,7 +1334,7 @@
       "Excel for the web"
     ],
     "func_syntax": [
-      ""
+      "CHOOSECOLS(array,col_num1,[col_num2],...)"
     ]
   },
   {
@@ -1346,7 +1348,7 @@
       "Excel for the web"
     ],
     "func_syntax": [
-      ""
+      "CHOOSEROWS(array,row_num1,[row_num2],...)"
     ]
   },
   {
@@ -1366,7 +1368,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "CLEAN(text)"
     ]
   },
   {
@@ -1386,7 +1388,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "CODE(text)"
     ]
   },
   {
@@ -1408,7 +1410,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "COLUMN([reference])"
     ]
   },
   {
@@ -1430,7 +1432,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "COLUMNS(array)"
     ]
   },
   {
@@ -1450,7 +1452,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "COMBIN(number,number_chosen)"
     ]
   },
   {
@@ -1470,7 +1472,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "COMBINA(number,number_chosen)"
     ]
   },
   {
@@ -1490,7 +1492,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "COMPLEX(real_num,i_num,[suffix])"
     ]
   },
   {
@@ -1510,7 +1512,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "CONCAT(text1,[text2],...)"
     ]
   },
   {
@@ -1532,7 +1534,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "CONCATENATE(text1,[text2],...)"
     ]
   },
   {
@@ -1552,7 +1554,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "CONFIDENCE(alpha,standard_dev,size)"
     ]
   },
   {
@@ -1572,7 +1574,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "CONFIDENCE.NORM(alpha,standard_dev,size)"
     ]
   },
   {
@@ -1593,7 +1595,7 @@
       "Excel Web App"
     ],
     "func_syntax": [
-      ""
+      "CONFIDENCE.T(alpha,standard_dev,size)"
     ]
   },
   {
@@ -1613,7 +1615,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "CONVERT(number,from_unit,to_unit)"
     ]
   },
   {
@@ -1629,7 +1631,7 @@
       "Excel for iPhone"
     ],
     "func_syntax": [
-      ""
+      "COPILOT(prompt_part1,[context1],[prompt_part2],[context2],...)"
     ]
   },
   {
@@ -1651,7 +1653,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "CORREL(array1,array2)"
     ]
   },
   {
@@ -1671,7 +1673,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "COS(number)"
     ]
   },
   {
@@ -1691,7 +1693,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "COSH(number)"
     ]
   },
   {
@@ -1711,7 +1713,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "COT(number)"
     ]
   },
   {
@@ -1731,7 +1733,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "COTH(number)"
     ]
   },
   {
@@ -1753,7 +1755,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "COUNT(value1,[value2],...)"
     ]
   },
   {
@@ -1775,7 +1777,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "COUNTA(value1,[value2],...)"
     ]
   },
   {
@@ -1795,7 +1797,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "COUNTBLANK(range)"
     ]
   },
   {
@@ -1816,7 +1818,7 @@
       "Microsoft Office"
     ],
     "func_syntax": [
-      ""
+      "COUNTIF(range,criteria)"
     ]
   },
   {
@@ -1838,7 +1840,7 @@
       "Microsoft Office"
     ],
     "func_syntax": [
-      ""
+      "COUNTIFS(criteria_range1,criteria1,[criteria_range2,criteria2],...)"
     ]
   },
   {
@@ -1860,7 +1862,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "COUPDAYBS(settlement,maturity,frequency,[basis])"
     ]
   },
   {
@@ -1882,7 +1884,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "COUPDAYS(settlement,maturity,frequency,[basis])"
     ]
   },
   {
@@ -1904,7 +1906,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "COUPDAYSNC(settlement,maturity,frequency,[basis])"
     ]
   },
   {
@@ -1924,7 +1926,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "COUPNCD(settlement,maturity,frequency,[basis])"
     ]
   },
   {
@@ -1944,7 +1946,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "COUPNUM(settlement,maturity,frequency,[basis])"
     ]
   },
   {
@@ -1964,7 +1966,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "COUPPCD(settlement,maturity,frequency,[basis])"
     ]
   },
   {
@@ -1984,7 +1986,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "COVAR(array1,array2)"
     ]
   },
   {
@@ -2004,7 +2006,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "COVARIANCE.P(array1,array2)"
     ]
   },
   {
@@ -2025,7 +2027,7 @@
       "Excel Web App"
     ],
     "func_syntax": [
-      ""
+      "COVARIANCE.S(array1,array2)"
     ]
   },
   {
@@ -2045,7 +2047,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "CRITBINOM(trials,probability_s,alpha)"
     ]
   },
   {
@@ -2065,7 +2067,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "CSC(number)"
     ]
   },
   {
@@ -2085,7 +2087,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "CSCH(number)"
     ]
   },
   {
@@ -2110,7 +2112,7 @@
       "Excel for Android phones"
     ],
     "func_syntax": [
-      ""
+      "CUBEKPIMEMBER(connection,kpi_name,kpi_property,[caption])"
     ]
   },
   {
@@ -2135,7 +2137,7 @@
       "Excel for Android phones"
     ],
     "func_syntax": [
-      ""
+      "CUBEMEMBER(connection,member_expression,[caption])"
     ]
   },
   {
@@ -2160,7 +2162,7 @@
       "Excel for Android phones"
     ],
     "func_syntax": [
-      ""
+      "CUBEMEMBERPROPERTY(connection,member_expression,property)"
     ]
   },
   {
@@ -2185,7 +2187,7 @@
       "Excel for Android phones"
     ],
     "func_syntax": [
-      ""
+      "CUBERANKEDMEMBER(connection,set_expression,rank,[caption])"
     ]
   },
   {
@@ -2210,7 +2212,7 @@
       "Excel for Android phones"
     ],
     "func_syntax": [
-      ""
+      "CUBESET(connection,set_expression,[caption],[sort_order],[sort_by])"
     ]
   },
   {
@@ -2235,7 +2237,7 @@
       "Excel for Android phones"
     ],
     "func_syntax": [
-      ""
+      "CUBESETCOUNT(set)"
     ]
   },
   {
@@ -2260,7 +2262,7 @@
       "Excel for Android phones"
     ],
     "func_syntax": [
-      ""
+      "CUBEVALUE(connection,[member_expression1],[member_expression2],...)"
     ]
   },
   {
@@ -2282,7 +2284,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "CUMIPMT(rate,nper,pv,start_period,end_period,type)"
     ]
   },
   {
@@ -2304,7 +2306,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "CUMPRINC(rate,nper,pv,start_period,end_period,type)"
     ]
   },
   {
@@ -2324,7 +2326,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "DATE(year,month,day)"
     ]
   },
   {
@@ -2345,7 +2347,7 @@
       "Windows SharePoint Services 3.0"
     ],
     "func_syntax": [
-      ""
+      "DATEDIF(start_date,end_date,unit)"
     ]
   },
   {
@@ -2367,7 +2369,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "DATEVALUE(date_text)"
     ]
   },
   {
@@ -2387,7 +2389,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "DAVERAGE(database,field,criteria)"
     ]
   },
   {
@@ -2409,7 +2411,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "DAY(serial_number)"
     ]
   },
   {
@@ -2431,7 +2433,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "DAYS(end_date,start_date)"
     ]
   },
   {
@@ -2453,7 +2455,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "DAYS360(start_date,end_date,[method])"
     ]
   },
   {
@@ -2475,7 +2477,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "DB(cost,salvage,life,period,[month])"
     ]
   },
   {
@@ -2495,7 +2497,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "DBCS(text)"
     ]
   },
   {
@@ -2515,7 +2517,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "DCOUNT(database,field,criteria)"
     ]
   },
   {
@@ -2535,7 +2537,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "DCOUNTA(database,field,criteria)"
     ]
   },
   {
@@ -2557,7 +2559,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "DDB(cost,salvage,life,period,[factor])"
     ]
   },
   {
@@ -2576,7 +2578,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "DEC2BIN(number,[places])"
     ]
   },
   {
@@ -2596,7 +2598,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "DEC2HEX(number,[places])"
     ]
   },
   {
@@ -2616,7 +2618,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "DEC2OCT(number,[places])"
     ]
   },
   {
@@ -2636,7 +2638,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "DECIMAL(text,radix)"
     ]
   },
   {
@@ -2656,7 +2658,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "DEGREES(angle)"
     ]
   },
   {
@@ -2676,7 +2678,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "DELTA(number1,[number2])"
     ]
   },
   {
@@ -2693,7 +2695,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "DETECTLANGUAGE(text)"
     ]
   },
   {
@@ -2713,7 +2715,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "DEVSQ(number1,[number2],...)"
     ]
   },
   {
@@ -2733,7 +2735,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "DGET(database,field,criteria)"
     ]
   },
   {
@@ -2753,7 +2755,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "DISC(settlement,maturity,pr,redemption,[basis])"
     ]
   },
   {
@@ -2773,7 +2775,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "DMAX(database,field,criteria)"
     ]
   },
   {
@@ -2793,7 +2795,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "DMIN(database,field,criteria)"
     ]
   },
   {
@@ -2813,7 +2815,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "DOLLAR(number,[decimals])"
     ]
   },
   {
@@ -2833,7 +2835,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "DOLLARDE(fractional_dollar,fraction)"
     ]
   },
   {
@@ -2853,7 +2855,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "DOLLARFR(decimal_dollar,fraction)"
     ]
   },
   {
@@ -2873,7 +2875,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "DPRODUCT(database,field,criteria)"
     ]
   },
   {
@@ -2887,7 +2889,7 @@
       "Excel for the web"
     ],
     "func_syntax": [
-      ""
+      "DROP(array,rows,[columns])"
     ]
   },
   {
@@ -2907,7 +2909,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "DSTDEV(database,field,criteria)"
     ]
   },
   {
@@ -2927,7 +2929,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "DSTDEVP(database,field,criteria)"
     ]
   },
   {
@@ -2949,7 +2951,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "DSUM(database,field,criteria)"
     ]
   },
   {
@@ -2971,7 +2973,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "DURATION(settlement,maturity,coupon,yld,frequency,[basis])"
     ]
   },
   {
@@ -2991,7 +2993,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "DVAR(database,field,criteria)"
     ]
   },
   {
@@ -3011,7 +3013,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "DVARP(database,field,criteria)"
     ]
   },
   {
@@ -3033,7 +3035,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "EDATE(start_date,months)"
     ]
   },
   {
@@ -3055,7 +3057,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "EFFECT(nominal_rate,npery)"
     ]
   },
   {
@@ -3071,7 +3073,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ENCODEURL(text)"
     ]
   },
   {
@@ -3093,7 +3095,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "EOMONTH(start_date,months)"
     ]
   },
   {
@@ -3113,7 +3115,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ERF(lower_limit,[upper_limit])"
     ]
   },
   {
@@ -3133,7 +3135,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ERF.PRECISE(x)"
     ]
   },
   {
@@ -3153,7 +3155,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ERFC(x)"
     ]
   },
   {
@@ -3173,7 +3175,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ERFC.PRECISE(x)"
     ]
   },
   {
@@ -3193,7 +3195,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ERROR.TYPE(error_val)"
     ]
   },
   {
@@ -3217,7 +3219,7 @@
       "Excel for Android phones"
     ],
     "func_syntax": [
-      ""
+      "EUROCONVERT(number,source,target,full_precision,triangulation_precision)"
     ]
   },
   {
@@ -3237,7 +3239,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "EVEN(number)"
     ]
   },
   {
@@ -3257,7 +3259,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "EXACT(text1,text2)"
     ]
   },
   {
@@ -3277,7 +3279,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "EXP(number)"
     ]
   },
   {
@@ -3291,7 +3293,7 @@
       "Excel for the web"
     ],
     "func_syntax": [
-      ""
+      "EXPAND(array,rows,[columns],[pad_with])"
     ]
   },
   {
@@ -3311,7 +3313,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "EXPON.DIST(x,lambda,cumulative)"
     ]
   },
   {
@@ -3331,7 +3333,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "EXPONDIST(x,lambda,cumulative)"
     ]
   },
   {
@@ -3351,7 +3353,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "FACT(number)"
     ]
   },
   {
@@ -3371,7 +3373,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "FACTDOUBLE(number)"
     ]
   },
   {
@@ -3393,7 +3395,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "FALSE()"
     ]
   },
   {
@@ -3414,7 +3416,7 @@
       "Excel Web App"
     ],
     "func_syntax": [
-      ""
+      "F.DIST(x,deg_freedom1,deg_freedom2,cumulative)"
     ]
   },
   {
@@ -3434,7 +3436,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "FDIST(x,deg_freedom1,deg_freedom2)"
     ]
   },
   {
@@ -3454,7 +3456,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "F.DIST.RT(x,deg_freedom1,deg_freedom2)"
     ]
   },
   {
@@ -3477,7 +3479,7 @@
       "Microsoft Office"
     ],
     "func_syntax": [
-      ""
+      "FILTER(array,include,[if_empty])"
     ]
   },
   {
@@ -3495,7 +3497,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "FILTERXML(xml,xpath)"
     ]
   },
   {
@@ -3517,7 +3519,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "FIND(find_text,within_text,[start_num])"
     ]
   },
   {
@@ -3539,7 +3541,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "FINDB(find_text,within_text,[start_num])"
     ]
   },
   {
@@ -3560,7 +3562,7 @@
       "Excel Web App"
     ],
     "func_syntax": [
-      ""
+      "F.INV(probability,deg_freedom1,deg_freedom2)"
     ]
   },
   {
@@ -3580,7 +3582,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "F.INV.RT(probability,deg_freedom1,deg_freedom2)"
     ]
   },
   {
@@ -3600,7 +3602,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "FINV(probability,deg_freedom1,deg_freedom2)"
     ]
   },
   {
@@ -3620,7 +3622,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "FISHER(x)"
     ]
   },
   {
@@ -3640,7 +3642,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "FISHERINV(y)"
     ]
   },
   {
@@ -3660,7 +3662,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "FIXED(number,[decimals],[no_commas])"
     ]
   },
   {
@@ -3680,7 +3682,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "FLOOR(number,significance)"
     ]
   },
   {
@@ -3700,7 +3702,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "FLOOR.MATH(number,[significance],[mode])"
     ]
   },
   {
@@ -3721,7 +3723,7 @@
       "Excel Web App"
     ],
     "func_syntax": [
-      ""
+      "FLOOR.PRECISE(number,[significance])"
     ]
   },
   {
@@ -3743,7 +3745,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "FORECAST(x,known_y's,known_x's)"
     ]
   },
   {
@@ -3765,7 +3767,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "FORECAST.ETS(target_date,values,timeline,[seasonality],[data_completion],[aggregation])"
     ]
   },
   {
@@ -3785,7 +3787,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "FORECAST.ETS.CONFINT(target_date,values,timeline,[confidence_level],[seasonality],[data_completion],[aggregation])"
     ]
   },
   {
@@ -3805,7 +3807,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "FORECAST.ETS.SEASONALITY(values,timeline,[data_completion],[aggregation])"
     ]
   },
   {
@@ -3825,7 +3827,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "FORECAST.ETS.STAT(values,timeline,statistic_type,[seasonality],[data_completion],[aggregation])"
     ]
   },
   {
@@ -3847,7 +3849,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "FORECAST.LINEAR(x,known_y's,known_x's)"
     ]
   },
   {
@@ -3869,7 +3871,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "FORMULATEXT(reference)"
     ]
   },
   {
@@ -3889,7 +3891,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "FREQUENCY(data_array,bins_array)"
     ]
   },
   {
@@ -3909,7 +3911,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "F.TEST(array1,array2)"
     ]
   },
   {
@@ -3929,7 +3931,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "FTEST(array1,array2)"
     ]
   },
   {
@@ -3951,7 +3953,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "FV(rate,nper,pmt,[pv],[type])"
     ]
   },
   {
@@ -3973,7 +3975,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "FVSCHEDULE(principal,schedule)"
     ]
   },
   {
@@ -3993,7 +3995,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "GAMMA(number)"
     ]
   },
   {
@@ -4013,7 +4015,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "GAMMA.DIST(x,alpha,beta,cumulative)"
     ]
   },
   {
@@ -4033,7 +4035,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "GAMMADIST(x,alpha,beta,cumulative)"
     ]
   },
   {
@@ -4053,7 +4055,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "GAMMA.INV(probability,alpha,beta)"
     ]
   },
   {
@@ -4073,7 +4075,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "GAMMAINV(probability,alpha,beta)"
     ]
   },
   {
@@ -4093,7 +4095,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "GAMMALN(x)"
     ]
   },
   {
@@ -4113,7 +4115,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "GAMMALN.PRECISE(x)"
     ]
   },
   {
@@ -4133,7 +4135,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "GAUSS(z)"
     ]
   },
   {
@@ -4153,7 +4155,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "GCD(number1,[number2],...)"
     ]
   },
   {
@@ -4173,7 +4175,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "GEOMEAN(number1,[number2],...)"
     ]
   },
   {
@@ -4193,7 +4195,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "GESTEP(number,[step])"
     ]
   },
   {
@@ -4214,7 +4216,7 @@
       "Microsoft Office"
     ],
     "func_syntax": [
-      ""
+      "GETPIVOTDATA(data_field,pivot_table,[field1,item1,field2,item2],...)"
     ]
   },
   {
@@ -4228,7 +4230,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "GROUPBY(row_fields,values,function,[field_headers],[total_depth],[sort_order],[filter_array],[field_relationship])"
     ]
   },
   {
@@ -4248,7 +4250,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "GROWTH(known_y's,[known_x's],[new_x's],[const])"
     ]
   },
   {
@@ -4268,7 +4270,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "HARMEAN(number1,[number2],...)"
     ]
   },
   {
@@ -4288,7 +4290,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "HEX2BIN(number,[places])"
     ]
   },
   {
@@ -4308,7 +4310,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "HEX2DEC(number)"
     ]
   },
   {
@@ -4328,7 +4330,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "HEX2OCT(number,[places])"
     ]
   },
   {
@@ -4350,7 +4352,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "HLOOKUP(lookup_value,table_array,row_index_num,[range_lookup])"
     ]
   },
   {
@@ -4372,7 +4374,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "HOUR(serial_number)"
     ]
   },
   {
@@ -4386,7 +4388,7 @@
       "Excel for the web"
     ],
     "func_syntax": [
-      ""
+      "HSTACK(array1,[array2],...)"
     ]
   },
   {
@@ -4408,7 +4410,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "HYPERLINK(link_location,[friendly_name])"
     ]
   },
   {
@@ -4428,7 +4430,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "HYPGEOM.DIST(sample_s,number_sample,population_s,number_pop,cumulative)"
     ]
   },
   {
@@ -4448,7 +4450,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "HYPGEOMDIST(sample_s,number_sample,population_s,number_pop)"
     ]
   },
   {
@@ -4469,7 +4471,7 @@
       "Microsoft Office"
     ],
     "func_syntax": [
-      ""
+      "IF(logical_test,value_if_true,[value_if_false])"
     ]
   },
   {
@@ -4490,7 +4492,7 @@
       "Excel Web App"
     ],
     "func_syntax": [
-      ""
+      "IFERROR(value,value_if_error)"
     ]
   },
   {
@@ -4512,7 +4514,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "IFNA(value,value_if_na)"
     ]
   },
   {
@@ -4533,7 +4535,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "IFS(logical_test1,value_if_true1,[logical_test2,value_if_true2],[logical_test3,value_if_true3],...)"
     ]
   },
   {
@@ -4553,7 +4555,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "IMABS(inumber)"
     ]
   },
   {
@@ -4569,7 +4571,7 @@
       "Excel for Android phones"
     ],
     "func_syntax": [
-      ""
+      "IMAGE(source,[alt_text],[sizing],[height],[width])"
     ]
   },
   {
@@ -4589,7 +4591,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "IMAGINARY(inumber)"
     ]
   },
   {
@@ -4609,7 +4611,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "IMARGUMENT(inumber)"
     ]
   },
   {
@@ -4629,7 +4631,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "IMCONJUGATE(inumber)"
     ]
   },
   {
@@ -4649,7 +4651,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "IMCOS(inumber)"
     ]
   },
   {
@@ -4669,7 +4671,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "IMCOSH(inumber)"
     ]
   },
   {
@@ -4689,7 +4691,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "IMCOT(inumber)"
     ]
   },
   {
@@ -4708,7 +4710,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "IMCSC(inumber)"
     ]
   },
   {
@@ -4728,7 +4730,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "IMCSCH(inumber)"
     ]
   },
   {
@@ -4748,7 +4750,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "IMDIV(inumber1,inumber2)"
     ]
   },
   {
@@ -4768,7 +4770,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "IMEXP(inumber)"
     ]
   },
   {
@@ -4788,7 +4790,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "IMLN(inumber)"
     ]
   },
   {
@@ -4808,7 +4810,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "IMLOG10(inumber)"
     ]
   },
   {
@@ -4828,7 +4830,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "IMLOG2(inumber)"
     ]
   },
   {
@@ -4848,7 +4850,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "IMPOWER(inumber,number)"
     ]
   },
   {
@@ -4868,7 +4870,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "IMPRODUCT(inumber1,[inumber2],...)"
     ]
   },
   {
@@ -4888,7 +4890,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "IMREAL(inumber)"
     ]
   },
   {
@@ -4908,7 +4910,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "IMSEC(inumber)"
     ]
   },
   {
@@ -4928,7 +4930,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "IMSECH(inumber)"
     ]
   },
   {
@@ -4948,7 +4950,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "IMSIN(inumber)"
     ]
   },
   {
@@ -4968,7 +4970,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "IMSINH(inumber)"
     ]
   },
   {
@@ -4988,7 +4990,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "IMSQRT(inumber)"
     ]
   },
   {
@@ -5008,7 +5010,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "IMSUB(inumber1,inumber2)"
     ]
   },
   {
@@ -5030,7 +5032,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "IMSUM(inumber1,[inumber2],...)"
     ]
   },
   {
@@ -5050,7 +5052,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "IMTAN(inumber)"
     ]
   },
   {
@@ -5072,7 +5074,8 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "INDEX(array,row_num,[column_num])",
+      "INDEX(reference,row_num,[column_num],[area_num])"
     ]
   },
   {
@@ -5093,7 +5096,7 @@
       "Microsoft Office"
     ],
     "func_syntax": [
-      ""
+      "INDIRECT(ref_text,[a1])"
     ]
   },
   {
@@ -5117,7 +5120,7 @@
       "Excel for Android phones"
     ],
     "func_syntax": [
-      ""
+      "INFO(type_text)"
     ]
   },
   {
@@ -5139,7 +5142,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "INT(number)"
     ]
   },
   {
@@ -5159,7 +5162,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "INTERCEPT(known_y's,known_x's)"
     ]
   },
   {
@@ -5181,7 +5184,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "INTRATE(settlement,maturity,investment,redemption,[basis])"
     ]
   },
   {
@@ -5203,7 +5206,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "IPMT(rate,per,nper,pv,[fv],[type])"
     ]
   },
   {
@@ -5225,7 +5228,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "IRR(values,[guess])"
     ]
   },
   {
@@ -5248,7 +5251,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "ISBLANK(value)"
     ]
   },
   {
@@ -5271,7 +5274,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "ISERR(value)"
     ]
   },
   {
@@ -5294,7 +5297,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "ISERROR(value)"
     ]
   },
   {
@@ -5314,7 +5317,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ISEVEN(number)"
     ]
   },
   {
@@ -5334,7 +5337,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ISFORMULA(reference)"
     ]
   },
   {
@@ -5357,7 +5360,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "ISLOGICAL(value)"
     ]
   },
   {
@@ -5380,7 +5383,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "ISNA(value)"
     ]
   },
   {
@@ -5403,7 +5406,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "ISNONTEXT(value)"
     ]
   },
   {
@@ -5426,7 +5429,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "ISNUMBER(value)"
     ]
   },
   {
@@ -5449,7 +5452,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "ISODD(value)"
     ]
   },
   {
@@ -5465,7 +5468,7 @@
       "Excel 2024 for Mac"
     ],
     "func_syntax": [
-      ""
+      "ISOMITTED(argument)"
     ]
   },
   {
@@ -5488,7 +5491,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "ISREF(value)"
     ]
   },
   {
@@ -5511,7 +5514,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "ISTEXT(value)"
     ]
   },
   {
@@ -5532,7 +5535,7 @@
       "Excel Web App"
     ],
     "func_syntax": [
-      ""
+      "ISO.CEILING(number,[significance])"
     ]
   },
   {
@@ -5552,7 +5555,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ISOWEEKNUM(date)"
     ]
   },
   {
@@ -5572,7 +5575,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ISPMT(rate,per,nper,pv)"
     ]
   },
   {
@@ -5588,7 +5591,7 @@
       "Excel 2021 for Mac"
     ],
     "func_syntax": [
-      ""
+      "JIS(text)"
     ]
   },
   {
@@ -5608,7 +5611,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "KURT(number1,[number2],...)"
     ]
   },
   {
@@ -5624,7 +5627,7 @@
       "Excel 2024 for Mac"
     ],
     "func_syntax": [
-      ""
+      "LAMBDA([parameter1,parameter2,...],calculation)"
     ]
   },
   {
@@ -5644,7 +5647,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "LARGE(array,k)"
     ]
   },
   {
@@ -5664,7 +5667,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "LCM(number1,[number2],...)"
     ]
   },
   {
@@ -5685,7 +5688,7 @@
       "Microsoft Office"
     ],
     "func_syntax": [
-      ""
+      "LEFT(text,[num_chars])"
     ]
   },
   {
@@ -5706,7 +5709,7 @@
       "Microsoft Office"
     ],
     "func_syntax": [
-      ""
+      "LEFTB(text,[num_chars])"
     ]
   },
   {
@@ -5726,7 +5729,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "LEN(text)"
     ]
   },
   {
@@ -5746,7 +5749,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "LENB(text)"
     ]
   },
   {
@@ -5764,7 +5767,7 @@
       "Excel 2021 for Mac"
     ],
     "func_syntax": [
-      ""
+      "LET(name1,name_value1,calculation_or_name2,[name_value2,calculation_or_name3,...])"
     ]
   },
   {
@@ -5784,7 +5787,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "LINEST(known_y's,[known_x's],[const],[stats])"
     ]
   },
   {
@@ -5804,7 +5807,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "LN(number)"
     ]
   },
   {
@@ -5826,7 +5829,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "LOG(number,[base])"
     ]
   },
   {
@@ -5846,7 +5849,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "LOG10(number)"
     ]
   },
   {
@@ -5866,7 +5869,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "LOGEST(known_y's,[known_x's],[const],[stats])"
     ]
   },
   {
@@ -5886,7 +5889,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "LOGINV(probability,mean,standard_dev)"
     ]
   },
   {
@@ -5905,7 +5908,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "LOGNORM.DIST(x,mean,standard_dev,cumulative)"
     ]
   },
   {
@@ -5925,7 +5928,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "LOGNORMDIST(x,mean,standard_dev)"
     ]
   },
   {
@@ -5945,7 +5948,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "LOGNORM.INV(probability,mean,standard_dev)"
     ]
   },
   {
@@ -5967,7 +5970,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "LOOKUP(lookup_value,lookup_vector,[result_vector])"
     ]
   },
   {
@@ -5987,7 +5990,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "LOWER(text)"
     ]
   },
   {
@@ -6003,7 +6006,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "MAKEARRAY(rows,cols,lambda(row,col))"
     ]
   },
   {
@@ -6017,7 +6020,7 @@
       "Excel for the web"
     ],
     "func_syntax": [
-      ""
+      "MAP(array1,lambda_or_array2,...)"
     ]
   },
   {
@@ -6037,7 +6040,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "MATCH(lookup_value,lookup_array,[match_type])"
     ]
   },
   {
@@ -6059,7 +6062,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "MAX(number1,[number2],...)"
     ]
   },
   {
@@ -6079,7 +6082,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "MAXA(value1,[value2],...)"
     ]
   },
   {
@@ -6100,7 +6103,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "MAXIFS(max_range,criteria_range1,criteria1,[criteria_range2,criteria2],...)"
     ]
   },
   {
@@ -6120,7 +6123,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "MDETERM(array)"
     ]
   },
   {
@@ -6142,7 +6145,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "MDURATION(settlement,maturity,coupon,yld,frequency,[basis])"
     ]
   },
   {
@@ -6162,7 +6165,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "MEDIAN(number1,[number2],...)"
     ]
   },
   {
@@ -6184,7 +6187,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "MID(text,start_num,num_chars)"
     ]
   },
   {
@@ -6206,7 +6209,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "MIDB(text,start_num,num_chars)"
     ]
   },
   {
@@ -6228,7 +6231,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "MIN(number1,[number2],...)"
     ]
   },
   {
@@ -6249,7 +6252,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "MINIFS(min_range,criteria_range1,criteria1,[criteria_range2,criteria2],...)"
     ]
   },
   {
@@ -6269,7 +6272,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "MINA(value1,[value2],...)"
     ]
   },
   {
@@ -6291,7 +6294,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "MINUTE(serial_number)"
     ]
   },
   {
@@ -6311,7 +6314,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "MINVERSE(array)"
     ]
   },
   {
@@ -6333,7 +6336,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "MIRR(values,finance_rate,reinvest_rate)"
     ]
   },
   {
@@ -6353,7 +6356,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "MMULT(array1,array2)"
     ]
   },
   {
@@ -6373,7 +6376,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "MOD(number,divisor)"
     ]
   },
   {
@@ -6395,7 +6398,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "MODE(number1,[number2],...)"
     ]
   },
   {
@@ -6416,7 +6419,7 @@
       "Excel Web App"
     ],
     "func_syntax": [
-      ""
+      "MODE.MULT(number1,[number2],...)"
     ]
   },
   {
@@ -6436,7 +6439,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "MODE.SNGL(number1,[number2],...)"
     ]
   },
   {
@@ -6458,7 +6461,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "MONTH(serial_number)"
     ]
   },
   {
@@ -6478,7 +6481,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "MROUND(number,multiple)"
     ]
   },
   {
@@ -6498,7 +6501,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "MULTINOMIAL(number1,[number2],...)"
     ]
   },
   {
@@ -6518,7 +6521,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "MUNIT(dimension)"
     ]
   },
   {
@@ -6538,7 +6541,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "N(value)"
     ]
   },
   {
@@ -6558,7 +6561,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "NA()"
     ]
   },
   {
@@ -6578,7 +6581,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "NEGBINOM.DIST(number_f,number_s,probability_s,cumulative)"
     ]
   },
   {
@@ -6598,7 +6601,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "NEGBINOMDIST(number_f,number_s,probability_s)"
     ]
   },
   {
@@ -6620,7 +6623,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "NETWORKDAYS(start_date,end_date,[holidays])"
     ]
   },
   {
@@ -6641,7 +6644,7 @@
       "Excel Web App"
     ],
     "func_syntax": [
-      ""
+      "NETWORKDAYS.INTL(start_date,end_date,[weekend],[holidays])"
     ]
   },
   {
@@ -6663,7 +6666,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "NOMINAL(effect_rate,npery)"
     ]
   },
   {
@@ -6683,7 +6686,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "NORM.DIST(x,mean,standard_dev,cumulative)"
     ]
   },
   {
@@ -6703,7 +6706,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "NORMDIST(x,mean,standard_dev,cumulative)"
     ]
   },
   {
@@ -6723,7 +6726,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "NORMINV(probability,mean,standard_dev)"
     ]
   },
   {
@@ -6743,7 +6746,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "NORM.INV(probability,mean,standard_dev)"
     ]
   },
   {
@@ -6763,7 +6766,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "NORM.S.DIST(z,cumulative)"
     ]
   },
   {
@@ -6783,7 +6786,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "NORMSDIST(z)"
     ]
   },
   {
@@ -6803,7 +6806,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "NORM.S.INV(probability)"
     ]
   },
   {
@@ -6823,7 +6826,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "NORMSINV(probability)"
     ]
   },
   {
@@ -6845,7 +6848,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "NOT(logical)"
     ]
   },
   {
@@ -6866,7 +6869,7 @@
       "Microsoft Office"
     ],
     "func_syntax": [
-      ""
+      "NOW()"
     ]
   },
   {
@@ -6888,7 +6891,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "NPER(rate,pmt,pv,[fv],[type])"
     ]
   },
   {
@@ -6910,7 +6913,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "NPV(rate,value1,[value2],...)"
     ]
   },
   {
@@ -6932,7 +6935,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "NUMBERVALUE(text,[decimal_separator],[group_separator])"
     ]
   },
   {
@@ -6952,7 +6955,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "OCT2BIN(number,[places])"
     ]
   },
   {
@@ -6972,7 +6975,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "OCT2DEC(number)"
     ]
   },
   {
@@ -6992,7 +6995,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "OCT2HEX(number,[places])"
     ]
   },
   {
@@ -7012,7 +7015,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ODD(number)"
     ]
   },
   {
@@ -7032,7 +7035,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ODDFPRICE(settlement,maturity,issue,first_coupon,rate,yld,redemption,frequency,[basis])"
     ]
   },
   {
@@ -7052,7 +7055,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ODDFYIELD(settlement,maturity,issue,first_coupon,rate,pr,redemption,frequency,[basis])"
     ]
   },
   {
@@ -7072,7 +7075,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ODDLPRICE(settlement,maturity,last_interest,rate,yld,redemption,frequency,[basis])"
     ]
   },
   {
@@ -7092,7 +7095,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ODDLYIELD(settlement,maturity,last_interest,rate,pr,redemption,frequency,[basis])"
     ]
   },
   {
@@ -7113,7 +7116,7 @@
       "Microsoft Office"
     ],
     "func_syntax": [
-      ""
+      "OFFSET(reference,rows,cols,[height],[width])"
     ]
   },
   {
@@ -7135,7 +7138,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "OR(logical1,[logical2],...)"
     ]
   },
   {
@@ -7155,7 +7158,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "PDURATION(rate,pv,fv)"
     ]
   },
   {
@@ -7175,7 +7178,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "PEARSON(array1,array2)"
     ]
   },
   {
@@ -7196,7 +7199,7 @@
       "Excel Web App"
     ],
     "func_syntax": [
-      ""
+      "PERCENTILE.EXC(array,k)"
     ]
   },
   {
@@ -7218,7 +7221,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "PERCENTILE.INC(array,k)"
     ]
   },
   {
@@ -7240,7 +7243,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "PERCENTILE(array,k)"
     ]
   },
   {
@@ -7252,7 +7255,7 @@
       "Excel for Microsoft 365"
     ],
     "func_syntax": [
-      ""
+      "PERCENTOF(data_subset,data_all)"
     ]
   },
   {
@@ -7273,7 +7276,7 @@
       "Excel Web App"
     ],
     "func_syntax": [
-      ""
+      "PERCENTRANK.EXC(array,x,[significance])"
     ]
   },
   {
@@ -7293,7 +7296,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "PERCENTRANK.INC(array,x,[significance])"
     ]
   },
   {
@@ -7313,7 +7316,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "PERCENTRANK(array,x,[significance])"
     ]
   },
   {
@@ -7333,7 +7336,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "PERMUT(number,number_chosen)"
     ]
   },
   {
@@ -7353,7 +7356,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "PERMUTATIONA(number,number_chosen)"
     ]
   },
   {
@@ -7373,7 +7376,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "PHI(x)"
     ]
   },
   {
@@ -7393,7 +7396,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "PHONETIC(reference)"
     ]
   },
   {
@@ -7415,7 +7418,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "PI()"
     ]
   },
   {
@@ -7432,7 +7435,7 @@
       "Excel 2021 for Mac"
     ],
     "func_syntax": [
-      ""
+      "PIVOTBY(row_fields,col_fields,values,function,[field_headers],[row_total_depth],[row_sort_order],[col_total_depth],[col_sort_order],[filter_array],[relative_to])"
     ]
   },
   {
@@ -7454,7 +7457,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "PMT(rate,nper,pv,[fv],[type])"
     ]
   },
   {
@@ -7474,7 +7477,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "POISSON.DIST(x,mean,cumulative)"
     ]
   },
   {
@@ -7494,7 +7497,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "POISSON(x,mean,cumulative)"
     ]
   },
   {
@@ -7514,7 +7517,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "POWER(number,power)"
     ]
   },
   {
@@ -7536,7 +7539,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "PPMT(rate,per,nper,pv,[fv],[type])"
     ]
   },
   {
@@ -7558,7 +7561,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "PRICE(settlement,maturity,rate,yld,redemption,frequency,[basis])"
     ]
   },
   {
@@ -7578,7 +7581,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "PRICEDISC(settlement,maturity,discount,redemption,[basis])"
     ]
   },
   {
@@ -7598,7 +7601,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "PRICEMAT(settlement,maturity,issue,rate,yld,[basis])"
     ]
   },
   {
@@ -7618,7 +7621,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "PROB(x_range,prob_range,[lower_limit],[upper_limit])"
     ]
   },
   {
@@ -7638,7 +7641,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "PRODUCT(number1,[number2],...)"
     ]
   },
   {
@@ -7660,7 +7663,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "PROPER(text)"
     ]
   },
   {
@@ -7682,7 +7685,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "PV(rate,nper,pmt,[fv],[type])"
     ]
   },
   {
@@ -7702,7 +7705,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "QUARTILE(array,quart)"
     ]
   },
   {
@@ -7725,7 +7728,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "QUARTILE.EXC(array,quart)"
     ]
   },
   {
@@ -7745,7 +7748,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "QUARTILE.INC(array,quart)"
     ]
   },
   {
@@ -7767,7 +7770,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "QUOTIENT(numerator,denominator)"
     ]
   },
   {
@@ -7787,7 +7790,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "RADIANS(angle)"
     ]
   },
   {
@@ -7809,7 +7812,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "RAND()"
     ]
   },
   {
@@ -7833,7 +7836,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "RANDARRAY([rows],[columns],[min],[max],[whole_number])"
     ]
   },
   {
@@ -7853,7 +7856,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "RANDBETWEEN(bottom,top)"
     ]
   },
   {
@@ -7876,7 +7879,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "RANK.AVG(number,ref,[order])"
     ]
   },
   {
@@ -7896,7 +7899,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "RANK.EQ(number,ref,[order])"
     ]
   },
   {
@@ -7918,7 +7921,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "RANK(number,ref,[order])"
     ]
   },
   {
@@ -7940,7 +7943,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "RATE(nper,pmt,pv,[fv],[type],[guess])"
     ]
   },
   {
@@ -7960,7 +7963,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "RECEIVED(settlement,maturity,investment,discount,[basis])"
     ]
   },
   {
@@ -7974,7 +7977,7 @@
       "Excel for the web"
     ],
     "func_syntax": [
-      ""
+      "REDUCE([initial_value],array,lambda(accumulator,value,body))"
     ]
   },
   {
@@ -7989,7 +7992,7 @@
       "Microsoft Office"
     ],
     "func_syntax": [
-      ""
+      "REGEXEXTRACT(text,pattern,[return_mode],[case_sensitivity])"
     ]
   },
   {
@@ -8003,7 +8006,7 @@
       "Excel for the web"
     ],
     "func_syntax": [
-      ""
+      "REGEXREPLACE(text,pattern,replacement,[occurrence],[case_sensitivity])"
     ]
   },
   {
@@ -8017,7 +8020,7 @@
       "Excel for the web"
     ],
     "func_syntax": [
-      ""
+      "REGEXTEST(text,pattern,[case_sensitivity])"
     ]
   },
   {
@@ -8041,7 +8044,7 @@
       "Excel for Android phones"
     ],
     "func_syntax": [
-      ""
+      "REGISTER.ID(module_text,procedure,[type_text])"
     ]
   },
   {
@@ -8062,7 +8065,7 @@
       "Microsoft Office"
     ],
     "func_syntax": [
-      ""
+      "REPLACE(old_text,start_num,num_chars,new_text)"
     ]
   },
   {
@@ -8083,7 +8086,7 @@
       "Microsoft Office"
     ],
     "func_syntax": [
-      ""
+      "REPLACEB(old_text,start_num,num_chars,new_text)"
     ]
   },
   {
@@ -8103,7 +8106,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "REPT(text,number_times)"
     ]
   },
   {
@@ -8124,7 +8127,7 @@
       "Microsoft Office"
     ],
     "func_syntax": [
-      ""
+      "RIGHT(text,[num_chars])"
     ]
   },
   {
@@ -8145,7 +8148,7 @@
       "Microsoft Office"
     ],
     "func_syntax": [
-      ""
+      "RIGHTB(text,[num_chars])"
     ]
   },
   {
@@ -8165,7 +8168,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ROMAN(number,[form])"
     ]
   },
   {
@@ -8185,7 +8188,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ROUND(number,num_digits)"
     ]
   },
   {
@@ -8207,7 +8210,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "ROUNDDOWN(number,num_digits)"
     ]
   },
   {
@@ -8229,7 +8232,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "ROUNDUP(number,num_digits)"
     ]
   },
   {
@@ -8251,7 +8254,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "ROW([reference])"
     ]
   },
   {
@@ -8273,7 +8276,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "ROWS(array)"
     ]
   },
   {
@@ -8294,7 +8297,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "RRI(nper,pv,fv)"
     ]
   },
   {
@@ -8314,7 +8317,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "RSQ(known_y's,known_x's)"
     ]
   },
   {
@@ -8336,7 +8339,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "RTD(progid,server,topic1,[topic2],...)"
     ]
   },
   {
@@ -8354,7 +8357,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "SCAN([initial_value],array,lambda(accumulator,value,body))"
     ]
   },
   {
@@ -8376,7 +8379,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "SEARCH(find_text,within_text,[start_num])"
     ]
   },
   {
@@ -8398,7 +8401,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "SEARCHB(find_text,within_text,[start_num])"
     ]
   },
   {
@@ -8418,7 +8421,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "SEC(number)"
     ]
   },
   {
@@ -8438,7 +8441,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "SECH(number)"
     ]
   },
   {
@@ -8458,7 +8461,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "SECOND(serial_number)"
     ]
   },
   {
@@ -8482,7 +8485,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "SEQUENCE(rows,[columns],[start],[step])"
     ]
   },
   {
@@ -8504,7 +8507,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "SERIESSUM(x,n,m,coefficients)"
     ]
   },
   {
@@ -8524,7 +8527,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "SHEET(value)"
     ]
   },
   {
@@ -8544,7 +8547,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "SHEETS(reference)"
     ]
   },
   {
@@ -8564,7 +8567,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "SIGN(number)"
     ]
   },
   {
@@ -8586,7 +8589,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "SIN(number)"
     ]
   },
   {
@@ -8606,7 +8609,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "SINH(number)"
     ]
   },
   {
@@ -8626,7 +8629,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "SKEW(number1,[number2],...)"
     ]
   },
   {
@@ -8646,7 +8649,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "SKEW.P(number1,[number2],...)"
     ]
   },
   {
@@ -8668,7 +8671,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "SLN(cost,salvage,life)"
     ]
   },
   {
@@ -8688,7 +8691,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "SLOPE(known_y's,known_x's)"
     ]
   },
   {
@@ -8710,7 +8713,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "SMALL(array,k)"
     ]
   },
   {
@@ -8734,7 +8737,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "SORT(array,[sort_index],[sort_order],[by_col])"
     ]
   },
   {
@@ -8758,7 +8761,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "SORTBY(array,by_array1,[sort_order1],[by_array2,sort_order2],...)"
     ]
   },
   {
@@ -8780,7 +8783,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "SQRT(number)"
     ]
   },
   {
@@ -8800,7 +8803,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "SQRTPI(number)"
     ]
   },
   {
@@ -8820,7 +8823,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "STANDARDIZE(x,mean,standard_dev)"
     ]
   },
   {
@@ -8842,7 +8845,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "STDEV(number1,[number2],...)"
     ]
   },
   {
@@ -8862,7 +8865,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "STDEV.P(number1,[number2],...)"
     ]
   },
   {
@@ -8882,7 +8885,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "STDEV.S(number1,[number2],...)"
     ]
   },
   {
@@ -8902,7 +8905,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "STDEVA(value1,[value2],...)"
     ]
   },
   {
@@ -8922,7 +8925,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "STDEVP(number1,[number2],...)"
     ]
   },
   {
@@ -8942,7 +8945,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "STDEVPA(value1,[value2],...)"
     ]
   },
   {
@@ -8962,7 +8965,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "STEYX(known_y's,known_x's)"
     ]
   },
   {
@@ -8978,7 +8981,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "STOCKHISTORY(stock,start_date,[end_date],[interval],[headers],[property0],[property1],[property2],[property3],[property4],[property5])"
     ]
   },
   {
@@ -9000,7 +9003,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "SUBSTITUTE(text,old_text,new_text,[instance_num])"
     ]
   },
   {
@@ -9022,7 +9025,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "SUBTOTAL(function_num,ref1,[ref2],...)"
     ]
   },
   {
@@ -9043,7 +9046,7 @@
       "Microsoft Office"
     ],
     "func_syntax": [
-      ""
+      "SUM(number1,[number2],...)"
     ]
   },
   {
@@ -9065,7 +9068,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "SUMIF(range,criteria,[sum_range])"
     ]
   },
   {
@@ -9088,7 +9091,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "SUMIFS(sum_range,criteria_range1,criteria1,[criteria_range2,criteria2],...)"
     ]
   },
   {
@@ -9110,7 +9113,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "SUMPRODUCT(array1,[array2],[array3],...)"
     ]
   },
   {
@@ -9132,7 +9135,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "SUMSQ(number1,[number2],...)"
     ]
   },
   {
@@ -9154,7 +9157,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "SUMX2MY2(array_x,array_y)"
     ]
   },
   {
@@ -9176,7 +9179,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "SUMX2PY2(array_x,array_y)"
     ]
   },
   {
@@ -9198,7 +9201,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "SUMXMY2(array_x,array_y)"
     ]
   },
   {
@@ -9219,7 +9222,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "SWITCH(expression,value1,result1,[default_or_value2,result2],...)"
     ]
   },
   {
@@ -9239,7 +9242,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "SYD(cost,salvage,life,per)"
     ]
   },
   {
@@ -9259,7 +9262,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "T(value)"
     ]
   },
   {
@@ -9279,7 +9282,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "TAN(number)"
     ]
   },
   {
@@ -9299,7 +9302,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "TANH(number)"
     ]
   },
   {
@@ -9313,7 +9316,7 @@
       "Excel for the web"
     ],
     "func_syntax": [
-      ""
+      "TAKE(array,rows,[columns])"
     ]
   },
   {
@@ -9333,7 +9336,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "TBILLEQ(settlement,maturity,discount)"
     ]
   },
   {
@@ -9353,7 +9356,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "TBILLPRICE(settlement,maturity,discount)"
     ]
   },
   {
@@ -9373,7 +9376,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "TBILLYIELD(settlement,maturity,pr)"
     ]
   },
   {
@@ -9394,7 +9397,7 @@
       "Excel Web App"
     ],
     "func_syntax": [
-      ""
+      "T.DIST(x,deg_freedom,cumulative)"
     ]
   },
   {
@@ -9414,7 +9417,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "T.DIST.2T(x,deg_freedom)"
     ]
   },
   {
@@ -9434,7 +9437,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "T.DIST.RT(x,deg_freedom)"
     ]
   },
   {
@@ -9454,7 +9457,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "TDIST(x,deg_freedom,tails)"
     ]
   },
   {
@@ -9475,7 +9478,7 @@
       "Microsoft Office"
     ],
     "func_syntax": [
-      ""
+      "TEXT(value,format_text)"
     ]
   },
   {
@@ -9493,7 +9496,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "TEXTAFTER(text,delimiter,[instance_num],[match_mode],[match_end],[if_not_found])"
     ]
   },
   {
@@ -9507,7 +9510,7 @@
       "Excel for the web"
     ],
     "func_syntax": [
-      ""
+      "TEXTBEFORE(text,delimiter,[instance_num],[match_mode],[match_end],[if_not_found])"
     ]
   },
   {
@@ -9528,7 +9531,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "TEXTJOIN(delimiter,ignore_empty,text1,[text2],...)"
     ]
   },
   {
@@ -9546,7 +9549,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "TEXTSPLIT(text,col_delimiter,[row_delimiter],[ignore_empty],[match_mode],[pad_with])"
     ]
   },
   {
@@ -9568,7 +9571,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "TIME(hour,minute,second)"
     ]
   },
   {
@@ -9590,7 +9593,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "TIMEVALUE(time_text)"
     ]
   },
   {
@@ -9611,7 +9614,7 @@
       "Excel Web App"
     ],
     "func_syntax": [
-      ""
+      "T.INV(probability,deg_freedom)"
     ]
   },
   {
@@ -9631,7 +9634,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "T.INV.2T(probability,deg_freedom)"
     ]
   },
   {
@@ -9651,7 +9654,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "TINV(probability,deg_freedom)"
     ]
   },
   {
@@ -9665,7 +9668,7 @@
       "Excel for the web"
     ],
     "func_syntax": [
-      ""
+      "TOCOL(array,[ignore],[scan_by_column])"
     ]
   },
   {
@@ -9681,7 +9684,7 @@
       "Excel 2024 for Mac"
     ],
     "func_syntax": [
-      ""
+      "TOROW(array,[ignore],[scan_by_column])"
     ]
   },
   {
@@ -9701,7 +9704,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "TODAY()"
     ]
   },
   {
@@ -9716,7 +9719,7 @@
       "Excel Mobile"
     ],
     "func_syntax": [
-      ""
+      "TRANSLATE(text,[sourcelanguage],[targetlanguage])"
     ]
   },
   {
@@ -9738,7 +9741,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "TRANSPOSE(array)"
     ]
   },
   {
@@ -9758,7 +9761,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "TREND(known_y's,[known_x's],[new_x's],[const])"
     ]
   },
   {
@@ -9779,7 +9782,7 @@
       "Microsoft Office"
     ],
     "func_syntax": [
-      ""
+      "TRIM(text)"
     ]
   },
   {
@@ -9799,7 +9802,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "TRIMMEAN(array,percent)"
     ]
   },
   {
@@ -9811,7 +9814,7 @@
       "Excel for Microsoft 365"
     ],
     "func_syntax": [
-      ""
+      "TRIMRANGE(range,[trim_rows],[trim_cols])"
     ]
   },
   {
@@ -9833,7 +9836,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "TRUE()"
     ]
   },
   {
@@ -9853,7 +9856,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "TRUNC(number,[num_digits])"
     ]
   },
   {
@@ -9873,7 +9876,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "T.TEST(array1,array2,tails,type)"
     ]
   },
   {
@@ -9893,7 +9896,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "TTEST(array1,array2,tails,type)"
     ]
   },
   {
@@ -9913,7 +9916,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "TYPE(value)"
     ]
   },
   {
@@ -9933,7 +9936,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "UNICHAR(number)"
     ]
   },
   {
@@ -9953,7 +9956,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "UNICODE(text)"
     ]
   },
   {
@@ -9977,7 +9980,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "UNIQUE(array,[by_col],[exactly_once])"
     ]
   },
   {
@@ -9997,7 +10000,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "UPPER(text)"
     ]
   },
   {
@@ -10019,7 +10022,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "VALUE(text)"
     ]
   },
   {
@@ -10037,7 +10040,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "VALUETOTEXT(value,[format])"
     ]
   },
   {
@@ -10057,7 +10060,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "VAR(number1,[number2],...)"
     ]
   },
   {
@@ -10077,7 +10080,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "VAR.P(number1,[number2],...)"
     ]
   },
   {
@@ -10097,7 +10100,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "VAR.S(number1,[number2],...)"
     ]
   },
   {
@@ -10117,7 +10120,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "VARA(value1,[value2],...)"
     ]
   },
   {
@@ -10137,7 +10140,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "VARP(number1,[number2],...)"
     ]
   },
   {
@@ -10157,7 +10160,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "VARPA(value1,[value2],...)"
     ]
   },
   {
@@ -10177,7 +10180,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "VDB(cost,salvage,life,start_period,end_period,[factor],[no_switch])"
     ]
   },
   {
@@ -10198,7 +10201,7 @@
       "Microsoft Office"
     ],
     "func_syntax": [
-      ""
+      "VLOOKUP(lookup_value,table_array,col_index_num,[range_lookup])"
     ]
   },
   {
@@ -10212,7 +10215,7 @@
       "Excel for the web"
     ],
     "func_syntax": [
-      ""
+      "VSTACK(array1,[array2],...)"
     ]
   },
   {
@@ -10228,7 +10231,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "WEBSERVICE(url)"
     ]
   },
   {
@@ -10250,7 +10253,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "WEEKDAY(serial_number,[return_type])"
     ]
   },
   {
@@ -10272,7 +10275,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "WEEKNUM(serial_number,[return_type])"
     ]
   },
   {
@@ -10292,7 +10295,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "WEIBULL(x,alpha,beta,cumulative)"
     ]
   },
   {
@@ -10312,7 +10315,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "WEIBULL.DIST(x,alpha,beta,cumulative)"
     ]
   },
   {
@@ -10334,7 +10337,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "WORKDAY(start_date,days,[holidays])"
     ]
   },
   {
@@ -10357,7 +10360,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "WORKDAY.INTL(start_date,days,[weekend],[holidays])"
     ]
   },
   {
@@ -10371,7 +10374,7 @@
       "Excel for the web"
     ],
     "func_syntax": [
-      ""
+      "WRAPCOLS(vector,wrap_count,[pad_with])"
     ]
   },
   {
@@ -10385,7 +10388,7 @@
       "Excel for the web"
     ],
     "func_syntax": [
-      ""
+      "WRAPROWS(vector,wrap_count,[pad_with])"
     ]
   },
   {
@@ -10407,7 +10410,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "XIRR(values,dates,[guess])"
     ]
   },
   {
@@ -10432,7 +10435,7 @@
       "Microsoft Office"
     ],
     "func_syntax": [
-      ""
+      "XLOOKUP(lookup_value,lookup_array,return_array,[if_not_found],[match_mode],[search_mode])"
     ]
   },
   {
@@ -10450,7 +10453,7 @@
       "Excel 2021 for Mac"
     ],
     "func_syntax": [
-      ""
+      "XMATCH(lookup_value,lookup_array,[match_mode],[search_mode])"
     ]
   },
   {
@@ -10472,7 +10475,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "XNPV(rate,values,dates)"
     ]
   },
   {
@@ -10494,7 +10497,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "XOR(logical1,[logical2],...)"
     ]
   },
   {
@@ -10515,7 +10518,7 @@
       "Microsoft Office"
     ],
     "func_syntax": [
-      ""
+      "YEAR(serial_number)"
     ]
   },
   {
@@ -10537,7 +10540,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "YEARFRAC(start_date,end_date,[basis])"
     ]
   },
   {
@@ -10559,7 +10562,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "YIELD(settlement,maturity,rate,pr,redemption,frequency,[basis])"
     ]
   },
   {
@@ -10579,7 +10582,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "YIELDDISC(settlement,maturity,pr,redemption,[basis])"
     ]
   },
   {
@@ -10601,7 +10604,7 @@
       "Microsoft365.com"
     ],
     "func_syntax": [
-      ""
+      "YIELDMAT(settlement,maturity,issue,rate,pr,[basis])"
     ]
   },
   {
@@ -10621,7 +10624,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "Z.TEST(array,x,[sigma])"
     ]
   },
   {
@@ -10641,7 +10644,7 @@
       "Excel 2016"
     ],
     "func_syntax": [
-      ""
+      "ZTEST(array,x,[sigma])"
     ]
   }
 ]
