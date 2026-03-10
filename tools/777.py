@@ -1,8 +1,8 @@
 import re
 
-from utils.crawler import build_url, load_json, load_html, fetch_soup, save_html
+from utils.crawler import build_url, load_json
 from utils.scraper import build_soup, get_text
-from config import BASE_DOMAIN, LANGUAGE_CODE, PRODUCT_SEGMENT, EXCEL_FUNCTIONS_UUID
+from config import BASE_DOMAIN, LANGUAGE_CODE, PRODUCT_SEGMENT
 from config import SPECIAL_SYNTAX_MAP
 
 
@@ -24,7 +24,6 @@ def _get_syntax_string(func_name, func_uuid):
 
 
 def _clean_syntax_string(syntax_string):
-    # 替换相关
     syntax_string = syntax_string.replace('((', '(')
     syntax_string = syntax_string.replace('-', '_')
     syntax_string = syntax_string.replace(' ', '')
@@ -32,8 +31,8 @@ def _clean_syntax_string(syntax_string):
     syntax_string = syntax_string.replace(',...', '...')
     syntax_string = syntax_string.replace('...', ',...')
     syntax_string = syntax_string.replace('...,', '...')
+    syntax_string = syntax_string.replace('\'s', '')
 
-    # re.sub
     syntax_string = re.sub(r'(?<!\[),(?=\[)', '', syntax_string)
     syntax_string = re.sub(r'(?<![(,])\[', ',[', syntax_string)
     syntax_string = re.sub(r'](?![),])', '],', syntax_string)
@@ -59,5 +58,4 @@ def test():
 
 
 if __name__ == '__main__':
-    # local_test()
     test()
