@@ -1,16 +1,49 @@
 import json
+import re
+
 from dataclasses import asdict
 
 from excel_function import ExcelFunction
-from config import SPECIAL_NAME_MAP, SPECIAL_UUID_MAP
+from config import SPECIAL_NAME_MAP, SPECIAL_UUID_MAP, SPECIAL_SYNTAX_MAP
 from config import BASE_DOMAIN, LANGUAGE_CODE, PRODUCT_SEGMENT, EXCEL_FUNCTIONS_UUID, UUID_PATTERN
 from utils.crawler import load_json, build_url, save_json
-from utils.scraper import build_soup
+from utils.scraper import build_soup, get_text
 
 
 def _make_url(uuid):
     url = build_url(BASE_DOMAIN, LANGUAGE_CODE, PRODUCT_SEGMENT, uuid)
     return url
+
+
+def _get_syntax(func_name, func_uuid):
+    soup = build_soup(func_uuid, _make_url)
+
+    text = get_text(soup)
+    text = text[text.find('Syntax'):]
+    text = re.compile(rf'\s*{func_name}\s*', re.IGNORECASE).sub(func_name, text)
+    text = text[re.compile(rf'(?<!the){func_name[:-1]}.?\(').search(text).start():]
+    text = text[: text.find(')') + 1]
+    text = f'{func_name}{text[text.find('('):]}'
+    text = f'{text})' if 'lambda(' in text else text
+
+    return text
+
+
+def _clean_syntax(func_syntax):
+    func_syntax = func_syntax.replace('((', '(')
+    func_syntax = func_syntax.replace('-', '_')
+    func_syntax = func_syntax.replace(' ', '')
+    func_syntax = func_syntax.replace('…', '...')
+    func_syntax = func_syntax.replace(',...', '...')
+    func_syntax = func_syntax.replace('...', ',...')
+    func_syntax = func_syntax.replace('...,', '...')
+
+    func_syntax = re.sub(r'(?=\[)', '', func_syntax)
+    func_syntax = re.sub(r'](?![),])', '],', func_syntax)
+    func_syntax = re.sub(r'(?<![(,])\[', ',[', func_syntax)
+    func_syntax = re.sub(r'\(([^()]*)\)', lambda m: m.group().lower(), func_syntax)
+
+    return [func_syntax]
 
 
 def _extract_excel_function_info():
@@ -29,10 +62,8 @@ def _extract_excel_function_info():
         func_uuid = UUID_PATTERN.search(func_href).group()
 
         for func_name in func_names:
-            # Special name
             if func_name in SPECIAL_NAME_MAP:
                 func_name = SPECIAL_NAME_MAP.get(func_name)
-            # Special uuid
             if func_name in SPECIAL_UUID_MAP:
                 func_uuid = SPECIAL_UUID_MAP.get(func_name)
 
@@ -47,7 +78,12 @@ def _extract_excel_function_detail(func_name, func_uuid):
         func_apply = span.get_text(strip=True)
         func_applies.append(func_apply)
 
-    func_syntax = ['']
+    if func_name in SPECIAL_SYNTAX_MAP:
+        func_syntax = SPECIAL_SYNTAX_MAP[func_name]
+    else:
+        func_syntax = _get_syntax(func_name, func_uuid)
+        func_syntax = _clean_syntax(func_syntax)
+
     return func_applies, func_syntax
 
 
