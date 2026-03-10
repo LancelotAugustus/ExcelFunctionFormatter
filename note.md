@@ -1,20 +1,17 @@
 ## Version Control Guidelines
 
-### 1. Conventional Commits
+- ### 1. Conventional Commits
+  [https://www.conventionalcommits.org/en/v1.0.0/](https://www.conventionalcommits.org/en/v1.0.0/)
 
-[https://www.conventionalcommits.org/en/v1.0.0/](https://www.conventionalcommits.org/en/v1.0.0/)
+- ### 2. Angular Submission Guidelines
+  [https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#rules](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#rules)
 
-### 2. Angular Submission Guidelines
+- ### 3. Semantic Versioning
+  [https://semver.org/](https://semver.org/)
 
-[https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#rules](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#rules)
+- ### 4. Git Trailer Convention
+  [https://git-scm.com/docs/git-interpret-trailers](https://git-scm.com/docs/git-interpret-trailers)
 
-### 3. Semantic Versioning
-
-[https://semver.org/](https://semver.org/)
-
-### 4. Git Trailer Convention
-
-[https://git-scm.com/docs/git-interpret-trailers](https://git-scm.com/docs/git-interpret-trailers)
 
 - **类型**：
     - `feat`: 新功能
