@@ -31,7 +31,6 @@ def _clean_syntax_string(syntax_string):
     syntax_string = syntax_string.replace(',...', '...')
     syntax_string = syntax_string.replace('...', ',...')
     syntax_string = syntax_string.replace('...,', '...')
-    syntax_string = syntax_string.replace('\'s', '')
 
     syntax_string = re.sub(r'(?<!\[),(?=\[)', '', syntax_string)
     syntax_string = re.sub(r'(?<![(,])\[', ',[', syntax_string)
