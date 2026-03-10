@@ -43,5 +43,9 @@ SPECIAL_SYNTAX_MAP = \
         'SWITCH':
             [
                 'SWITCH(expression,value1,result1,[default_or_value2,result2],...)'
+            ],
+        'MAP':
+            [
+                'MAP(array1,lambda_or_array2,...)'
             ]
     }
