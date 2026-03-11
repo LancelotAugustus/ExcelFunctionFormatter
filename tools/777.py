@@ -11,32 +11,35 @@ def make_url(uuid):
     return url
 
 
-def _get_syntax_string(func_name, func_uuid):
+def _get_syntax(func_name, func_uuid):
     soup = build_soup(func_uuid, make_url)
+
     text = get_text(soup)
     text = text[text.find('Syntax'):]
     text = re.compile(rf'\s*{func_name}\s*', re.IGNORECASE).sub(func_name, text)
     text = text[re.compile(rf'(?<!the){func_name[:-1]}.?\(').search(text).start():]
-    text = f'{func_name}{text[text.find('('):]}'
     text = text[: text.find(')') + 1]
+    text = f'{func_name}{text[text.find('('):]}'
     text = f'{text})' if 'lambda(' in text else text
+
     return text
 
 
-def _clean_syntax_string(syntax_string):
-    syntax_string = syntax_string.replace('((', '(')
-    syntax_string = syntax_string.replace('-', '_')
-    syntax_string = syntax_string.replace(' ', '')
-    syntax_string = syntax_string.replace('…', '...')
-    syntax_string = syntax_string.replace(',...', '...')
-    syntax_string = syntax_string.replace('...', ',...')
-    syntax_string = syntax_string.replace('...,', '...')
+def _clean_syntax(func_syntax):
+    func_syntax = func_syntax.replace('((', '(')
+    func_syntax = func_syntax.replace('-', '_')
+    func_syntax = func_syntax.replace(' ', '')
+    func_syntax = func_syntax.replace('…', '...')
+    func_syntax = func_syntax.replace(',...', '...')
+    func_syntax = func_syntax.replace('...', ',...')
+    func_syntax = func_syntax.replace('...,', '...')
 
-    syntax_string = re.sub(r'(?<!\[),(?=\[)', '', syntax_string)
-    syntax_string = re.sub(r'(?<![(,])\[', ',[', syntax_string)
-    syntax_string = re.sub(r'](?![),])', '],', syntax_string)
-    syntax_string = re.sub(r'\(([^()]*)\)', lambda m: m.group().lower(), syntax_string)
-    return [syntax_string]
+    func_syntax = re.sub(r'(?=\[)', '', func_syntax)
+    func_syntax = re.sub(r'](?![),])', '],', func_syntax)
+    func_syntax = re.sub(r'(?<![(,])\[', ',[', func_syntax)
+    func_syntax = re.sub(r'\(([^()]*)\)', lambda m: m.group().lower(), func_syntax)
+
+    return [func_syntax]
 
 
 def test():
@@ -48,8 +51,8 @@ def test():
         if func_name in SPECIAL_SYNTAX_MAP:
             syntax_string = SPECIAL_SYNTAX_MAP[func_name]
         else:
-            syntax_string = _get_syntax_string(func_name, func_uuid)
-            syntax_string = _clean_syntax_string(syntax_string)
+            syntax_string = _get_syntax(func_name, func_uuid)
+            syntax_string = _clean_syntax(syntax_string)
 
         print(f"{times}. {func_name}")
         print(syntax_string)
